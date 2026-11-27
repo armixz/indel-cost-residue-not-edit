@@ -43,17 +43,19 @@ variant, and their effects are usually summarised by secondary-structure class: 
 indels poorly, strands worse still, loops best. Using the mega-scale folding-stability
 measurements of \citet{tsuboyama2023} we compare insertions and deletions \emph{at the same
 position in the same protein} across \Nposdel{} single deletions and \Nposins{} positions carrying
-both an alanine and a glycine insertion, in \Ndom{} natural domains, with \Ndesign{} designed
-miniproteins from the same deposit as an independent replication set. We find that the
+both an alanine and a glycine insertion, across \Ndom{} domains --- \NNatDom{} natural and
+\NDesDom{} designed, which we analyse both together and apart. We find that the
 structure--class summary is not well defined, because the structural dependence belongs to the
 residue involved rather than to the indel. For deletions, where all twenty residues occur,
 residue identity interacts with structure class at $F = \FdelInter{}$, $p = \PdelInter{}$ after
 domain fixed effects, burial and volume, and the interaction is ordered: the extra cost of
 deleting a residue from a helix rather than a loop tracks that residue's helix propensity
 ($\rho = \RhoPace{}$, bootstrap CI over domains $[\RhoPaceLo{}, \RhoPaceHi{}]$), and not its
-volume ($\rho = \RhoVol{}$) or hydropathy ($\rho = \RhoKD{}$). The ordering survives replacing our
-secondary-structure assignment with the one deposited with the experimental structures, though
-weakened ($\rho = \SensDep{}$ $[\SensDepLo{}, \SensDepHi{}]$). For insertions, switching the
+volume ($\rho = \RhoVol{}$) or hydropathy ($\rho = \RhoKD{}$). The ordering replicates separately
+in the natural domains ($\rho = \RhoNat{}$ $[\RhoNatLo{}, \RhoNatHi{}]$) and in the designed ones
+($\RhoDes{}$ $[\RhoDesLo{}, \RhoDesHi{}]$), which share no evolutionary history with them, and it
+survives replacing our secondary-structure assignment with the one deposited with the
+experimental structures, though weakened ($\rho = \SensDep{}$ $[\SensDepLo{}, \SensDepHi{}]$). For insertions, switching the
 inserted residue between alanine and glycine moves the helix--loop contrast by about
 0.3 kcal\,mol$^{-1}$ (\AlaHL{} to \GlyHL{}) and the strand--loop contrast by about 0.2
 (\AlaEL{} to \GlyEL{}). The interaction is nonetheless too small to improve
@@ -175,6 +177,31 @@ kcal\,mol$^{-1}$ --- the right order of magnitude, but the interval excludes $-1
 bookkeeping is not one for one. Excluding glycine, which sits at the end of the range and could
 lever the fit on its own, gives \SlopeNoGly{} $[\SlopeNoGlyLo{}, \SlopeNoGlyHi{}]$.
 
+\paragraph{Does it replicate in proteins that never evolved?} Our set is \Ndom{} domains, of
+which \NNatDom{} are natural and \NDesDom{} are designed --- miniproteins and
+trRosetta-hallucinated structures from the same deposit. Designed proteins share no
+evolutionary history with natural ones, are smaller, and have idealised secondary structure, so
+they are the sharpest available test of whether this is biophysics or an artefact of how natural
+sequences came to be.
+
+It replicates. In natural domains the correlation is \RhoNat{} $[\RhoNatLo{}, \RhoNatHi{}]$ over
+\NResNat{} residues; in designed domains \RhoDes{} $[\RhoDesLo{}, \RhoDesHi{}]$ over \NResDes{}.
+We state the margin rather than only the verdict: the designed interval clears zero by
+$0.015$, and designed miniproteins have a narrower residue composition, so fewer residues
+reach the inclusion threshold there. The underlying interaction is far less marginal in both
+($F = \FNat{}$, $p = \PNat{}$ in natural domains; $F = \FDes{}$, $p = \PDes{}$ in designed).
+
+\paragraph{How strong is the evidence for the \emph{ordering}, as opposed to the interaction?}
+These are two claims and they do not carry equal weight, so we separate them. That a
+residue-by-structure interaction exists is supported by tens of thousands of measurements and
+the $F$-statistics above. That the interaction is \emph{ordered by helix propensity} rests on a
+rank correlation over \NresContrast{} points, and the appropriate test is a permutation of the
+propensity values across residues with the measured contrasts held fixed. Over \PermN{} such
+permutations the null is centred at \PermMean{} and the observed correlation gives
+$p = \PermP{}$. That is the number we attach to the ordering claim. We do not quote the
+interaction $p$-value beside it, because the first number's confidence does not transfer to the
+second claim.
+
 \paragraph{Is it helix propensity specifically, or would any residue scale do?} The scale
 could be standing in for residue physics in general rather than for propensity, in which
 case the result would be far less interesting. A $\beta$-sheet propensity scale is the
@@ -211,7 +238,15 @@ to depend strongly on tertiary context: \citet{minorkim1994b} moved the guest si
 to an edge strand within one protein and the correlation with statistical $\beta$ preferences
 collapsed, concluding that sheet formation is governed ``in large part by tertiary context
 \ldots and not by intrinsic secondary structure preferences''. A null against such scales is
-therefore weak evidence about the strand arm, and we treat it as such.
+therefore weak evidence about the strand arm, and we treat it as such. We pre-registered a
+test of that context effect in our own data --- their result predicts that a propensity
+measured at a central strand should work at central strands and fail at edge strands --- and
+it did not replicate: splitting our strand positions by bridge topology gives a difference of
+\DiffEdge{} $[\DiffEdgeLo{}, \DiffEdgeHi{}]$, containing zero and with the sign opposite to
+the prediction. We report it as a failure to replicate rather than as support for a
+context-free scale. The third scale we verified, measured in a zinc-finger rather than a GB1
+host \citep{kimberg1993}, gives \RhoStrKB{} on the strand arm and \RhoHelKB{} on the helix arm,
+consistent with its four- to fivefold compressed dynamic range.
 
 What survives is a sharper puzzle than the one we started with. Helix propensity predicts both
 arms; $\beta$ propensity predicts neither; and the two families of scale are uncorrelated. The
@@ -220,6 +255,28 @@ is not simply ``regular secondary structure'' either, or the $\beta$ scales woul
 it. The reading we prefer, and cannot yet test, is that it captures something closer to backbone
 conformational freedom --- glycine at one extreme --- which would govern the cost of removing a
 residue from any regular element while being measured, historically, in a helical host.
+
+\paragraph{What else could the result depend on?} Four further choices were fixed in advance
+and then swept, and none of them carries the finding. A \emph{second helix scale}: substituting
+\citet{oneil1990} for \citet{pace1998} gives \RhoONeil{} $[\RhoONeilLo{}, \RhoONeilHi{}]$, against
+\RhoPace{} --- though the two scales correlate at \ScaleAgree{}, so this shows the result is not
+an artefact of one published table rather than that it survives an independent quantity.
+The \emph{variant quality filter}, swept from 0.5 kcal\,mol$^{-1}$ to no filter at all, moves
+the correlation between \FilterLo{} and \FilterHi{}, with the looser settings giving the
+stronger relationship, so the threshold we use is the conservative end. The \emph{estimator}:
+raising the minimum number of contributing domains or taking medians rather than means over
+domains leaves it between $-0.63$ and $-0.68$. \emph{Influence}: refitting without each residue
+in turn gives \LoroLo{} to \LoroHi{}, refitting without each domain in turn gives \LodoLo{} to
+\LodoHi{}, and dropping glycine, which sits at the end of both scales, leaves \RhoNoGly{}.
+
+One control did not behave as we specified it should, and we report it rather than restate it.
+Shuffling residue identity within each domain produces a null centred at \ShufMean{} (sd
+\ShufSD{}) rather than at zero; our pre-registration said a non-zero null would void the
+estimator. The bias is positive while the finding is negative and lies beyond all 500
+permutations, so it cannot generate the result and makes the test conservative --- but the
+condition as we wrote it is not met, and the wording failed to anticipate a bias pointing away
+from the effect. The permutation reported above, which holds the contrasts fixed and permutes
+the scale, has no such bias and is centred at \PermMean{}.
 
 \paragraph{How much of this depends on how we assigned structure?} The ordering is a statement
 about residues within structure classes, so it inherits whatever error is in the class labels. We
@@ -475,10 +532,12 @@ assignment for the same domains, with which it agrees on \SSagree{} of positions
 helix/strand confusion. Residue numbering was verified against the residue named in each deletion
 variant, matching at \NumberMatch{} over \NumberChecks{} variants.
 
-\paragraph{Replication set.} The same library contains single-residue indels in designed
-HEEH\_KT miniproteins \citep{rocklin2017}, \Ndesign{} of which have deposited AlphaFold models,
-with about 131 variants each. These are not natural proteins and share no evolutionary history
-with the discovery set. We are not aware of a published analysis using them.
+\paragraph{Composition of the set.} Of the \Ndom{} domains analysed, \NNatDom{} are natural,
+identified by a PDB accession, and \NDesDom{} are designed: HEEH\_KT and related miniproteins
+\citep{rocklin2017} together with trRosetta-hallucinated structures, all from the same deposit.
+Every analysis is run on the whole set and again on each part. Designed structures are not a
+small adjunct here --- they are \NDesDom{} of \Ndom{} --- so reporting a pooled number alone
+would leave the reader unable to tell which population it came from.
 
 \paragraph{Statistics.} Every class comparison is computed within each protein first and then
 averaged over proteins, with percentile bootstrap intervals resampling proteins. This is not
@@ -498,7 +557,10 @@ the experimental values of \citet{pace1998}; residue volumes are Zamyatnin's; hy
 
 \paragraph{Proline.} The propensity analysis uses the nineteen values listed in the abstract of
 \citet{pace1998}, each checked against that source. Proline is not among them, and we could not
-verify a proline value against the paper itself. This does not affect the result, for a reason
+verify a proline value against the paper itself. A figure of 3.16 kcal\,mol$^{-1}$ circulates
+attached to this scale; we could not find it in \citet{pace1998}, and note that
+\citet{oneil1990} list proline at about 3 on their own helix scale, which is the likely origin
+of the number and of its migration between the two. This does not affect the result, for a reason
 that can be shown rather than asserted: the correlation is rank-based, and proline ranks last on
 every published account of helix propensity, so its numeric value is irrelevant. Giving proline
 any value between 1.0 and 5.0 kcal\,mol$^{-1}$ and recomputing moves the correlation only from

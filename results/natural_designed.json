@@ -1,0 +1,23 @@
+{
+  "note": "complete 748-domain set, same loader as the manuscript",
+  "natural": {
+    "domains": 399,
+    "rows": 19380,
+    "n_residues": 18,
+    "spearman": -0.5754,
+    "ci95": [
+      -0.6715,
+      -0.3951
+    ]
+  },
+  "designed": {
+    "domains": 349,
+    "rows": 15336,
+    "n_residues": 16,
+    "spearman": -0.5346,
+    "ci95": [
+      -0.678,
+      -0.0147
+    ]
+  }
+}

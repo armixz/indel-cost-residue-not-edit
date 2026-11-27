@@ -1,0 +1,31 @@
+{
+  "domain_count": {
+    "dssp_recomputed_43": 748,
+    "cached_ss_table_52": 691,
+    "in_43_not_52": [
+      "HEEH_KT_rd6_0007",
+      "HEEH_KT_rd6_0015",
+      "HEEH_KT_rd6_0099",
+      "HEEH_KT_rd6_0200",
+      "HEEH_KT_rd6_0280",
+      "HEEH_KT_rd6_0403",
+      "HEEH_KT_rd6_0473",
+      "HEEH_KT_rd6_0595"
+    ],
+    "n_in_43_not_52": 57,
+    "in_52_not_43": [],
+    "n_in_52_not_43": 0,
+    "kinds_of_the_difference": {
+      "designed": 57
+    }
+  },
+  "R6b_scale_permutation_null": {
+    "description": "permute the propensity values across residues, contrasts held fixed",
+    "n_permutations": 20000,
+    "observed": -0.6343,
+    "null_mean": -0.0025,
+    "null_sd": 0.2406,
+    "p_two_sided": 0.00535,
+    "n_residues": 18
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "prereg": "PREREG_robustness.md",
+  "R0_composition": {
+    "domains_total": 691,
+    "domains_by_kind": {
+      "designed": 292,
+      "natural": 399
+    },
+    "rows_by_kind": {
+      "designed": 12932,
+      "natural": 19380
+    },
+    "note": "the manuscript described this set as 748 natural domains; it is not"
+  },
+  "baseline": {
+    "spearman": -0.6343,
+    "n_residues": 18,
+    "ci95": [
+      -0.7424,
+      -0.3915
+    ]
+  },
+  "R1_natural_vs_designed": {
+    "natural": {
+      "domains": 399,
+      "rows": 19380,
+      "n_residues": 18,
+      "spearman": -0.5754,
+      "ci95": [
+        -0.6715,
+        -0.3915
+      ],
+      "mean_contrast": 0.7564
+    },
+    "designed": {
+      "domains": 292,
+      "rows": 12932,
+      "n_residues": 14,
+      "spearman": -0.3938,
+      "ci95": [
+        -0.6777,
+        0.0088
+      ],
+      "mean_contrast": 0.2447
+    },
+    "other": {
+      "domains": 0,
+      "status": "too few"
+    }
+  },
+  "R1b_interaction_F": {
+    "natural": {
+      "F": 7.395,
+      "p": 1.00402564654525e-34,
+      "n": 19380,
+      "domains": 399
+    },
+    "designed": {
+      "F": 9.556,
+      "p": 3.987735480698286e-47,
+      "n": 12932,
+      "domains": 292
+    }
+  },
+  "R2_second_scale": {
+    "oneil_degrado": {
+      "spearman": -0.6388,
+      "n_residues": 18,
+      "ci95": [
+        -0.7482,
+        -0.4056
+      ]
+    },
+    "pace_vs_oneil_scale_correlation": 0.8661,
+    "note": "O'Neil & DeGrado list proline at about 3 kcal/mol, the likely origin of the unverifiable 3.16 that circulates for the Pace scale"
+  },
+  "R3_quality_filter": {
+    "0.5": {
+      "rows": 30461,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.5537
+    },
+    "0.75": {
+      "rows": 31562,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.6147
+    },
+    "1.0": {
+      "rows": 32312,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.6343
+    },
+    "1.5": {
+      "rows": 33266,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.6364
+    },
+    "2.0": {
+      "rows": 33708,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.7128
+    },
+    "None": {
+      "rows": 34099,
+      "domains": 691,
+      "n_residues": 18,
+      "spearman": -0.689
+    }
+  },
+  "R4_estimator": {
+    "min_domains": {
+      "3": {
+        "n_residues": 18,
+        "spearman": -0.6343
+      },
+      "5": {
+        "n_residues": 18,
+        "spearman": -0.6343
+      },
+      "8": {
+        "n_residues": 17,
+        "spearman": -0.6687
+      },
+      "10": {
+        "n_residues": 17,
+        "spearman": -0.6687
+      }
+    },
+    "aggregator": {
+      "mean": {
+        "n_residues": 18,
+        "spearman": -0.6343
+      },
+      "median": {
+        "n_residues": 18,
+        "spearman": -0.6777
+      }
+    }
+  },
+  "R5_influence": {
+    "leave_one_residue_out": {
+      "A": -0.6,
+      "D": -0.5742,
+      "E": -0.6589,
+      "F": -0.6012,
+      "G": -0.5656,
+      "H": -0.607,
+      "I": -0.6282,
+      "K": -0.6368,
+      "L": -0.7124,
+      "M": -0.6822,
+      "N": -0.6037,
+      "Q": -0.6601,
+      "R": -0.6156,
+      "S": -0.6233,
+      "T": -0.7067,
+      "V": -0.6303,
+      "W": -0.6687,
+      "Y": -0.6086
+    },
+    "most_influential_residue": {
+      "residue": "L",
+      "spearman_without_it": -0.7124,
+      "shift": -0.0781
+    },
+    "leave_one_domain_out": {
+      "n_domains": 691,
+      "min": -0.6756,
+      "max": -0.6064
+    },
+    "without_glycine": {
+      "spearman": -0.5656,
+      "n_residues": 17
+    }
+  },
+  "R6_permutation_null": {
+    "n_permutations": 500,
+    "mean": 0.1895,
+    "sd": 0.2081,
+    "quantiles_2.5_97.5": [
+      -0.2511,
+      0.5823
+    ],
+    "observed": -0.6343,
+    "observed_more_extreme_than_all_permutations": true
+  }
+}

@@ -76,6 +76,9 @@ def main(rdir, figdir, out):
     PX = load(os.path.join(rdir, "pdb_crosscheck.json"))
     CS = load(os.path.join(rdir, "consensus_ss.json"))
     SPr = load(os.path.join(rdir, "strand_propensity.json"))
+    RB = load(os.path.join(rdir, "robustness.json"))
+    NC = load(os.path.join(rdir, "null_and_count.json"))
+    ND = load(os.path.join(rdir, "natural_designed.json"))
 
     n = {}
     # counts
@@ -237,6 +240,40 @@ def main(rdir, figdir, out):
     n["CollinPaceMK"] = fmt(g(_s5, "pace_vs_minor_kim_central", "spearman"), 2)
     n["CollinPaceSR"] = fmt(g(_s5, "pace_vs_smith_regan_central", "spearman"), 2)
     n["CollinMKSR"] = fmt(g(_s5, "minor_kim_vs_smith_regan", "spearman"), 2)
+
+    # robustness battery
+    for tag, k in (("Nat", "natural"), ("Des", "designed")):
+        n["N" + tag + "Dom"] = str(g(ND, k, "domains", default=""))
+        n["Rho" + tag] = fmt(g(ND, k, "spearman"), 2)
+        n["Rho" + tag + "Lo"] = fmt(g(ND, k, "ci95", 0), 2)
+        n["Rho" + tag + "Hi"] = fmt(g(ND, k, "ci95", 1), 3)
+        n["NRes" + tag] = str(g(ND, k, "n_residues", default=""))
+    _f = g(RB, "R1b_interaction_F", default={}) or {}
+    n["FNat"] = fmt(g(_f, "natural", "F"), 1)
+    n["PNat"] = sci(g(_f, "natural", "p"))
+    n["FDes"] = fmt(g(_f, "designed", "F"), 1)
+    n["PDes"] = sci(g(_f, "designed", "p"))
+    n["RhoONeil"] = fmt(g(RB, "R2_second_scale", "oneil_degrado", "spearman"), 2)
+    n["RhoONeilLo"] = fmt(g(RB, "R2_second_scale", "oneil_degrado", "ci95", 0), 2)
+    n["RhoONeilHi"] = fmt(g(RB, "R2_second_scale", "oneil_degrado", "ci95", 1), 2)
+    n["ScaleAgree"] = fmt(g(RB, "R2_second_scale",
+                            "pace_vs_oneil_scale_correlation"), 2)
+    _q = g(RB, "R3_quality_filter", default={}) or {}
+    _qv = [v.get("spearman") for v in _q.values() if v.get("spearman") is not None]
+    n["FilterLo"] = fmt(max(_qv), 2) if _qv else None
+    n["FilterHi"] = fmt(min(_qv), 2) if _qv else None
+    _r5 = g(RB, "R5_influence", default={}) or {}
+    _lo = g(_r5, "leave_one_residue_out", default={}) or {}
+    n["LoroLo"] = fmt(max(_lo.values()), 2) if _lo else None
+    n["LoroHi"] = fmt(min(_lo.values()), 2) if _lo else None
+    n["LodoLo"] = fmt(g(_r5, "leave_one_domain_out", "max"), 2)
+    n["LodoHi"] = fmt(g(_r5, "leave_one_domain_out", "min"), 2)
+    n["RhoNoGly"] = fmt(g(_r5, "without_glycine", "spearman"), 2)
+    n["PermP"] = fmt(g(NC, "R6b_scale_permutation_null", "p_two_sided"), 3)
+    n["PermN"] = f"{g(NC,'R6b_scale_permutation_null','n_permutations',default=0):,}"
+    n["PermMean"] = fmt(g(NC, "R6b_scale_permutation_null", "null_mean"), 3)
+    n["ShufMean"] = fmt(g(RB, "R6_permutation_null", "mean"), 2)
+    n["ShufSD"] = fmt(g(RB, "R6_permutation_null", "sd"), 2)
 
     # methods
     n["SSagree"] = (f"{100*float(g(CC,'three_state_agreement',default=0)):.1f}\\%"
