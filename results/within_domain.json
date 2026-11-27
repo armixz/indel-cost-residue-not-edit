@@ -1,0 +1,164 @@
+{
+  "n_positions": 19170,
+  "n_domains": 387,
+  "domain_composition": {
+    "n_domains": 387,
+    "pure_alpha_no_strand": 159,
+    "pure_beta_no_helix": 145,
+    "mixed_both": 84,
+    "median_E_fraction": 0.102,
+    "median_H_fraction": 0.259
+  },
+  "paired_within_domain": {
+    "min_1_positions_each": {
+      "E_minus_H": {
+        "n_domains": 84,
+        "mean": -0.033,
+        "ci95": [
+          -0.171,
+          0.108
+        ]
+      },
+      "E_minus_L": {
+        "n_domains": 227,
+        "mean": -0.324,
+        "ci95": [
+          -0.423,
+          -0.227
+        ]
+      },
+      "H_minus_L": {
+        "n_domains": 241,
+        "mean": -0.061,
+        "ci95": [
+          -0.124,
+          0.003
+        ]
+      }
+    },
+    "min_2_positions_each": {
+      "E_minus_H": {
+        "n_domains": 84,
+        "mean": -0.033,
+        "ci95": [
+          -0.17,
+          0.107
+        ]
+      },
+      "E_minus_L": {
+        "n_domains": 224,
+        "mean": -0.327,
+        "ci95": [
+          -0.421,
+          -0.233
+        ]
+      },
+      "H_minus_L": {
+        "n_domains": 239,
+        "mean": -0.064,
+        "ci95": [
+          -0.128,
+          -0.0
+        ]
+      }
+    },
+    "min_3_positions_each": {
+      "E_minus_H": {
+        "n_domains": 84,
+        "mean": -0.033,
+        "ci95": [
+          -0.171,
+          0.107
+        ]
+      },
+      "E_minus_L": {
+        "n_domains": 221,
+        "mean": -0.309,
+        "ci95": [
+          -0.403,
+          -0.218
+        ]
+      },
+      "H_minus_L": {
+        "n_domains": 238,
+        "mean": -0.065,
+        "ci95": [
+          -0.129,
+          0.0
+        ]
+      }
+    }
+  },
+  "unpaired_class_means": {
+    "E": {
+      "n_domains": 228,
+      "mean": -0.587,
+      "ci95": [
+        -0.711,
+        -0.465
+      ]
+    },
+    "H": {
+      "n_domains": 242,
+      "mean": -0.266,
+      "ci95": [
+        -0.331,
+        -0.201
+      ]
+    },
+    "L": {
+      "n_domains": 385,
+      "mean": -0.243,
+      "ci95": [
+        -0.295,
+        -0.194
+      ]
+    }
+  },
+  "between_protein": {
+    "n_domains": 378,
+    "spearman_beta_fraction_vs_asymmetry": -0.178,
+    "p": 0.000495738105402238,
+    "spearman_helix_fraction_vs_asymmetry": 0.079,
+    "mean_asym_beta_rich_E_gt_0.3": -0.489,
+    "n_beta_rich": 69,
+    "mean_asym_helix_rich_H_gt_0.3": -0.234,
+    "n_helix_rich": 182
+  },
+  "domain_fixed_effects": {
+    "n": 19170,
+    "coef": {
+      "C(ss)[T.H]": 0.2386,
+      "C(ss)[T.L]": 0.3271
+    },
+    "ci95": {
+      "C(ss)[T.H]": [
+        0.1512,
+        0.326
+      ],
+      "C(ss)[T.L]": [
+        0.2548,
+        0.3994
+      ]
+    },
+    "note": "reference class is E (alphabetically first); a POSITIVE coefficient for H or L means that class is less asymmetric than strand WITHIN the same domain"
+  },
+  "domain_fixed_effects_mixed_only": {
+    "n": 4688,
+    "n_domains": 84,
+    "coef": {
+      "C(ss)[T.H]": 0.1117,
+      "C(ss)[T.L]": 0.2891
+    },
+    "ci95": {
+      "C(ss)[T.H]": [
+        -0.0174,
+        0.2409
+      ],
+      "C(ss)[T.L]": [
+        0.1837,
+        0.3945
+      ]
+    }
+  }
+}

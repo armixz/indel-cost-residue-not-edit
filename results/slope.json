@@ -1,0 +1,164 @@
+{
+  "n_positions": 34716,
+  "n_domains_with_contrast": 563,
+  "prediction": "slope = -1.0 kcal/mol per kcal/mol if the helix contrast is exactly the residue's own helical contribution",
+  "weighted_all": {
+    "slope": -0.6798,
+    "slope_ci95": [
+      -0.8814,
+      -0.485
+    ],
+    "intercept": 0.8586,
+    "intercept_ci95": [
+      0.7586,
+      0.9629
+    ],
+    "spearman": -0.6395,
+    "spearman_ci95": [
+      -0.7397,
+      -0.4122
+    ],
+    "n_residues": 18,
+    "slope_ci_contains_minus_one": false
+  },
+  "weighted_no_gly": {
+    "slope": -0.5824,
+    "slope_ci95": [
+      -0.8114,
+      -0.3697
+    ],
+    "intercept": 0.8282,
+    "intercept_ci95": [
+      0.7251,
+      0.9379
+    ],
+    "spearman": -0.5718,
+    "spearman_ci95": [
+      -0.6982,
+      -0.2847
+    ],
+    "n_residues": 17,
+    "slope_ci_contains_minus_one": false
+  },
+  "unweighted_all": {
+    "slope": -0.794,
+    "slope_ci95": [
+      -1.0589,
+      -0.532
+    ],
+    "intercept": 0.912,
+    "intercept_ci95": [
+      0.7737,
+      1.0475
+    ],
+    "spearman": -0.6395,
+    "spearman_ci95": [
+      -0.7386,
+      -0.3977
+    ],
+    "n_residues": 18,
+    "slope_ci_contains_minus_one": true
+  },
+  "strand_contrast_vs_helix_propensity": {
+    "slope": -0.4868,
+    "slope_ci95": [
+      -0.7878,
+      -0.1605
+    ],
+    "spearman": -0.5217,
+    "n_residues": 18,
+    "note": "helix propensity should NOT predict the strand contrast; reported as a negative control on the scale itself"
+  },
+  "per_residue": {
+    "A": [
+      0.8195,
+      237,
+      0.0
+    ],
+    "D": [
+      0.2165,
+      198,
+      0.69
+    ],
+    "E": [
+      0.8444,
+      276,
+      0.4
+    ],
+    "F": [
+      0.463,
+      89,
+      0.54
+    ],
+    "G": [
+      -0.0525,
+      71,
+      1.0
+    ],
+    "H": [
+      0.0826,
+      25,
+      0.61
+    ],
+    "I": [
+      0.6614,
+      146,
+      0.41
+    ],
+    "K": [
+      0.8202,
+      311,
+      0.26
+    ],
+    "L": [
+      0.4363,
+      300,
+      0.21
+    ],
+    "M": [
+      0.5939,
+      29,
+      0.24
+    ],
+    "N": [
+      0.3414,
+      120,
+      0.65
+    ],
+    "Q": [
+      0.6438,
+      114,
+      0.39
+    ],
+    "R": [
+      0.6715,
+      185,
+      0.21
+    ],
+    "S": [
+      0.6415,
+      108,
+      0.5
+    ],
+    "T": [
+      0.6105,
+      109,
+      0.66
+    ],
+    "V": [
+      0.5089,
+      153,
+      0.61
+    ],
+    "W": [
+      1.1167,
+      14,
+      0.49
+    ],
+    "Y": [
+      0.3261,
+      56,
+      0.53
+    ]
+  }
+}

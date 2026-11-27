@@ -1,0 +1,263 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tsuboyama et~al.(2023)Tsuboyama, Dauparas, Chen, Laine,
+  Mohseni~Behbahani, Weinstein, Mangan, Ovchinnikov, and
+  Rocklin]{tsuboyama2023}
+Kotaro Tsuboyama, Justas Dauparas, Jonathan Chen, Elodie Laine, Yasser
+  Mohseni~Behbahani, Jonathan~J. Weinstein, Niall~M. Mangan, Sergey
+  Ovchinnikov, and Gabriel~J. Rocklin.
+\newblock Mega-scale experimental analysis of protein folding stability in
+  biology and design.
+\newblock \emph{Nature}, 620:\penalty0 434--444, 2023.
+\newblock \doi{10.1038/s41586-023-06328-6}.
+
+\bibitem[Sondek and Shortle(1990)]{sondek1990}
+John Sondek and David Shortle.
+\newblock Accommodation of single amino acid insertions by the native state of
+  staphylococcal nuclease.
+\newblock \emph{Proteins}, 7\penalty0 (4):\penalty0 299--305, 1990.
+\newblock \doi{10.1002/prot.340070402}.
+
+\bibitem[Sondek and Shortle(1992)]{sondek1992}
+John Sondek and David Shortle.
+\newblock Structural and energetic differences between insertions and
+  substitutions in staphylococcal nuclease.
+\newblock \emph{Proteins}, 13\penalty0 (2):\penalty0 132--140, 1992.
+\newblock \doi{10.1002/prot.340130206}.
+
+\bibitem[Gonzalez et~al.(2019)Gonzalez, Roberts, and Ostermeier]{gonzalez2019}
+Carolina~E. Gonzalez, Paul Roberts, and Marc Ostermeier.
+\newblock Fitness effects of single amino acid insertions and deletions in
+  {TEM-1} $\beta$-lactamase.
+\newblock \emph{Journal of Molecular Biology}, 431\penalty0 (12):\penalty0
+  2320--2330, 2019.
+\newblock \doi{10.1016/j.jmb.2019.04.030}.
+
+\bibitem[Arpino et~al.(2014)Arpino, Reddington, Halliwell, Rizkallah, and
+  Jones]{arpino2014}
+James A.~J. Arpino, Samuel~C. Reddington, Lisa~M. Halliwell, Pierre~J.
+  Rizkallah, and D.~Dafydd Jones.
+\newblock Random single amino acid deletion sampling unveils structural
+  tolerance and the benefits of helical registry shift on {GFP} folding and
+  structure.
+\newblock \emph{Structure}, 22\penalty0 (6):\penalty0 889--898, 2014.
+\newblock \doi{10.1016/j.str.2014.03.014}.
+
+\bibitem[Macdonald et~al.(2023)Macdonald, Nedrud, Grimes, Trinidad, Fraser, and
+  Coyote-Maestas]{macdonald2023}
+Christian~B. Macdonald, David Nedrud, Patrick~Rockefeller Grimes, Donovan
+  Trinidad, James~S. Fraser, and Willow Coyote-Maestas.
+\newblock {DIMPLE}: deep insertion, deletion, and missense mutation libraries
+  for exploring protein variation in evolution, disease, and biology.
+\newblock \emph{Genome Biology}, 24:\penalty0 36, 2023.
+\newblock \doi{10.1186/s13059-023-02880-6}.
+
+\bibitem[Bakhache et~al.(2025)Bakhache, Symonds-Orr, McCormick, and
+  Dolan]{bakhache2025}
+William Bakhache, Wyatt Symonds-Orr, Lucas McCormick, and Patrick~T. Dolan.
+\newblock Uncovering structural plasticity of enterovirus {A} through deep
+  insertional and deletional scanning.
+\newblock \emph{Nature Microbiology}, 10\penalty0 (1):\penalty0 158--168, 2025.
+\newblock \doi{10.1038/s41564-024-01871-y}.
+
+\bibitem[Emond et~al.(2020)Emond, Petek, Kay, Heames, Devenish, Tokuriki, and
+  Hollfelder]{emond2020}
+Stephane Emond, Maya Petek, Emily~J. Kay, Brennen Heames, Sean R.~A. Devenish,
+  Nobuhiko Tokuriki, and Florian Hollfelder.
+\newblock Accessing unexplored regions of sequence space in directed enzyme
+  evolution via insertion/deletion mutagenesis.
+\newblock \emph{Nature Communications}, 11:\penalty0 3469, 2020.
+\newblock \doi{10.1038/s41467-020-17061-3}.
+
+\bibitem[Hallet et~al.(1997)Hallet, Sherratt, and Hayes]{hallet1997}
+Bernard Hallet, David~J. Sherratt, and Finbarr Hayes.
+\newblock Pentapeptide scanning mutagenesis: random insertion of a variable
+  five amino acid cassette in a target protein.
+\newblock \emph{Nucleic Acids Research}, 25\penalty0 (9):\penalty0 1866--1867,
+  1997.
+\newblock \doi{10.1093/nar/25.9.1866}.
+
+\bibitem[Topolska et~al.(2025)Topolska, Beltran, and Lehner]{topolska2025}
+Magdalena Topolska, Andre Beltran, and Ben Lehner.
+\newblock Deep indel mutagenesis reveals the impact of amino acid insertions
+  and deletions on protein stability and function.
+\newblock \emph{Nature Communications}, 16:\penalty0 2617, 2025.
+\newblock \doi{10.1038/s41467-025-57510-5}.
+
+\bibitem[Larsen-Ledet et~al.(2025)Larsen-Ledet, Lindemose, Panfilova, Gersing,
+  Suhr, Genzor, Lanters, Nielsen, Lindorff-Larsen, Winther, Stein, and
+  Hartmann-Petersen]{larsenledet2025}
+Sarah Larsen-Ledet, S{\o}ren Lindemose, Aleksandra Panfilova, Sarah Gersing,
+  Caroline~H. Suhr, Aitana~V. Genzor, Heleen Lanters, Sofie~V. Nielsen, Kresten
+  Lindorff-Larsen, Jakob~R. Winther, Amelie Stein, and Rasmus
+  Hartmann-Petersen.
+\newblock Systematic characterization of indel variants using a yeast-based
+  protein folding sensor.
+\newblock \emph{Structure}, 33\penalty0 (2):\penalty0 262--273.e6, 2025.
+\newblock \doi{10.1016/j.str.2024.11.017}.
+
+\bibitem[Goldman et~al.(2025)Goldman, Chati, and Ntranos]{goldman2025}
+Samuel Goldman, Prashant Chati, and Vasilis Ntranos.
+\newblock Uncovering differential tolerance to deletions versus substitutions
+  with a protein language model.
+\newblock \emph{Cell Systems}, 16\penalty0 (9):\penalty0 101373, 2025.
+\newblock \doi{10.1016/j.cels.2025.101373}.
+
+\bibitem[Pace and Scholtz(1998)]{pace1998}
+C.~Nick Pace and J.~Martin Scholtz.
+\newblock A helix propensity scale based on experimental studies of peptides
+  and proteins.
+\newblock \emph{Biophysical Journal}, 75\penalty0 (1):\penalty0 422--427, 1998.
+\newblock \doi{10.1016/S0006-3495(98)77529-0}.
+
+\bibitem[Vetter et~al.(1996)Vetter, Baase, Heinz, Xiong, Snow, and
+  Matthews]{vetter1996}
+Ingrid~R. Vetter, Walter~A. Baase, Dirk~W. Heinz, Jian-Ping Xiong, Stephen
+  Snow, and Brian~W. Matthews.
+\newblock Protein structural plasticity exemplified by insertion and deletion
+  mutants in {T4} lysozyme.
+\newblock \emph{Protein Science}, 5\penalty0 (12):\penalty0 2399--2415, 1996.
+\newblock \doi{10.1002/pro.5560051203}.
+
+\bibitem[Heinz et~al.(1994)Heinz, Baase, Zhang, Blaber, Dahlquist, and
+  Matthews]{heinz1994}
+Dirk~W. Heinz, Walter~A. Baase, Xue-Jun Zhang, Michael Blaber, Frederick~W.
+  Dahlquist, and Brian~W. Matthews.
+\newblock Accommodation of amino acid insertions in an $\alpha$-helix of {T4}
+  lysozyme: structural and thermodynamic analysis.
+\newblock \emph{Journal of Molecular Biology}, 236\penalty0 (3):\penalty0
+  869--886, 1994.
+\newblock \doi{10.1006/jmbi.1994.1195}.
+
+\bibitem[Heinz et~al.(1993)Heinz, Baase, Dahlquist, and Matthews]{heinz1993}
+Dirk~W. Heinz, Walter~A. Baase, Frederick~W. Dahlquist, and Brian~W. Matthews.
+\newblock How amino-acid insertions are allowed in an $\alpha$-helix of {T4}
+  lysozyme.
+\newblock \emph{Nature}, 361:\penalty0 561--564, 1993.
+\newblock \doi{10.1038/361561a0}.
+
+\bibitem[Gutierrez and Rocklin(2024)]{gutierrez2024}
+Yulia~Maria Gutierrez and Gabriel~J. Rocklin.
+\newblock Structural and energetic analysis of stabilizing indel mutations.
+\newblock \emph{bioRxiv}, 2024.
+\newblock \doi{10.1101/2024.12.18.629072}.
+
+\bibitem[Kim and Guo(2010)]{kim2010}
+Ryan Kim and Jun-Tao Guo.
+\newblock Systematic analysis of short internal indels and their impact on
+  protein folding.
+\newblock \emph{BMC Structural Biology}, 10:\penalty0 24, 2010.
+\newblock \doi{10.1186/1472-6807-10-24}.
+
+\bibitem[Lee et~al.(2026)Lee, Cho, Yun, Steinegger, Kim, and Park]{lee2026}
+Hyunuk Lee, Yeeun Cho, Jihyeon Yun, Martin Steinegger, Ho~Min Kim, and Hahnbeom
+  Park.
+\newblock Protein folding stability estimation with explicit consideration of
+  unfolded states.
+\newblock \emph{Nature Communications}, 17, 2026.
+\newblock \doi{10.1038/s41467-026-68637-4}.
+
+\bibitem[Notin et~al.(2023)Notin, Kollasch, Ritter, et~al.]{notin2023}
+Pascal Notin, Aaron~W. Kollasch, Daniel Ritter, et~al.
+\newblock {ProteinGym}: large-scale benchmarks for protein fitness prediction
+  and design.
+\newblock In \emph{Advances in Neural Information Processing Systems 36
+  (Datasets and Benchmarks Track)}, pages 64331--64379, 2023.
+
+\bibitem[Livesey and Marsh(2025)]{livesey2025}
+Benjamin~J. Livesey and Joseph~A. Marsh.
+\newblock Variant effect predictor correlation with functional assays is
+  reflective of clinical classification performance.
+\newblock \emph{Genome Biology}, 26:\penalty0 104, 2025.
+\newblock \doi{10.1186/s13059-025-03575-w}.
+
+\bibitem[Kabsch and Sander(1983)]{kabsch1983}
+Wolfgang Kabsch and Christian Sander.
+\newblock Dictionary of protein secondary structure: pattern recognition of
+  hydrogen-bonded and geometrical features.
+\newblock \emph{Biopolymers}, 22\penalty0 (12):\penalty0 2577--2637, 1983.
+\newblock \doi{10.1002/bip.360221211}.
+
+\bibitem[Jumper et~al.(2021)Jumper, Evans, Pritzel, et~al.]{jumper2021}
+John Jumper, Richard Evans, Alexander Pritzel, et~al.
+\newblock Highly accurate protein structure prediction with {AlphaFold}.
+\newblock \emph{Nature}, 596:\penalty0 583--589, 2021.
+\newblock \doi{10.1038/s41586-021-03819-2}.
+
+\bibitem[Rocklin et~al.(2017)Rocklin, Chidyausiku, Goreshnik,
+  et~al.]{rocklin2017}
+Gabriel~J. Rocklin, Tamuka~M. Chidyausiku, Inna Goreshnik, et~al.
+\newblock Global analysis of protein folding using massively parallel design,
+  synthesis, and testing.
+\newblock \emph{Science}, 357\penalty0 (6347):\penalty0 168--175, 2017.
+\newblock \doi{10.1126/science.aan0693}.
+
+\bibitem[Robinson(1950)]{robinson1950}
+William~S. Robinson.
+\newblock Ecological correlations and the behavior of individuals.
+\newblock \emph{American Sociological Review}, 15\penalty0 (3):\penalty0
+  351--357, 1950.
+\newblock \doi{10.2307/2087176}.
+
+\bibitem[Simpson(1951)]{simpson1951}
+Edward~H. Simpson.
+\newblock The interpretation of interaction in contingency tables.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  13\penalty0 (2):\penalty0 238--241, 1951.
+\newblock \doi{10.1111/j.2517-6161.1951.tb00088.x}.
+
+\bibitem[Mundlak(1978)]{mundlak1978}
+Yair Mundlak.
+\newblock On the pooling of time series and cross section data.
+\newblock \emph{Econometrica}, 46\penalty0 (1):\penalty0 69--85, 1978.
+\newblock \doi{10.2307/1913646}.
+
+\bibitem[Liang and Zeger(1986)]{liang1986}
+Kung-Yee Liang and Scott~L. Zeger.
+\newblock Longitudinal data analysis using generalized linear models.
+\newblock \emph{Biometrika}, 73\penalty0 (1):\penalty0 13--22, 1986.
+\newblock \doi{10.1093/biomet/73.1.13}.
+
+\bibitem[Cameron and Miller(2015)]{cameron2015}
+A.~Colin Cameron and Douglas~L. Miller.
+\newblock A practitioner's guide to cluster-robust inference.
+\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0
+  317--372, 2015.
+\newblock \doi{10.3368/jhr.50.2.317}.
+
+\bibitem[Field and Welsh(2007)]{field2007}
+Christopher~A. Field and A.~H. Welsh.
+\newblock Bootstrapping clustered data.
+\newblock \emph{Journal of the Royal Statistical Society: Series B},
+  69\penalty0 (3):\penalty0 369--390, 2007.
+\newblock \doi{10.1111/j.1467-9868.2007.00593.x}.
+
+\bibitem[Bland and Altman(1995)]{blandaltman1995}
+J.~Martin Bland and Douglas~G. Altman.
+\newblock Comparing methods of measurement: why plotting difference against
+  standard method is misleading.
+\newblock \emph{The Lancet}, 346\penalty0 (8982):\penalty0 1085--1087, 1995.
+\newblock \doi{10.1016/S0140-6736(95)91748-9}.
+
+\bibitem[Hausman(2001)]{hausman2001}
+Jerry Hausman.
+\newblock Mismeasured variables in econometric analysis: problems from the
+  right and problems from the left.
+\newblock \emph{Journal of Economic Perspectives}, 15\penalty0 (4):\penalty0
+  57--67, 2001.
+\newblock \doi{10.1257/jep.15.4.57}.
+
+\bibitem[Kyte and Doolittle(1982)]{kyte1982}
+Jack Kyte and Russell~F. Doolittle.
+\newblock A simple method for displaying the hydropathic character of a
+  protein.
+\newblock \emph{Journal of Molecular Biology}, 157\penalty0 (1):\penalty0
+  105--132, 1982.
+\newblock \doi{10.1016/0022-2836(82)90515-0}.
+
+\end{thebibliography}

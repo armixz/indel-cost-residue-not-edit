@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{\textbf{Leave-one-domain-out prediction of deletion cost.} Ridge models on the same rows. Each domain is predicted by a model fitted without it. Per-domain Spearman is the mean over held-out domains; the lower decile is reported because a mean can hide a long tail.}
+\label{tab:pred}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Features & RMSE & Per-domain $\rho$ & Lower decile \\
+\midrule
+secondary structure only & 3 & 1.828 & -0.046 & -0.401 \\
+residue identity only & 20 & 1.798 & 0.234 & 0.021 \\
+structure $+$ residue & 23 & 1.798 & 0.211 & -0.001 \\
+structure $\times$ residue & 83 & 1.788 & 0.216 & -0.000 \\
+structure $+$ residue $+$ geometry & 26 & 1.683 & 0.379 & 0.081 \\
+structure $\times$ residue $+$ geometry & 86 & 1.676 & 0.368 & 0.060 \\
+structure $+$ residue $+$ geometry $\times$ structure & 35 & 1.674 & 0.368 & 0.059 \\
+\bottomrule
+\end{tabular}
+\end{table}

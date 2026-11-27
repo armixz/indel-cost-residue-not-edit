@@ -1,0 +1,78 @@
+{
+  "n": 35877,
+  "domains": 748,
+  "paired_gain_interaction_over_additive": {
+    "mean_delta_per_domain_spearman": 0.0058,
+    "ci95": [
+      0.0009,
+      0.0109
+    ],
+    "domains_improved": 386,
+    "n_domains": 746
+  },
+  "models": {
+    "structure_only": {
+      "n_features": 3,
+      "rmse": 1.8276,
+      "pooled_spearman": -0.2441,
+      "per_domain_spearman_mean": -0.0461,
+      "per_domain_spearman_median": -0.0604,
+      "per_domain_lower_decile": -0.4007,
+      "n_domains_scored": 746
+    },
+    "residue_only": {
+      "n_features": 20,
+      "rmse": 1.798,
+      "pooled_spearman": 0.1219,
+      "per_domain_spearman_mean": 0.234,
+      "per_domain_spearman_median": 0.2319,
+      "per_domain_lower_decile": 0.0215,
+      "n_domains_scored": 746
+    },
+    "additive_S+R": {
+      "n_features": 23,
+      "rmse": 1.7982,
+      "pooled_spearman": 0.1372,
+      "per_domain_spearman_mean": 0.2106,
+      "per_domain_spearman_median": 0.2066,
+      "per_domain_lower_decile": -0.0006,
+      "n_domains_scored": 746
+    },
+    "interaction_SxR": {
+      "n_features": 83,
+      "rmse": 1.7878,
+      "pooled_spearman": 0.1559,
+      "per_domain_spearman_mean": 0.2164,
+      "per_domain_spearman_median": 0.2062,
+      "per_domain_lower_decile": -0.0001,
+      "n_domains_scored": 746
+    },
+    "additive_plus_geometry": {
+      "n_features": 26,
+      "rmse": 1.6833,
+      "pooled_spearman": 0.3732,
+      "per_domain_spearman_mean": 0.3787,
+      "per_domain_spearman_median": 0.4038,
+      "per_domain_lower_decile": 0.0811,
+      "n_domains_scored": 746
+    },
+    "interaction_plus_geometry": {
+      "n_features": 86,
+      "rmse": 1.6758,
+      "pooled_spearman": 0.3747,
+      "per_domain_spearman_mean": 0.3682,
+      "per_domain_spearman_median": 0.3903,
+      "per_domain_lower_decile": 0.0603,
+      "n_domains_scored": 746
+    },
+    "additive_plus_geometry_x_structure": {
+      "n_features": 35,
+      "rmse": 1.6736,
+      "pooled_spearman": 0.3876,
+      "per_domain_spearman_mean": 0.3681,
+      "per_domain_spearman_median": 0.3847,
+      "per_domain_lower_decile": 0.0592,
+      "n_domains_scored": 746
+    }
+  }
+}

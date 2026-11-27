@@ -1,0 +1,200 @@
+{
+ "datasets": {
+  "Kir2.1_ins1": {
+   "n": 419,
+   "tolerated": 277,
+   "plddt_threshold": 92.97,
+   "auroc": {
+    "plddt": 0.8495957695632277,
+    "run_len": 0.784601108455789,
+    "run_slack": 0.7702369451365231
+   },
+   "advantage_run_len_minus_plddt": -0.065
+  },
+  "Kir2.1_ins2": {
+   "n": 418,
+   "tolerated": 264,
+   "plddt_threshold": 92.97,
+   "auroc": {
+    "plddt": 0.875,
+    "run_len": 0.8124016135379771,
+    "run_slack": 0.789034828807556
+   },
+   "advantage_run_len_minus_plddt": -0.063
+  },
+  "Kir2.1_ins3": {
+   "n": 419,
+   "tolerated": 235,
+   "plddt_threshold": 92.97,
+   "auroc": {
+    "plddt": 0.8967969472710452,
+    "run_len": 0.8295790934320073,
+    "run_slack": 0.8060823311748381
+   },
+   "advantage_run_len_minus_plddt": -0.067
+  },
+  "TEM1_ins1": {
+   "n": 274,
+   "tolerated": 74,
+   "plddt_threshold": 98.69,
+   "auroc": {
+    "plddt": 0.8685472972972973,
+    "run_len": 0.8004729729729729,
+    "run_slack": 0.7629391891891891
+   },
+   "advantage_run_len_minus_plddt": -0.068
+  },
+  "DHFR_ins1": {
+   "n": 185,
+   "tolerated": 87,
+   "plddt_threshold": 97.56,
+   "auroc": {
+    "plddt": 0.7091836734693877,
+    "run_len": 0.6263194933145672,
+    "run_slack": 0.6009852216748768
+   },
+   "advantage_run_len_minus_plddt": -0.083
+  },
+  "AraC_domain": {
+   "n": 290,
+   "tolerated": 79,
+   "plddt_threshold": 91.36,
+   "auroc": {
+    "plddt": 0.7788709580658707,
+    "run_len": 0.6622472853800467,
+    "run_slack": 0.6594876717259583
+   },
+   "advantage_run_len_minus_plddt": -0.117
+  },
+  "Flp_domain": {
+   "n": 414,
+   "tolerated": 30,
+   "plddt_threshold": 96.01,
+   "auroc": {
+    "plddt": 0.7489149305555556,
+    "run_len": 0.7628472222222222,
+    "run_slack": 0.725
+   },
+   "advantage_run_len_minus_plddt": 0.014
+  },
+  "SigF_domain": {
+   "n": 244,
+   "tolerated": 48,
+   "plddt_threshold": 93.01,
+   "auroc": {
+    "plddt": 0.4602465986394558,
+    "run_len": 0.4993622448979592,
+    "run_slack": 0.4500425170068027
+   },
+   "advantage_run_len_minus_plddt": 0.039
+  },
+  "TVMV_domain": {
+   "n": 216,
+   "tolerated": 30,
+   "plddt_threshold": 96.75,
+   "auroc": {
+    "plddt": 0.6760752688172043,
+    "run_len": 0.6144265232974909,
+    "run_slack": 0.5788530465949822
+   },
+   "advantage_run_len_minus_plddt": -0.062
+  }
+ },
+ "robustness": {
+  "q0.4": {
+   "Kir2.1_ins3": {
+    "adv": -0.096,
+    "auroc": {
+     "plddt": 0.8967969472710452,
+     "run_len": 0.8007978723404254,
+     "run_slack": 0.7844357076780758
+    }
+   },
+   "TEM1_ins1": {
+    "adv": -0.074,
+    "auroc": {
+     "plddt": 0.8685472972972973,
+     "run_len": 0.7947297297297298,
+     "run_slack": 0.7438175675675677
+    }
+   },
+   "DHFR_ins1": {
+    "adv": -0.11,
+    "auroc": {
+     "plddt": 0.7091836734693877,
+     "run_len": 0.5995191179920244,
+     "run_slack": 0.5636288998357964
+    }
+   }
+  },
+  "q0.6": {
+   "Kir2.1_ins3": {
+    "adv": -0.083,
+    "auroc": {
+     "plddt": 0.8967969472710452,
+     "run_len": 0.8142576318223868,
+     "run_slack": 0.8149283071230342
+    }
+   },
+   "TEM1_ins1": {
+    "adv": -0.066,
+    "auroc": {
+     "plddt": 0.8685472972972973,
+     "run_len": 0.8027364864864864,
+     "run_slack": 0.7871621621621621
+    }
+   },
+   "DHFR_ins1": {
+    "adv": -0.071,
+    "auroc": {
+     "plddt": 0.7091836734693877,
+     "run_len": 0.6380483227773868,
+     "run_slack": 0.652474783016655
+    }
+   }
+  }
+ },
+ "P1": {
+  "short_datasets": [
+   "Kir2.1_ins3",
+   "TEM1_ins1",
+   "DHFR_ins1"
+  ],
+  "run_len_beats_plddt_in": [],
+  "count": 0,
+  "note": "the pre-registered mark said '3 of the 4 short-insertion datasets' but the stated counting rule yields only 3 datasets; both readings are reported"
+ },
+ "P2": {
+  "advantage_by_dataset": {
+   "Kir2.1_ins1": -0.065,
+   "Kir2.1_ins2": -0.063,
+   "Kir2.1_ins3": -0.067,
+   "TEM1_ins1": -0.068,
+   "DHFR_ins1": -0.083,
+   "AraC_domain": -0.117,
+   "Flp_domain": 0.014,
+   "SigF_domain": 0.039,
+   "TVMV_domain": -0.062
+  },
+  "kir_grows_with_size": false,
+  "domain_mean_advantage": -0.032,
+  "single_max_advantage": -0.065,
+  "domain_above_all_single": true,
+  "passed": false
+ },
+ "P3": {
+  "n": 412,
+  "spearman_slack_vs_size_sensitivity": -0.302,
+  "ci95": [
+   -0.382,
+   -0.22
+  ],
+  "passed": true
+ },
+ "verdict": {
+  "P1_count_of_3": 0,
+  "P2_passed": false,
+  "P3_passed": true,
+  "H4_supported": false
+ }
+}

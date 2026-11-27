@@ -1,0 +1,107 @@
+{
+  "protein": "GRB2",
+  "abundance_set": "urn:mavedb:00001305-a-1",
+  "function_set": "urn:mavedb:00001305-b-1",
+  "scale": {
+    "abundance": {
+      "scale": "published WT-relative (1 = wild type); no rescaling applied",
+      "median_synonymous": 0.9866,
+      "median_nonsense": 1.0137,
+      "nonsense_detected_as_loss": false,
+      "n_syn": 207,
+      "n_nonsense": 217
+    },
+    "function": {
+      "scale": "published WT-relative (1 = wild type); no rescaling applied",
+      "median_synonymous": 0.9743,
+      "median_nonsense": 1.511,
+      "nonsense_detected_as_loss": false,
+      "n_syn": 207,
+      "n_nonsense": 216
+    }
+  },
+  "note": "delins variants replace two residues with one, so they SHORTEN the chain by one; they are length-changing variants, not insertions",
+  "by_class": {
+    "missense": {
+      "class": "missense",
+      "n": 4072,
+      "spearman": -0.1978,
+      "spearman_ci95": [
+        -0.2302,
+        -0.1647
+      ],
+      "n_called_abundant": 3233,
+      "false_pass_rate": 0.0,
+      "false_pass_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_dead": 0.0,
+      "median_abundance": 0.962,
+      "median_function": 1.0126
+    },
+    "deletion": {
+      "class": "deletion",
+      "n": 191,
+      "spearman": -0.1845,
+      "spearman_ci95": [
+        -0.319,
+        -0.043
+      ],
+      "n_called_abundant": 91,
+      "false_pass_rate": 0.0,
+      "false_pass_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_dead": 0.0,
+      "median_abundance": 0.7116,
+      "median_function": 1.2545
+    },
+    "delins": {
+      "class": "delins",
+      "n": 119,
+      "spearman": -0.2416,
+      "spearman_ci95": [
+        -0.4063,
+        -0.0671
+      ],
+      "n_called_abundant": 59,
+      "false_pass_rate": 0.0,
+      "false_pass_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_dead": 0.0,
+      "median_abundance": 0.7342,
+      "median_function": 1.2152
+    },
+    "length_changing_combined": {
+      "class": "deletion+delins",
+      "n": 310,
+      "spearman": -0.2068,
+      "spearman_ci95": [
+        -0.3176,
+        -0.0955
+      ],
+      "n_called_abundant": 150,
+      "false_pass_rate": 0.0,
+      "false_pass_ci95": [
+        0.0,
+        0.0
+      ],
+      "frac_dead": 0.0,
+      "median_abundance": 0.7118,
+      "median_function": 1.2427
+    }
+  },
+  "usable_for_this_question": {
+    "verdict": "NO",
+    "reasons": [
+      "only 0.0% of variants fall below the loss-of-function threshold of 0.5: the activity assay has almost no dynamic range for loss of function, so a false-pass rate cannot be estimated from it",
+      "nonsense variants score at or above wild type in BOTH assays (abundance 1.0137 vs syn 0.9866; activity 1.511 vs syn 0.9743), so neither readout detects a truncated protein as a loss",
+      "abundance and activity are ANTI-correlated here (rho about -0.2 in every class, substitutions included), which is the signature of an overexpression system in which more GRB2 sequesters signalling components and suppresses ERK phosphorylation; this makes the pair unusable as a function-vs-abundance comparison rather than evidence about the proxy question"
+    ],
+    "consequence": "GRB2 is reported as attempted and rejected. The conclusion rests on script 46 (four proteins, substitutions), not on this file."
+  }
+}

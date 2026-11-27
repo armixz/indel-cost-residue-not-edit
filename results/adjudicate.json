@@ -1,0 +1,118 @@
+{
+  "permutation_200": {
+    "observed_insertion": -0.478,
+    "observed_deletion": -0.445,
+    "null_insertion": {
+      "mean": 0.0009,
+      "sd": 0.0597,
+      "q025": -0.112,
+      "q975": 0.105
+    },
+    "null_deletion": {
+      "mean": -0.0037,
+      "sd": 0.0672,
+      "q025": -0.129,
+      "q975": 0.125
+    },
+    "p_insertion": 0.0,
+    "p_deletion": 0.0
+  },
+  "shared_domains": {
+    "BL17-NTL9": null,
+    "CI2A-PIN1": null,
+    "CKS1": null,
+    "CSPA-CSD": [
+      "1MJC",
+      "anchor20",
+      67
+    ],
+    "CSPB-CSD": [
+      "1CSQ",
+      "anchor20",
+      66
+    ],
+    "FBP11-FF1": [
+      "1UZC",
+      "anchor20",
+      62
+    ],
+    "GRB2-SH3": null,
+    "PSD95-PDZ3": null,
+    "VIL1-HP": null
+  },
+  "dynamic_range": {
+    "floored_fraction_by_class": {
+      "E": 0.142,
+      "H": 0.085,
+      "L": 0.087
+    },
+    "cost_sd_by_class": {
+      "E": 0.384,
+      "H": 0.402,
+      "L": 0.421
+    },
+    "n_by_class": {
+      "E": 1021,
+      "H": 667,
+      "L": 1182
+    },
+    "EH_unfloored_insertion": {
+      "n_domains": 7,
+      "mean": 0.037,
+      "ci95": [
+        -0.126,
+        0.17
+      ]
+    },
+    "EH_unfloored_insertion_n_negative": 3,
+    "EH_unfloored_deletion": {
+      "n_domains": 7,
+      "mean": 0.156,
+      "ci95": [
+        -0.03,
+        0.369
+      ]
+    },
+    "EH_unfloored_deletion_n_negative": 4
+  },
+  "by_fold_bias": {
+    "beta_biased_domains": {
+      "n": 189,
+      "insertion": {
+        "n_domains": 44,
+        "mean": -0.595,
+        "ci95": [
+          -0.852,
+          -0.341
+        ]
+      },
+      "deletion": {
+        "n_domains": 44,
+        "mean": -0.586,
+        "ci95": [
+          -0.925,
+          -0.242
+        ]
+      }
+    },
+    "helix_biased_domains": {
+      "n": 198,
+      "insertion": {
+        "n_domains": 40,
+        "mean": -0.35,
+        "ci95": [
+          -0.612,
+          -0.073
+        ]
+      },
+      "deletion": {
+        "n_domains": 40,
+        "mean": -0.29,
+        "ci95": [
+          -0.567,
+          -0.029
+        ]
+      }
+    }
+  }
+}

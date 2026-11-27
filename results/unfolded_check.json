@@ -1,0 +1,115 @@
+{
+  "n_raw_rows": 141844,
+  "insertion_Ala": {
+    "n_positions": 12237,
+    "n_domains_with_both": 87,
+    "deltaG": {
+      "n_domains": 87,
+      "mean": 0.557,
+      "ci95": [
+        0.33,
+        0.783
+      ]
+    },
+    "raw_K50_trypsin": {
+      "n_domains": 87,
+      "mean": 0.26,
+      "ci95": [
+        0.159,
+        0.359
+      ]
+    },
+    "raw_K50_chymotrypsin": {
+      "n_domains": 87,
+      "mean": 0.307,
+      "ci95": [
+        0.201,
+        0.414
+      ]
+    },
+    "UNFOLDED_model_trypsin": {
+      "n_domains": 87,
+      "mean": 0.003,
+      "ci95": [
+        -0.0,
+        0.005
+      ]
+    },
+    "UNFOLDED_model_chymotrypsin": {
+      "n_domains": 87,
+      "mean": 0.003,
+      "ci95": [
+        -0.003,
+        0.009
+      ]
+    }
+  },
+  "deletion": {
+    "n_positions": 12361,
+    "n_domains_with_both": 87,
+    "deltaG": {
+      "n_domains": 87,
+      "mean": 0.442,
+      "ci95": [
+        0.194,
+        0.69
+      ]
+    },
+    "raw_K50_trypsin": {
+      "n_domains": 87,
+      "mean": 0.206,
+      "ci95": [
+        0.096,
+        0.313
+      ]
+    },
+    "raw_K50_chymotrypsin": {
+      "n_domains": 87,
+      "mean": 0.252,
+      "ci95": [
+        0.136,
+        0.365
+      ]
+    },
+    "UNFOLDED_model_trypsin": {
+      "n_domains": 87,
+      "mean": 0.009,
+      "ci95": [
+        0.004,
+        0.013
+      ]
+    },
+    "UNFOLDED_model_chymotrypsin": {
+      "n_domains": 87,
+      "mean": 0.033,
+      "ci95": [
+        0.016,
+        0.054
+      ]
+    }
+  },
+  "protease_agreement": {
+    "n_domains": 87,
+    "pearson_trypsin_vs_chymotrypsin_contrast": 0.929
+  },
+  "shared_domain_assay_agreement": {
+    "CSPA-CSD": {
+      "tsuboyama_domain": "1MJC",
+      "best_offset": -3,
+      "spearman_dG_vs_minus_apca_cost": 0.87,
+      "n_matched_positions": 65
+    },
+    "CSPB-CSD": {
+      "tsuboyama_domain": "1CSQ",
+      "best_offset": -3,
+      "spearman_dG_vs_minus_apca_cost": 0.915,
+      "n_matched_positions": 63
+    },
+    "FBP11-FF1": {
+      "tsuboyama_domain": "1UZC",
+      "best_offset": -6,
+      "spearman_dG_vs_minus_apca_cost": 0.697,
+      "n_matched_positions": 50
+    }
+  }
+}

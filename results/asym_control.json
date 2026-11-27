@@ -1,0 +1,739 @@
+{
+  "n_positions": 19170,
+  "n_domains": 387,
+  "arm1_raw_by_ss": {
+    "E": {
+      "n_domains": 228,
+      "n_used": 228,
+      "mean": -0.587,
+      "ci95": [
+        -0.709,
+        -0.467
+      ]
+    },
+    "H": {
+      "n_domains": 242,
+      "n_used": 242,
+      "mean": -0.266,
+      "ci95": [
+        -0.331,
+        -0.2
+      ]
+    },
+    "L": {
+      "n_domains": 385,
+      "n_used": 385,
+      "mean": -0.243,
+      "ci95": [
+        -0.296,
+        -0.195
+      ]
+    }
+  },
+  "arm2_wt_alanine_only": {
+    "n_positions": 1475,
+    "by_ss": {
+      "E": {
+        "n_domains": 89,
+        "n_used": 89,
+        "mean": -0.842,
+        "ci95": [
+          -1.133,
+          -0.561
+        ]
+      },
+      "H": {
+        "n_domains": 216,
+        "n_used": 216,
+        "mean": -0.372,
+        "ci95": [
+          -0.489,
+          -0.25
+        ]
+      },
+      "L": {
+        "n_domains": 286,
+        "n_used": 286,
+        "mean": -0.161,
+        "ci95": [
+          -0.26,
+          -0.064
+        ]
+      }
+    },
+    "note": "the insertion is Ala and the deleted residue is Ala, so chemistry is matched; any asymmetry left is about where, not what"
+  },
+  "arm3_by_volume": {
+    "small": {
+      "mean_vol": 93.5,
+      "all": {
+        "n_domains": 386,
+        "n_used": 386,
+        "mean": -0.224,
+        "ci95": [
+          -0.287,
+          -0.164
+        ]
+      },
+      "by_ss": {
+        "E": {
+          "n_domains": 189,
+          "n_used": 189,
+          "mean": -0.868,
+          "ci95": [
+            -1.121,
+            -0.634
+          ]
+        },
+        "H": {
+          "n_domains": 240,
+          "n_used": 240,
+          "mean": -0.163,
+          "ci95": [
+            -0.244,
+            -0.085
+          ]
+        },
+        "L": {
+          "n_domains": 382,
+          "n_used": 382,
+          "mean": -0.208,
+          "ci95": [
+            -0.27,
+            -0.149
+          ]
+        }
+      }
+    },
+    "mid": {
+      "mean_vol": 146.8,
+      "all": {
+        "n_domains": 385,
+        "n_used": 385,
+        "mean": -0.368,
+        "ci95": [
+          -0.422,
+          -0.316
+        ]
+      },
+      "by_ss": {
+        "E": {
+          "n_domains": 223,
+          "n_used": 223,
+          "mean": -0.451,
+          "ci95": [
+            -0.576,
+            -0.331
+          ]
+        },
+        "H": {
+          "n_domains": 241,
+          "n_used": 241,
+          "mean": -0.392,
+          "ci95": [
+            -0.469,
+            -0.318
+          ]
+        },
+        "L": {
+          "n_domains": 380,
+          "n_used": 380,
+          "mean": -0.326,
+          "ci95": [
+            -0.385,
+            -0.268
+          ]
+        }
+      }
+    },
+    "large": {
+      "mean_vol": 181.1,
+      "all": {
+        "n_domains": 385,
+        "n_used": 385,
+        "mean": -0.238,
+        "ci95": [
+          -0.302,
+          -0.173
+        ]
+      },
+      "by_ss": {
+        "E": {
+          "n_domains": 218,
+          "n_used": 218,
+          "mean": -0.683,
+          "ci95": [
+            -0.839,
+            -0.536
+          ]
+        },
+        "H": {
+          "n_domains": 239,
+          "n_used": 239,
+          "mean": -0.236,
+          "ci95": [
+            -0.324,
+            -0.145
+          ]
+        },
+        "L": {
+          "n_domains": 371,
+          "n_used": 371,
+          "mean": -0.101,
+          "ci95": [
+            -0.18,
+            -0.021
+          ]
+        }
+      }
+    }
+  },
+  "arm4_by_burial": {
+    "E": {
+      "buried": {
+        "n_domains": 225,
+        "n_used": 225,
+        "mean": -0.77,
+        "ci95": [
+          -0.922,
+          -0.62
+        ]
+      },
+      "mid": {
+        "n_domains": 215,
+        "n_used": 215,
+        "mean": -0.367,
+        "ci95": [
+          -0.508,
+          -0.232
+        ]
+      },
+      "exposed": {
+        "n_domains": 142,
+        "n_used": 142,
+        "mean": -0.571,
+        "ci95": [
+          -0.76,
+          -0.383
+        ]
+      }
+    },
+    "H": {
+      "buried": {
+        "n_domains": 237,
+        "n_used": 237,
+        "mean": -0.447,
+        "ci95": [
+          -0.539,
+          -0.358
+        ]
+      },
+      "mid": {
+        "n_domains": 239,
+        "n_used": 239,
+        "mean": -0.216,
+        "ci95": [
+          -0.29,
+          -0.141
+        ]
+      },
+      "exposed": {
+        "n_domains": 241,
+        "n_used": 241,
+        "mean": -0.086,
+        "ci95": [
+          -0.166,
+          -0.004
+        ]
+      }
+    },
+    "L": {
+      "buried": {
+        "n_domains": 365,
+        "n_used": 365,
+        "mean": -0.56,
+        "ci95": [
+          -0.638,
+          -0.485
+        ]
+      },
+      "mid": {
+        "n_domains": 376,
+        "n_used": 376,
+        "mean": -0.161,
+        "ci95": [
+          -0.225,
+          -0.097
+        ]
+      },
+      "exposed": {
+        "n_domains": 383,
+        "n_used": 383,
+        "mean": -0.153,
+        "ci95": [
+          -0.208,
+          -0.1
+        ]
+      }
+    }
+  },
+  "arm5_per_wt_residue": {
+    "A": {
+      "n_strand": 111,
+      "strand": {
+        "n_domains": 89,
+        "n_used": 89,
+        "mean": -0.842,
+        "ci95": [
+          -1.129,
+          -0.56
+        ]
+      },
+      "other": {
+        "n_domains": 353,
+        "n_used": 353,
+        "mean": -0.292,
+        "ci95": [
+          -0.372,
+          -0.211
+        ]
+      },
+      "strand_minus_other": -0.513
+    },
+    "D": {
+      "n_strand": 65,
+      "strand": {
+        "n_domains": 52,
+        "n_used": 52,
+        "mean": -0.028,
+        "ci95": [
+          -0.359,
+          0.251
+        ]
+      },
+      "other": {
+        "n_domains": 339,
+        "n_used": 339,
+        "mean": -0.146,
+        "ci95": [
+          -0.234,
+          -0.058
+        ]
+      },
+      "strand_minus_other": 0.165
+    },
+    "E": {
+      "n_strand": 242,
+      "strand": {
+        "n_domains": 152,
+        "n_used": 152,
+        "mean": -0.337,
+        "ci95": [
+          -0.529,
+          -0.154
+        ]
+      },
+      "other": {
+        "n_domains": 360,
+        "n_used": 360,
+        "mean": -0.1,
+        "ci95": [
+          -0.162,
+          -0.037
+        ]
+      },
+      "strand_minus_other": -0.299
+    },
+    "F": {
+      "n_strand": 171,
+      "strand": {
+        "n_domains": 111,
+        "n_used": 111,
+        "mean": -1.0,
+        "ci95": [
+          -1.253,
+          -0.748
+        ]
+      },
+      "other": {
+        "n_domains": 227,
+        "n_used": 227,
+        "mean": -0.588,
+        "ci95": [
+          -0.726,
+          -0.462
+        ]
+      },
+      "strand_minus_other": -0.488
+    },
+    "G": {
+      "n_strand": 142,
+      "strand": {
+        "n_domains": 92,
+        "n_used": 92,
+        "mean": -0.873,
+        "ci95": [
+          -1.206,
+          -0.556
+        ]
+      },
+      "other": {
+        "n_domains": 361,
+        "n_used": 361,
+        "mean": -0.317,
+        "ci95": [
+          -0.407,
+          -0.228
+        ]
+      },
+      "strand_minus_other": -0.507
+    },
+    "I": {
+      "n_strand": 225,
+      "strand": {
+        "n_domains": 123,
+        "n_used": 123,
+        "mean": -0.623,
+        "ci95": [
+          -0.829,
+          -0.414
+        ]
+      },
+      "other": {
+        "n_domains": 295,
+        "n_used": 295,
+        "mean": -0.595,
+        "ci95": [
+          -0.706,
+          -0.491
+        ]
+      },
+      "strand_minus_other": 0.027
+    },
+    "K": {
+      "n_strand": 190,
+      "strand": {
+        "n_domains": 113,
+        "n_used": 113,
+        "mean": -0.338,
+        "ci95": [
+          -0.52,
+          -0.167
+        ]
+      },
+      "other": {
+        "n_domains": 352,
+        "n_used": 352,
+        "mean": 0.081,
+        "ci95": [
+          0.004,
+          0.16
+        ]
+      },
+      "strand_minus_other": -0.351
+    },
+    "L": {
+      "n_strand": 214,
+      "strand": {
+        "n_domains": 114,
+        "n_used": 114,
+        "mean": -0.695,
+        "ci95": [
+          -0.892,
+          -0.498
+        ]
+      },
+      "other": {
+        "n_domains": 358,
+        "n_used": 358,
+        "mean": -0.557,
+        "ci95": [
+          -0.643,
+          -0.47
+        ]
+      },
+      "strand_minus_other": -0.145
+    },
+    "N": {
+      "n_strand": 68,
+      "strand": {
+        "n_domains": 62,
+        "n_used": 62,
+        "mean": 0.163,
+        "ci95": [
+          -0.124,
+          0.451
+        ]
+      },
+      "other": {
+        "n_domains": 343,
+        "n_used": 343,
+        "mean": -0.159,
+        "ci95": [
+          -0.247,
+          -0.072
+        ]
+      },
+      "strand_minus_other": 0.379
+    },
+    "Q": {
+      "n_strand": 62,
+      "strand": {
+        "n_domains": 52,
+        "n_used": 52,
+        "mean": -0.645,
+        "ci95": [
+          -1.001,
+          -0.315
+        ]
+      },
+      "other": {
+        "n_domains": 299,
+        "n_used": 299,
+        "mean": -0.171,
+        "ci95": [
+          -0.291,
+          -0.06
+        ]
+      },
+      "strand_minus_other": -0.548
+    },
+    "R": {
+      "n_strand": 151,
+      "strand": {
+        "n_domains": 112,
+        "n_used": 112,
+        "mean": -0.491,
+        "ci95": [
+          -0.799,
+          -0.198
+        ]
+      },
+      "other": {
+        "n_domains": 312,
+        "n_used": 312,
+        "mean": -0.104,
+        "ci95": [
+          -0.205,
+          -0.005
+        ]
+      },
+      "strand_minus_other": -0.349
+    },
+    "S": {
+      "n_strand": 110,
+      "strand": {
+        "n_domains": 77,
+        "n_used": 77,
+        "mean": -1.034,
+        "ci95": [
+          -1.523,
+          -0.573
+        ]
+      },
+      "other": {
+        "n_domains": 327,
+        "n_used": 327,
+        "mean": -0.149,
+        "ci95": [
+          -0.244,
+          -0.057
+        ]
+      },
+      "strand_minus_other": -1.027
+    },
+    "T": {
+      "n_strand": 302,
+      "strand": {
+        "n_domains": 124,
+        "n_used": 124,
+        "mean": -0.076,
+        "ci95": [
+          -0.242,
+          0.094
+        ]
+      },
+      "other": {
+        "n_domains": 331,
+        "n_used": 331,
+        "mean": -0.08,
+        "ci95": [
+          -0.16,
+          0.001
+        ]
+      },
+      "strand_minus_other": -0.128
+    },
+    "V": {
+      "n_strand": 380,
+      "strand": {
+        "n_domains": 165,
+        "n_used": 165,
+        "mean": -0.826,
+        "ci95": [
+          -0.98,
+          -0.674
+        ]
+      },
+      "other": {
+        "n_domains": 331,
+        "n_used": 331,
+        "mean": -0.543,
+        "ci95": [
+          -0.64,
+          -0.447
+        ]
+      },
+      "strand_minus_other": -0.312
+    },
+    "W": {
+      "n_strand": 85,
+      "strand": {
+        "n_domains": 81,
+        "n_used": 81,
+        "mean": -1.427,
+        "ci95": [
+          -1.841,
+          -1.039
+        ]
+      },
+      "other": {
+        "n_domains": 173,
+        "n_used": 173,
+        "mean": -0.694,
+        "ci95": [
+          -0.883,
+          -0.499
+        ]
+      },
+      "strand_minus_other": -0.781
+    },
+    "Y": {
+      "n_strand": 187,
+      "strand": {
+        "n_domains": 112,
+        "n_used": 112,
+        "mean": -0.917,
+        "ci95": [
+          -1.196,
+          -0.645
+        ]
+      },
+      "other": {
+        "n_domains": 270,
+        "n_used": 270,
+        "mean": -0.469,
+        "ci95": [
+          -0.615,
+          -0.326
+        ]
+      },
+      "strand_minus_other": -0.367
+    }
+  },
+  "arm5_summary": {
+    "n_residue_types": 16,
+    "n_negative": 13,
+    "median_strand_minus_other": -0.35,
+    "note": "if the strand excess is only about which residue is deleted, it should vanish inside a fixed residue type"
+  },
+  "arm6_regression": {
+    "n": 19170,
+    "coef": {
+      "const": 0.4341,
+      "vol": -0.0012,
+      "rsa": 0.4813,
+      "plddt": -0.0086,
+      "is_E": -0.1976,
+      "is_H": 0.111
+    },
+    "ci95": {
+      "const": [
+        0.1382,
+        0.73
+      ],
+      "vol": [
+        -0.0016,
+        -0.0007
+      ],
+      "rsa": [
+        0.417,
+        0.5456
+      ],
+      "plddt": [
+        -0.0122,
+        -0.0049
+      ],
+      "is_E": [
+        -0.2918,
+        -0.1033
+      ],
+      "is_H": [
+        0.0366,
+        0.1853
+      ]
+    },
+    "note": "OLS with domain-clustered standard errors; is_E is the strand excess after volume, burial and pLDDT"
+  },
+  "gly_arm_raw_by_ss": {
+    "E": {
+      "n_domains": 225,
+      "n_used": 225,
+      "mean": -0.375,
+      "ci95": [
+        -0.504,
+        -0.251
+      ]
+    },
+    "H": {
+      "n_domains": 241,
+      "n_used": 241,
+      "mean": 0.036,
+      "ci95": [
+        -0.021,
+        0.094
+      ]
+    },
+    "L": {
+      "n_domains": 383,
+      "n_used": 383,
+      "mean": -0.264,
+      "ci95": [
+        -0.321,
+        -0.211
+      ]
+    }
+  },
+  "gly_arm_wt_glycine_only": {
+    "n_positions": 1194,
+    "by_ss": {
+      "E": {
+        "n_domains": 92,
+        "n_used": 92,
+        "mean": -0.661,
+        "ci95": [
+          -0.937,
+          -0.401
+        ]
+      },
+      "H": {
+        "n_domains": 77,
+        "n_used": 77,
+        "mean": 0.248,
+        "ci95": [
+          0.062,
+          0.448
+        ]
+      },
+      "L": {
+        "n_domains": 340,
+        "n_used": 340,
+        "mean": -0.525,
+        "ci95": [
+          -0.628,
+          -0.426
+        ]
+      }
+    }
+  }
+}

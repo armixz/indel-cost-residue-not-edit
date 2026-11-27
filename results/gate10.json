@@ -1,0 +1,258 @@
+{
+ "config": {
+  "min_positions": 20,
+  "ci_max": 1.0,
+  "ddg_cut": -1.0,
+  "repeats": 50
+ },
+ "per_k": {
+  "8": {
+   "domains": 346,
+   "select": {
+    "mean": 0.819,
+    "p10": 0.67,
+    "median": 0.829
+   },
+   "oracle": {
+    "mean": 0.894,
+    "p10": 0.778,
+    "median": 0.911
+   },
+   "fixed_plddt": {
+    "mean": 0.845,
+    "p10": 0.714,
+    "median": 0.862
+   },
+   "fixed_rsa": {
+    "mean": 0.67,
+    "p10": 0.548,
+    "median": 0.677
+   },
+   "fixed_dist_term": {
+    "mean": 0.721,
+    "p10": 0.457,
+    "median": 0.742
+   },
+   "fixed_prodomino": {
+    "mean": 0.775,
+    "p10": 0.564,
+    "median": 0.799
+   },
+   "fixed_consensus": {
+    "mean": 0.834,
+    "p10": 0.686,
+    "median": 0.848
+   }
+  },
+  "12": {
+   "domains": 346,
+   "select": {
+    "mean": 0.839,
+    "p10": 0.692,
+    "median": 0.873
+   },
+   "oracle": {
+    "mean": 0.897,
+    "p10": 0.779,
+    "median": 0.912
+   },
+   "fixed_plddt": {
+    "mean": 0.846,
+    "p10": 0.711,
+    "median": 0.861
+   },
+   "fixed_rsa": {
+    "mean": 0.672,
+    "p10": 0.558,
+    "median": 0.68
+   },
+   "fixed_dist_term": {
+    "mean": 0.724,
+    "p10": 0.459,
+    "median": 0.749
+   },
+   "fixed_prodomino": {
+    "mean": 0.776,
+    "p10": 0.568,
+    "median": 0.801
+   },
+   "fixed_consensus": {
+    "mean": 0.836,
+    "p10": 0.695,
+    "median": 0.853
+   }
+  },
+  "16": {
+   "domains": 341,
+   "select": {
+    "mean": 0.848,
+    "p10": 0.705,
+    "median": 0.872
+   },
+   "oracle": {
+    "mean": 0.899,
+    "p10": 0.792,
+    "median": 0.912
+   },
+   "fixed_plddt": {
+    "mean": 0.846,
+    "p10": 0.708,
+    "median": 0.863
+   },
+   "fixed_rsa": {
+    "mean": 0.673,
+    "p10": 0.559,
+    "median": 0.681
+   },
+   "fixed_dist_term": {
+    "mean": 0.722,
+    "p10": 0.458,
+    "median": 0.741
+   },
+   "fixed_prodomino": {
+    "mean": 0.777,
+    "p10": 0.57,
+    "median": 0.802
+   },
+   "fixed_consensus": {
+    "mean": 0.837,
+    "p10": 0.683,
+    "median": 0.855
+   }
+  },
+  "24": {
+   "domains": 330,
+   "select": {
+    "mean": 0.859,
+    "p10": 0.698,
+    "median": 0.882
+   },
+   "oracle": {
+    "mean": 0.908,
+    "p10": 0.791,
+    "median": 0.923
+   },
+   "fixed_plddt": {
+    "mean": 0.852,
+    "p10": 0.709,
+    "median": 0.869
+   },
+   "fixed_rsa": {
+    "mean": 0.676,
+    "p10": 0.554,
+    "median": 0.685
+   },
+   "fixed_dist_term": {
+    "mean": 0.721,
+    "p10": 0.445,
+    "median": 0.736
+   },
+   "fixed_prodomino": {
+    "mean": 0.783,
+    "p10": 0.574,
+    "median": 0.806
+   },
+   "fixed_consensus": {
+    "mean": 0.841,
+    "p10": 0.683,
+    "median": 0.854
+   }
+  },
+  "32": {
+   "domains": 291,
+   "select": {
+    "mean": 0.862,
+    "p10": 0.705,
+    "median": 0.88
+   },
+   "oracle": {
+    "mean": 0.915,
+    "p10": 0.792,
+    "median": 0.931
+   },
+   "fixed_plddt": {
+    "mean": 0.855,
+    "p10": 0.707,
+    "median": 0.867
+   },
+   "fixed_rsa": {
+    "mean": 0.677,
+    "p10": 0.546,
+    "median": 0.688
+   },
+   "fixed_dist_term": {
+    "mean": 0.712,
+    "p10": 0.432,
+    "median": 0.723
+   },
+   "fixed_prodomino": {
+    "mean": 0.781,
+    "p10": 0.571,
+    "median": 0.802
+   },
+   "fixed_consensus": {
+    "mean": 0.839,
+    "p10": 0.674,
+    "median": 0.857
+   }
+  }
+ },
+ "R4": {
+  "domains": 374,
+  "median_spearman_G_vs_A": 0.856,
+  "q25": 0.77,
+  "q75": 0.906,
+  "frac_above_0.8": 0.687,
+  "passed": true
+ },
+ "mean_ddg_by_inserted_residue": {
+  "G": -2.032,
+  "A": -1.912
+ },
+ "domains_used": 355,
+ "positions_used": 19117,
+ "R3": {
+  "best_candidate_counts": {
+   "plddt": 164,
+   "consensus": 62,
+   "prodomino": 60,
+   "dist_term": 56,
+   "rsa": 13
+  },
+  "top_share": 0.462,
+  "passed": true
+ },
+ "full_knowledge_auroc": {
+  "plddt": {
+   "mean": 0.845,
+   "p10": 0.708
+  },
+  "rsa": {
+   "mean": 0.672,
+   "p10": 0.551
+  },
+  "dist_term": {
+   "mean": 0.72,
+   "p10": 0.442
+  },
+  "prodomino": {
+   "mean": 0.775,
+   "p10": 0.565
+  },
+  "consensus": {
+   "mean": 0.834,
+   "p10": 0.67
+  }
+ },
+ "R1": {
+  "select_mean": 0.859,
+  "plddt_mean": 0.852,
+  "prodomino_mean": 0.783,
+  "passed": true
+ },
+ "R2": {
+  "select_p10": 0.698,
+  "plddt_p10": 0.709,
+  "passed": false
+ }
+}

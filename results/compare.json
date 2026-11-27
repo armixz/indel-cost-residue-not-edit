@@ -1,0 +1,107 @@
+{
+ "offset_check": {
+  "-2": {
+   "AraC": 0.828,
+   "Flp": 0.645,
+   "SigF": 0.643,
+   "TVMV": 0.6
+  },
+  "-1": {
+   "AraC": 0.854,
+   "Flp": 0.667,
+   "SigF": 0.658,
+   "TVMV": 0.648
+  },
+  "0": {
+   "AraC": 0.877,
+   "Flp": 0.65,
+   "SigF": 0.673,
+   "TVMV": 0.646
+  },
+  "1": {
+   "AraC": 0.869,
+   "Flp": 0.655,
+   "SigF": 0.651,
+   "TVMV": 0.613
+  },
+  "2": {
+   "AraC": 0.851,
+   "Flp": 0.644,
+   "SigF": 0.665,
+   "TVMV": 0.566
+  }
+ },
+ "prodomino_auroc": {
+  "AraC": {
+   "auroc": 0.877,
+   "spearman_vs_score": 0.497,
+   "sites": 290,
+   "positives": 79
+  },
+  "Flp": {
+   "auroc": 0.65,
+   "spearman_vs_score": 0.185,
+   "sites": 414,
+   "positives": 30
+  },
+  "SigF": {
+   "auroc": 0.673,
+   "spearman_vs_score": 0.127,
+   "sites": 244,
+   "positives": 48
+  },
+  "TVMV": {
+   "auroc": 0.646,
+   "spearman_vs_score": -0.117,
+   "sites": 216,
+   "positives": 30
+  },
+  "pooled_held_out_3": 0.495,
+  "pooled_all_4": 0.606
+ },
+ "comparison": {
+  "per_protein": {
+   "AraC": {
+    "prodomino": 0.877,
+    "combined_baseline_lofo": 0.704,
+    "best_single_feature": "entropy",
+    "best_single_auroc": 0.828
+   },
+   "Flp": {
+    "prodomino": 0.65,
+    "combined_baseline_lofo": 0.439,
+    "best_single_feature": "dist_term",
+    "best_single_auroc": 0.882
+   },
+   "SigF": {
+    "prodomino": 0.673,
+    "combined_baseline_lofo": 0.476,
+    "best_single_feature": "entropy",
+    "best_single_auroc": 0.62
+   },
+   "TVMV": {
+    "prodomino": 0.646,
+    "combined_baseline_lofo": 0.583,
+    "best_single_feature": "rsa",
+    "best_single_auroc": 0.745
+   }
+  },
+  "pooled_held_out_3": {
+   "prodomino": 0.495,
+   "combined_baseline_lofo": 0.544
+  },
+  "held_out_proteins_where_prodomino_beats_combined": 3,
+  "held_out_proteins_where_prodomino_beats_best_single": 1
+ },
+ "sites_without_prodomino_score": 0,
+ "verdict": {
+  "mark1_beats_combined_on_at_least_2_of_3": true,
+  "mark2_pooled_held_out_higher": false,
+  "passed": false
+ },
+ "arac_reproduction": {
+  "published_auroc": 0.84,
+  "measured_here": 0.877,
+  "conservation_entropy_auroc": 0.828
+ }
+}

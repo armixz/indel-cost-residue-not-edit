@@ -1,0 +1,137 @@
+{
+ "n_sites": 1164,
+ "by_protein": {
+  "AraC": {
+   "sites": 290,
+   "positives": 79,
+   "positive_rate": 0.272,
+   "domains": 5
+  },
+  "Flp": {
+   "sites": 414,
+   "positives": 30,
+   "positive_rate": 0.072,
+   "domains": 1
+  },
+  "SigF": {
+   "sites": 244,
+   "positives": 48,
+   "positive_rate": 0.197,
+   "domains": 1
+  },
+  "TVMV": {
+   "sites": 216,
+   "positives": 30,
+   "positive_rate": 0.139,
+   "domains": 1
+  }
+ },
+ "single_feature_auroc": {
+  "entropy": {
+   "AraC": 0.828,
+   "Flp": 0.605,
+   "SigF": 0.62,
+   "TVMV": 0.509,
+   "mean": 0.64
+  },
+  "rsa": {
+   "AraC": 0.673,
+   "Flp": 0.632,
+   "SigF": 0.481,
+   "TVMV": 0.745,
+   "mean": 0.633
+  },
+  "is_loop": {
+   "AraC": 0.516,
+   "Flp": 0.538,
+   "SigF": 0.493,
+   "TVMV": 0.499,
+   "mean": 0.512
+  },
+  "plddt": {
+   "AraC": 0.779,
+   "Flp": 0.749,
+   "SigF": 0.46,
+   "TVMV": 0.676,
+   "mean": 0.666
+  },
+  "dist_term": {
+   "AraC": 0.566,
+   "Flp": 0.882,
+   "SigF": 0.351,
+   "TVMV": 0.597,
+   "mean": 0.599
+  }
+ },
+ "spearman": {
+  "entropy": {
+   "AraC": 0.388,
+   "Flp": 0.026,
+   "SigF": 0.103,
+   "TVMV": -0.006
+  },
+  "rsa": {
+   "AraC": 0.305,
+   "Flp": 0.075,
+   "SigF": 0.048,
+   "TVMV": 0.122
+  },
+  "is_loop": {
+   "AraC": 0.06,
+   "Flp": 0.035,
+   "SigF": -0.12,
+   "TVMV": 0.035
+  },
+  "plddt": {
+   "AraC": 0.341,
+   "Flp": 0.093,
+   "SigF": -0.004,
+   "TVMV": -0.031
+  },
+  "dist_term": {
+   "AraC": 0.297,
+   "Flp": 0.285,
+   "SigF": -0.289,
+   "TVMV": -0.105
+  }
+ },
+ "combined_lofo_auroc": {
+  "AraC": 0.704,
+  "Flp": 0.439,
+  "SigF": 0.476,
+  "TVMV": 0.583,
+  "pooled_held_out_3": 0.544,
+  "pooled_all_4": 0.606
+ },
+ "combined_coefficients_per_fold": {
+  "AraC": {
+   "entropy": 0.198,
+   "rsa": 0.349,
+   "is_loop": -0.081,
+   "plddt": -0.014,
+   "dist_term": -0.525
+  },
+  "Flp": {
+   "entropy": 0.528,
+   "rsa": 0.132,
+   "is_loop": -0.076,
+   "plddt": -0.501,
+   "dist_term": 0.186
+  },
+  "SigF": {
+   "entropy": 0.662,
+   "rsa": 0.249,
+   "is_loop": -0.042,
+   "plddt": -0.63,
+   "dist_term": -0.595
+  },
+  "TVMV": {
+   "entropy": 0.75,
+   "rsa": 0.016,
+   "is_loop": 0.0,
+   "plddt": -0.348,
+   "dist_term": -0.299
+  }
+ },
+ "note": "AraC is reported but excluded from the primary comparison because the ProDomino authors used it to choose their checkpoint. ProDomino scores are not in this file."
+}

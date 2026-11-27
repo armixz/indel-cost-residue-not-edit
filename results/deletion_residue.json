@@ -1,0 +1,82 @@
+{
+  "n": 19897,
+  "n_domains": 387,
+  "residues_present": 20,
+  "counts_by_class": {
+    "L": 10445,
+    "H": 6548,
+    "E": 2904
+  },
+  "residues_with_100_in_both_H_and_L": 16,
+  "D2_underpowered": false,
+  "D1_interaction_F": {
+    "F": 7.375,
+    "p": 1.7436571945605708e-36,
+    "df": 36.0,
+    "pass": true
+  },
+  "helix_minus_loop_by_residue": {
+    "A": 1.19,
+    "D": 1.127,
+    "E": 0.977,
+    "I": 1.046,
+    "K": 1.334,
+    "L": 0.413,
+    "N": 0.225,
+    "Q": 1.275,
+    "R": 1.247,
+    "S": 0.573,
+    "T": 0.24,
+    "V": 0.046
+  },
+  "strand_minus_loop_by_residue": {
+    "A": 0.926,
+    "E": 0.046,
+    "G": 0.445,
+    "I": 0.362,
+    "K": 0.134,
+    "L": -0.097,
+    "R": 0.573,
+    "S": 0.254,
+    "T": 0.471,
+    "V": 0.381
+  },
+  "D2": {
+    "n_residues": 12,
+    "spearman_pace_vs_helix_contrast": -0.539,
+    "p": 0.0703055633516462,
+    "pass": false
+  },
+  "D2_without_Gly_Pro": {
+    "n": 12,
+    "spearman": -0.539,
+    "p": 0.0703055633516462
+  },
+  "D4_volume_comparison": {
+    "spearman_volume_vs_helix_contrast": 0.326,
+    "p": 0.30148269746145584,
+    "propensity_beats_volume": true
+  },
+  "D3_by_burial": {},
+  "kill1_permutation": {
+    "F": 0.877,
+    "p": 0.6792406418667182,
+    "vanishes": true
+  },
+  "D5_designed": {
+    "n_positions": 2407,
+    "n_residues": 8,
+    "spearman": -0.204,
+    "p": 0.6286746732890386,
+    "contrasts": {
+      "A": -0.07,
+      "E": 0.168,
+      "I": 0.203,
+      "K": 0.248,
+      "L": 0.228,
+      "R": 0.243,
+      "T": 0.149,
+      "V": 0.052
+    }
+  }
+}

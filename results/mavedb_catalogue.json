@@ -1,0 +1,4839 @@
+{
+ "urn:mavedb:00000001-a": {
+  "title": "UBE2I yeast complementation",
+  "short": "A Deep Mutational Scan of the human SUMO E2 conjugase UBE2I using functional complementation in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000001-a-1",
+   "urn:mavedb:00000001-a-2",
+   "urn:mavedb:00000001-a-3",
+   "urn:mavedb:00000001-a-4"
+  ],
+  "pub": [
+   "29269382"
+  ]
+ },
+ "urn:mavedb:00000001-b": {
+  "title": "SUMO1 yeast complementation",
+  "short": "A Deep Mutational Scan of the human SUMO1 using functional complementation in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000001-b-1",
+   "urn:mavedb:00000001-b-2"
+  ],
+  "pub": [
+   "29269382"
+  ]
+ },
+ "urn:mavedb:00000001-c": {
+  "title": "Calmodulin yeast complementation",
+  "short": "A Deep Mutational Scan of human Calmodulin using functional complementation in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000001-c-1",
+   "urn:mavedb:00000001-c-2"
+  ],
+  "pub": [
+   "29269382"
+  ]
+ },
+ "urn:mavedb:00000001-d": {
+  "title": "TPK1 yeast complementation",
+  "short": "A Deep Mutational Scan of human thiamin pyrophosphokinase (TPK1) using functional complementation in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000001-d-2"
+  ],
+  "pub": [
+   "29269382"
+  ]
+ },
+ "urn:mavedb:00000002-a": {
+  "title": "YAP65 WW domain",
+  "short": "Deep mutational scan of the hYAP65 WW domain using phage display.",
+  "score_sets": [
+   "urn:mavedb:00000002-a-1",
+   "urn:mavedb:00000002-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000003-a": {
+  "title": "BRCA1 E3",
+  "short": "Deep mutational scan of the BRCA1 RING domain using a phage autoubiquitination assay.",
+  "score_sets": [
+   "urn:mavedb:00000003-a-1",
+   "urn:mavedb:00000003-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000003-b": {
+  "title": "BRCA1 Y2H",
+  "short": "Deep mutational scan of the BRCA1 RING domain using a yeast two-hybrid heterodimerization assay.",
+  "score_sets": [
+   "urn:mavedb:00000003-b-1",
+   "urn:mavedb:00000003-b-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000004-a": {
+  "title": "Deep mutational scan of E4B (Ube4b) U-box domain auto-ubiquitination",
+  "short": "Deep mutational scan of the murine E4B (Ube4b) U-box domain using a phage display auto-ubiquitination assay.",
+  "score_sets": [
+   "urn:mavedb:00000004-a-1",
+   "urn:mavedb:00000004-a-2",
+   "urn:mavedb:00000004-a-3"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000005-a": {
+  "title": "CBS yeast complementation",
+  "short": "A Deep Mutational Scan of the human Cystathionine beta-Synthase (CBS) using functional complementation in yeast",
+  "score_sets": [
+   "urn:mavedb:00000005-a-3",
+   "urn:mavedb:00000005-a-4",
+   "urn:mavedb:00000005-a-5",
+   "urn:mavedb:00000005-a-6"
+  ],
+  "pub": [
+   "32000841"
+  ]
+ },
+ "urn:mavedb:00000006-a": {
+  "title": "Massively parallel functional dissection of ALDOB enhancer",
+  "short": "Massively parallel functional dissection of the ALDOB enhancer in a mouse liver transcription assay.",
+  "score_sets": [
+   "urn:mavedb:00000006-a-1"
+  ],
+  "pub": [
+   "22371081"
+  ]
+ },
+ "urn:mavedb:00000007-a": {
+  "title": "Massively parallel functional dissection of ECR11 enhancer",
+  "short": "Massively parallel functional dissection of the ECR11 enhancer in a mouse liver transcription assay.",
+  "score_sets": [
+   "urn:mavedb:00000007-a-1"
+  ],
+  "pub": [
+   "22371081"
+  ]
+ },
+ "urn:mavedb:00000008-a": {
+  "title": "Massively parallel functional dissection of LTV1 enhancer",
+  "short": "Massively parallel functional dissection of the LTV1 enhancer in a mouse liver transcription assay.",
+  "score_sets": [
+   "urn:mavedb:00000008-a-1",
+   "urn:mavedb:00000008-a-2"
+  ],
+  "pub": [
+   "22371081"
+  ]
+ },
+ "urn:mavedb:00000009-a": {
+  "title": "Comprehensive analysis of the SUL1 promoter",
+  "short": "Comprehensive analysis of the SUL1 promoter of Saccharomyces cerevisiae under glucose and sulfate limited growth.",
+  "score_sets": [
+   "urn:mavedb:00000009-a-1",
+   "urn:mavedb:00000009-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000010-a": {
+  "title": "Deep mutational scan of Pab1 RRM domain",
+  "short": "Deep mutational scan of the RRM2 domain of the Saccharomyces cerevisiae poly(A)-binding protein (Pab1).",
+  "score_sets": [
+   "urn:mavedb:00000010-a-1"
+  ],
+  "pub": [
+   "24064791"
+  ]
+ },
+ "urn:mavedb:00000011-a": {
+  "title": "Deep mutational scan of HSP90",
+  "short": "Deep mutational scan of all single mutants in a nine-amino acid region of Hsp90.",
+  "score_sets": [
+   "urn:mavedb:00000011-a-1"
+  ],
+  "pub": [
+   "21464309"
+  ]
+ },
+ "urn:mavedb:00000012-a": {
+  "title": "Deep mutational scan of Gal4 DNA-binding domain",
+  "short": "Deep mutational scan of Gal4 DNA-binding domain using a yeast growth assay.",
+  "score_sets": [
+   "urn:mavedb:00000012-a-1",
+   "urn:mavedb:00000012-a-2",
+   "urn:mavedb:00000012-a-3",
+   "urn:mavedb:00000012-a-4",
+   "urn:mavedb:00000012-a-5",
+   "urn:mavedb:00000012-a-6"
+  ],
+  "pub": [
+   "25559584"
+  ]
+ },
+ "urn:mavedb:00000014-a": {
+  "title": "Saturation mutagenesis MPRA of BCL11A enhancer",
+  "short": "Saturation mutagenesis MPRA of BCL11A enhancer in HEL 92.1.7 cells.",
+  "score_sets": [
+   "urn:mavedb:00000014-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000015-a": {
+  "title": "Saturation mutagenesis MPRA of F9 promoter",
+  "short": "Saturation mutagenesis MPRA of F9 promoter in HepG2 cells.",
+  "score_sets": [
+   "urn:mavedb:00000015-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000016-a": {
+  "title": "Saturation mutagenesis MPRA of FOXE1 promoter",
+  "short": "Saturation mutagenesis MPRA of FOXE1 promoter in HeLa cells.",
+  "score_sets": [
+   "urn:mavedb:00000016-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000017-a": {
+  "title": "Saturation mutagenesis MPRA of GP1BB promoter",
+  "short": "Saturation mutagenesis MPRA of GP1BB promoter in HEL 92.1.7 cells.",
+  "score_sets": [
+   "urn:mavedb:00000017-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000018-a": {
+  "title": "Saturation mutagenesis MPRA of HBB promoter",
+  "short": "Saturation mutagenesis MPRA of HBB promoter in HEL 92.1.7 cells.",
+  "score_sets": [
+   "urn:mavedb:00000018-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000019-a": {
+  "title": "Saturation mutagenesis MPRA of HBG1 promoter",
+  "short": "Saturation mutagenesis MPRA of HBG1 promoter in HEL 92.1.7 cells.",
+  "score_sets": [
+   "urn:mavedb:00000019-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000020-a": {
+  "title": "Saturation mutagenesis MPRA of HNF4A promoter",
+  "short": "Saturation mutagenesis MPRA of HNF4A promoter in HEK293T cells.",
+  "score_sets": [
+   "urn:mavedb:00000020-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000021-a": {
+  "title": "Saturation mutagenesis MPRA of IRF4 enhancer",
+  "short": "Saturation mutagenesis MPRA of IRF4 enhancer in SK-MEL-28 cells.",
+  "score_sets": [
+   "urn:mavedb:00000021-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000022-a": {
+  "title": "Saturation mutagenesis MPRA of IRF6 enhancer",
+  "short": "Saturation mutagenesis MPRA of IRF6 enhancer in HaCaT cells.",
+  "score_sets": [
+   "urn:mavedb:00000022-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000023-a": {
+  "title": "Saturation mutagenesis MPRA of LDLR promoter",
+  "short": "Saturation mutagenesis MPRA of LDLR promoter in HepG2 cells.",
+  "score_sets": [
+   "urn:mavedb:00000023-a-1",
+   "urn:mavedb:00000023-a-2"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000024-a": {
+  "title": "Saturation mutagenesis MPRA of MSMB promoter",
+  "short": "Saturation mutagenesis MPRA of MSMB promoter in HEK293T cells.",
+  "score_sets": [
+   "urn:mavedb:00000024-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000025-a": {
+  "title": "Saturation mutagenesis MPRA of MYC enhancer (rs6983267)",
+  "short": "Saturation mutagenesis MPRA of MYC enhancer (rs6983267) in HEK293T cells.",
+  "score_sets": [
+   "urn:mavedb:00000025-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000026-a": {
+  "title": "Saturation mutagenesis MPRA of MYC enhancer (rs11986220)",
+  "short": "Saturation mutagenesis MPRA of MYC enhancer (rs11986220) in LNCaP cells with 100nM DHT.",
+  "score_sets": [
+   "urn:mavedb:00000026-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000027-a": {
+  "title": "Saturation mutagenesis MPRA of PKLR promoter, 24h",
+  "short": "Saturation mutagenesis MPRA of PKLR promoter, 24h post-transfection in K562 cells.",
+  "score_sets": [
+   "urn:mavedb:00000027-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000027-b": {
+  "title": "Saturation mutagenesis MPRA of PKLR promoter, 48h",
+  "short": "Saturation mutagenesis MPRA of PKLR promoter, 48h post-transfection in K562 cells.",
+  "score_sets": [
+   "urn:mavedb:00000027-b-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000028-a": {
+  "title": "Saturation mutagenesis MPRA of RET enhancer",
+  "short": "Saturation mutagenesis MPRA of RET enhancer in Neuro-2a cells.",
+  "score_sets": [
+   "urn:mavedb:00000028-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000029-a": {
+  "title": "Saturation mutagenesis MPRA of SORT1 enhancer",
+  "short": "Saturation mutagenesis MPRA of SORT1 enhancer in HepG2 cells.",
+  "score_sets": [
+   "urn:mavedb:00000029-a-1",
+   "urn:mavedb:00000029-a-2"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000029-b": {
+  "title": "Saturation mutagenesis MPRA of SORT1 enhancer, flipped",
+  "short": "Saturation mutagenesis MPRA of SORT1 enhancer (reversed orientation) in HepG2 cells.",
+  "score_sets": [
+   "urn:mavedb:00000029-b-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000030-a": {
+  "title": "Saturation mutagenesis MPRA of TCF7L2 enhancer",
+  "short": "Saturation mutagenesis MPRA of TCF7L2 enhancer in MIN6 cells.",
+  "score_sets": [
+   "urn:mavedb:00000030-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000031-a": {
+  "title": "Saturation mutagenesis MPRA of TERT promoter, HEK",
+  "short": "Saturation mutagenesis MPRA of TERT promoter in HEK293T cells.",
+  "score_sets": [
+   "urn:mavedb:00000031-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000031-b": {
+  "title": "Saturation mutagenesis MPRA of TERT promoter, GBM",
+  "short": "Saturation mutagenesis MPRA of TERT promoter in glioblastoma SF7996 (GBM) cells.",
+  "score_sets": [
+   "urn:mavedb:00000031-b-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000031-c": {
+  "title": "Saturation mutagenesis MPRA of TERT promoter, GBM siRNA knockdown",
+  "short": "Saturation mutagenesis MPRA of TERT promoter in glioblastoma SF7996 (GBM) cells, siRNA knockdown of GABPA.",
+  "score_sets": [
+   "urn:mavedb:00000031-c-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000031-d": {
+  "title": "Saturation mutagenesis MPRA of TERT promoter, GBM siRNA control",
+  "short": "Saturation mutagenesis MPRA of TERT promoter in glioblastoma SF7996 (GBM) cells, siRNA scrambled control.",
+  "score_sets": [
+   "urn:mavedb:00000031-d-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000032-a": {
+  "title": "Saturation mutagenesis MPRA of UC88 enhancer",
+  "short": "Saturation mutagenesis MPRA of UC88 (ultraconserved element) enhancer in Neuro-2a cells.",
+  "score_sets": [
+   "urn:mavedb:00000032-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000033-a": {
+  "title": "Saturation mutagenesis MPRA of ZFAND3 enhancer",
+  "short": "Saturation mutagenesis MPRA of ZFAND3 enhancer in MIN6 cells.",
+  "score_sets": [
+   "urn:mavedb:00000033-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000034-a": {
+  "title": "Saturation mutagenesis MPRA of ZRS enhancer, Hoxd13",
+  "short": "Saturation mutagenesis MPRA of ZRS enhancer in NIH3T3 cells. Co-transfected with Hoxd13.",
+  "score_sets": [
+   "urn:mavedb:00000034-a-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000034-b": {
+  "title": "Saturation mutagenesis MPRA of ZRS enhancer, Hoxd13+Hand2",
+  "short": "Saturation mutagenesis MPRA of ZRS enhancer in NIH3T3 cells. Co-transfected with Hoxd13 and Hand2.",
+  "score_sets": [
+   "urn:mavedb:00000034-b-1"
+  ],
+  "pub": [
+   "31395865"
+  ]
+ },
+ "urn:mavedb:00000035-a": {
+  "title": "HMGCR yeast complementation",
+  "short": "A deep mutational scan of human HMG-CoA reductase (HMGCR) based on a functional complementation assay in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000035-a-1",
+   "urn:mavedb:00000035-a-2",
+   "urn:mavedb:00000035-a-3"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000036-a": {
+  "title": "LDLRAP1 Y2H",
+  "short": "A deep mutational scan of low-density lipoprotein receptor adaptor protein 1 (LDLRAP1) based on a yeast two-hybrid assay.",
+  "score_sets": [
+   "urn:mavedb:00000036-a-1",
+   "urn:mavedb:00000036-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000037-a": {
+  "title": "Ubiquitin yeast growth",
+  "short": "Deep mutational scan of ubiquitin in a yeast growth assay",
+  "score_sets": [
+   "urn:mavedb:00000037-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000038-a": {
+  "title": "Ubiquitin E1 binding, limiting E1",
+  "short": "Deep mutational scan of ubiquitin measuring binding to E1 with yeast display with limiting E1.",
+  "score_sets": [
+   "urn:mavedb:00000038-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000038-b": {
+  "title": "Ubiquitin E1 binding, excess E1",
+  "short": "Deep mutational scan of ubiquitin measuring binding to E1 with yeast display with excess E1.",
+  "score_sets": [
+   "urn:mavedb:00000038-b-1",
+   "urn:mavedb:00000038-b-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000039-a": {
+  "title": "Deep mutational scan of HSP90 under multiple promoters",
+  "short": "Deep mutational scan of all single mutants in a nine-amino acid region of Hsp90 (Hsp82) in Saccharomyces cerevisiae under the control of different promoters.",
+  "score_sets": [
+   "urn:mavedb:00000039-a-1",
+   "urn:mavedb:00000039-a-2",
+   "urn:mavedb:00000039-a-3",
+   "urn:mavedb:00000039-a-4",
+   "urn:mavedb:00000039-a-5",
+   "urn:mavedb:00000039-a-6",
+   "urn:mavedb:00000039-a-7"
+  ],
+  "pub": [
+   "23825969"
+  ]
+ },
+ "urn:mavedb:00000040-a": {
+  "title": "Deep mutational scan of HSP90 varying temperature and salt",
+  "short": "Deep mutational scan of all single mutants in a nine-amino acid region of Hsp90 (Hsp82) in Saccharomyces cerevisiae under different combinations of temperature and salinity.",
+  "score_sets": [
+   "urn:mavedb:00000040-a-1",
+   "urn:mavedb:00000040-a-2",
+   "urn:mavedb:00000040-a-3",
+   "urn:mavedb:00000040-a-4"
+  ],
+  "pub": [
+   "24299404"
+  ]
+ },
+ "urn:mavedb:00000041-a": {
+  "title": "Deep mutational scan of Src CD",
+  "short": "Deep mutational scan of the Src kinase catalytic domain.",
+  "score_sets": [
+   "urn:mavedb:00000041-a-1"
+  ],
+  "pub": [
+   "30956043"
+  ]
+ },
+ "urn:mavedb:00000041-b": {
+  "title": "Deep mutational scan of Src SH4",
+  "short": "Deep mutational scan of the Src kinase SH4 domain.",
+  "score_sets": [
+   "urn:mavedb:00000041-b-1"
+  ],
+  "pub": [
+   "30956043"
+  ]
+ },
+ "urn:mavedb:00000042-a": {
+  "title": "EGFP N-terminal codon",
+  "short": "Mutagenesis of the start codon of EGFP and its effect on an N-terminal fusion.",
+  "score_sets": [
+   "urn:mavedb:00000042-a-1"
+  ],
+  "pub": [
+   "28335006"
+  ]
+ },
+ "urn:mavedb:00000043-a": {
+  "title": "Novel Drivers and Modifiers of MPL-dependent Oncogenic Transformation Identified by Deep Mutational Scanning",
+  "short": "Evaluation of all possible single-amino-acid substitutions in the human Thrombopoietin Receptor (Mpl) transmembrane domain for their ability to confer cytokine-independent growth or enhance S505N constitutive activity in Ba/F3 cells.",
+  "score_sets": [
+   "urn:mavedb:00000043-a-1",
+   "urn:mavedb:00000043-a-2"
+  ],
+  "pub": [
+   "31697803"
+  ]
+ },
+ "urn:mavedb:00000044-a": {
+  "title": "Effects on binding of mutations in the SARS-CoV-2 RBD",
+  "short": "This experiment measures the effects on binding of variants and individual mutations in the SARS-CoV-2 RBD",
+  "score_sets": [
+   "urn:mavedb:00000044-a-1",
+   "urn:mavedb:00000044-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000044-b": {
+  "title": "Effects on expression of mutations in the SARS-CoV-2 RBD",
+  "short": "This experiment measures the effects on binding of variants and individual mutations in the SARS-CoV-2 RBD",
+  "score_sets": [
+   "urn:mavedb:00000044-b-1",
+   "urn:mavedb:00000044-b-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-a": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with MG-132",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-b": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Geldanamycin",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-c": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Miconazole",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-c-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-d": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Melatonin",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-d-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-e": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Menadione",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-e-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-f": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Spermidine",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-f-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-g": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein based on Toxicity in Yeast Treated with Dopamine",
+  "short": "The toxicity of alpha-synuclein missense variants was determined by measuring their change in frequency during yeast outgrowth",
+  "score_sets": [
+   "urn:mavedb:00000045-g-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000045-h": {
+  "title": "Deep Mutational Scanning of alpha-Synuclein in Yeast",
+  "short": "A comprehensive library of 2,600 missense variants of the protein alpha-synuclein, which is implicated in Parkinson's disease, were screened for relative toxicity in yeast, a cellular model for alpha-synuclein pathobiology. Additional experiments were performed in chemically perturbed backgrounds, and relative expression level was determined by cell sorting based on the fluorescence of a fusion protein reporter.",
+  "score_sets": [
+   "urn:mavedb:00000045-h-1"
+  ],
+  "pub": [
+   "32152544"
+  ]
+ },
+ "urn:mavedb:00000046-a": {
+  "title": "MARCH1 and MIR2 recognize different features of human CD86",
+  "short": "A deep mutational screen of the CD86 transmembrane domain (residues 244-270) to compare the features that are recognised by the human E3 ligase MARCH1 versus the KSHV E3 ligase MIR2.",
+  "score_sets": [
+   "urn:mavedb:00000046-a-1",
+   "urn:mavedb:00000046-a-2",
+   "urn:mavedb:00000046-a-3"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000047-a": {
+  "title": "CCR5 surface expression",
+  "short": "Deep mutational scan selecting for cell surface expression of CCR5 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000047-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000047-b": {
+  "title": "CCR5 Ab 2D7 binding",
+  "short": "Deep mutational scan selecting for CCR5 binding to Ab 2D7 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000047-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000047-c": {
+  "title": "CCR5 HIV binding",
+  "short": "Deep mutational scan selecting for CCR5 binding to HIV-1(BaL) gp120-CD4 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000047-c-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000048-a": {
+  "title": "CXCR4 surface expression",
+  "short": "Deep mutational scan selecting for cell surface expression of CXCR4 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000048-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000048-b": {
+  "title": "CXCR4 CXCL12 binding",
+  "short": "Deep mutational scan selecting for CXCR4 binding to CXCL12 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000048-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000048-c": {
+  "title": "CXCR4 Ab 12G5 binding",
+  "short": "Deep mutational scan selecting for CXCR4 binding to Ab 12G5 in Expi293F cells.",
+  "score_sets": [
+   "urn:mavedb:00000048-c-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000049-a": {
+  "title": "MTHFR DMS",
+  "short": "Deep mutational scan of human MTHFR based on functional complementation in yeast, at three different concentrations of folate (12, 25 and 100 ug/ml ) and in two genetic backgrounds (WT / A222V)",
+  "score_sets": [
+   "urn:mavedb:00000049-a-1",
+   "urn:mavedb:00000049-a-2",
+   "urn:mavedb:00000049-a-3",
+   "urn:mavedb:00000049-a-4",
+   "urn:mavedb:00000049-a-5",
+   "urn:mavedb:00000049-a-6",
+   "urn:mavedb:00000049-a-7",
+   "urn:mavedb:00000049-a-8"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000050-a": {
+  "title": "MSH2 deep mutational scan",
+  "short": "Massively parallel functional testing of MSH2 missense variants conferring Lynch Syndrome risk",
+  "score_sets": [
+   "urn:mavedb:00000050-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000051-a": {
+  "title": "C-terminal of L-Selectin (CLS)",
+  "short": "A deep mutational scanning experiment targeting the CLS helix region on the bacterial inner membrane.",
+  "score_sets": [
+   "urn:mavedb:00000051-a-1"
+  ],
+  "pub": [
+   "26824389"
+  ]
+ },
+ "urn:mavedb:00000051-b": {
+  "title": "Helix region of ErbB2",
+  "short": "A deep mutational scanning experiment targeting ErbB2 helix region on the bacterial inner membrane.",
+  "score_sets": [
+   "urn:mavedb:00000051-b-1"
+  ],
+  "pub": [
+   "26824389"
+  ]
+ },
+ "urn:mavedb:00000051-c": {
+  "title": "Helix region of Glycophorin A (GpA)",
+  "short": "A deep mutational scanning experiment targeting the GpA helix region on the bacterial inner membrane.",
+  "score_sets": [
+   "urn:mavedb:00000051-c-1"
+  ],
+  "pub": [
+   "26824389"
+  ]
+ },
+ "urn:mavedb:00000052-a": {
+  "title": "Gcn4 activation domain activity",
+  "short": "Mutagenesis study of Gcn4 activation domain in complete media using fluorescent reporter assay.",
+  "score_sets": [
+   "urn:mavedb:00000052-a-1"
+  ],
+  "pub": [
+   "29525204"
+  ]
+ },
+ "urn:mavedb:00000052-b": {
+  "title": "Gcn4 activation domain induction ratio",
+  "short": "Mutagenesis study of Gcn4 activation domain in starvation media using fluorescent reporter assay.",
+  "score_sets": [
+   "urn:mavedb:00000052-b-1"
+  ],
+  "pub": [
+   "29525204"
+  ]
+ },
+ "urn:mavedb:00000053-a": {
+  "title": "Pairwise mutation fitness of PSD95 PDZ3 domain",
+  "short": "Bacterial two-hybrid assay to measure binding fitness of PSD95 PDZ3 domain to the CRIPT peptide ligand",
+  "score_sets": [
+   "urn:mavedb:00000053-a-1",
+   "urn:mavedb:00000053-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000054-a": {
+  "title": "PTEN Lipid Phosphatase",
+  "short": "PTEN activity measured using a lipid phosphatase assay in a humanized yeast model.",
+  "score_sets": [
+   "urn:mavedb:00000054-a-1"
+  ],
+  "pub": [
+   "29706350"
+  ]
+ },
+ "urn:mavedb:00000055-a": {
+  "title": "NUDT15 protein stability assay",
+  "short": "NUDT15 protein stability measured by VAMP-seq.",
+  "score_sets": [
+   "urn:mavedb:00000055-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000055-b": {
+  "title": "NUDT15 activity scores",
+  "short": "NUDT15 activity scores measured by a thiopurine-cytotoxicity-based screen.",
+  "score_sets": [
+   "urn:mavedb:00000055-b-1"
+  ],
+  "pub": [
+   "32094176"
+  ]
+ },
+ "urn:mavedb:00000057-a": {
+  "title": "Unregulated-Ras",
+  "short": "Selection result of Ras mutants expressed without the GAP or the GEF",
+  "score_sets": [
+   "urn:mavedb:00000057-a-1"
+  ],
+  "pub": [
+   "28686159"
+  ]
+ },
+ "urn:mavedb:00000057-b": {
+  "title": "Attenuated-Ras",
+  "short": "Selection result of Ras mutants expressed in the presence of the GAP, but without the GEF",
+  "score_sets": [
+   "urn:mavedb:00000057-b-1"
+  ],
+  "pub": [
+   "28686159"
+  ]
+ },
+ "urn:mavedb:00000057-c": {
+  "title": "Regulated-Ras",
+  "short": "In the presence of a GAP and a GEF, selection result on the mutated H-Ras.",
+  "score_sets": [
+   "urn:mavedb:00000057-c-1"
+  ],
+  "pub": [
+   "28686159"
+  ]
+ },
+ "urn:mavedb:00000057-d": {
+  "title": "G12V mutated Ras",
+  "short": "Selection on the oncogenic G12V mutated type of Ras",
+  "score_sets": [
+   "urn:mavedb:00000057-d-1"
+  ],
+  "pub": [
+   "28686159"
+  ]
+ },
+ "urn:mavedb:00000058-a": {
+  "title": "Variants of A\u03b242 affecting aggregation",
+  "short": "Molecular determinants of A\u03b2 aggregation with Deep Mutational Scanning",
+  "score_sets": [
+   "urn:mavedb:00000058-a-1"
+  ],
+  "pub": [
+   "31558564"
+  ]
+ },
+ "urn:mavedb:00000059-a": {
+  "title": "p53 variant effect measured by cell growth",
+  "short": "The impact of p53 variant is represented by the frequency change of cells harboring that mutation over several time point.",
+  "score_sets": [
+   "urn:mavedb:00000059-a-1"
+  ],
+  "pub": [
+   "29979965"
+  ]
+ },
+ "urn:mavedb:00000060-a": {
+  "title": "TDP-43 toxicity",
+  "short": "Deep mutational scanning of TDP-43 prion-like domain using a toxicity assay.",
+  "score_sets": [
+   "urn:mavedb:00000060-a-1",
+   "urn:mavedb:00000060-a-2"
+  ],
+  "pub": [
+   "31519910"
+  ]
+ },
+ "urn:mavedb:00000061-a": {
+  "title": "RAF variant selected after 2h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-a-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-b": {
+  "title": "RAF variant selected after 4h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-b-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-c": {
+  "title": "RAF variant selected after 6h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-c-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-d": {
+  "title": "RAF variant selected after 8h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-d-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-e": {
+  "title": "RAF variant selected after 10h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-e-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-f": {
+  "title": "RAF variant selected after 12h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-f-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-g": {
+  "title": "RAF variant selected after 24h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-g-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000061-h": {
+  "title": "RAF variant selected after 48h",
+  "short": "Measuring the interaction of mutated RAF to RAS by a new phage-assisted continuous selection (PACS) system.",
+  "score_sets": [
+   "urn:mavedb:00000061-h-1"
+  ],
+  "pub": [
+   "31808666"
+  ]
+ },
+ "urn:mavedb:00000062-a": {
+  "title": "Abundance of CYP2C9 variants",
+  "short": "This study tested the protein abundance of CYP2C9 variants by fusing green fluorescent protein.",
+  "score_sets": [
+   "urn:mavedb:00000062-a-1"
+  ],
+  "pub": [
+   "32004414"
+  ]
+ },
+ "urn:mavedb:00000062-b": {
+  "title": "Abundance of CYP2C19 variants",
+  "short": "This study tested the protein abundance of CYP2C19 variants by fusing green fluorescent protein.",
+  "score_sets": [
+   "urn:mavedb:00000062-b-1"
+  ],
+  "pub": [
+   "32004414"
+  ]
+ },
+ "urn:mavedb:00000063-a": {
+  "title": "Growth rate of mutated DHFR with functioning Lon",
+  "short": "Growth rate of E.coli with mutated dihydrofolate reductase (DHFR) with functioning Lon protease",
+  "score_sets": [
+   "urn:mavedb:00000063-a-1"
+  ],
+  "pub": [
+   "32701056"
+  ]
+ },
+ "urn:mavedb:00000063-b": {
+  "title": "Growth rate of mutated DHFR with deficient Lon",
+  "short": "Growth rate of E.coli with mutated dihydrofolate reductase (DHFR) with deficient Lon protease",
+  "score_sets": [
+   "urn:mavedb:00000063-b-1"
+  ],
+  "pub": [
+   "32701056"
+  ]
+ },
+ "urn:mavedb:00000064-a": {
+  "title": "LamB resistance to phage \u03bb",
+  "short": "Growth rate of E.coli with mutated LamB cultured with rich phage \u03bb",
+  "score_sets": [
+   "urn:mavedb:00000064-a-1"
+  ],
+  "pub": [
+   "32238226"
+  ]
+ },
+ "urn:mavedb:00000064-b": {
+  "title": "Maltose transportation of LamB",
+  "short": "Growth rate of E.coli with mutated LamB where maltodextrin is the sole carbon source",
+  "score_sets": [
+   "urn:mavedb:00000064-b-1"
+  ],
+  "pub": [
+   "32238226"
+  ]
+ },
+ "urn:mavedb:00000065-a": {
+  "title": "NCS1 variant effect map",
+  "short": "NCS1 variant effect map (Short description - to be updated)",
+  "score_sets": [
+   "urn:mavedb:00000065-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000066-a": {
+  "title": "GDI1 variant effect map",
+  "short": "GDI1 variant effect map (Short description - to be updated)",
+  "score_sets": [
+   "urn:mavedb:00000066-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000067-a": {
+  "title": "TECR variant effect map",
+  "short": "TECR variant effect map (Short description - to be updated)",
+  "score_sets": [
+   "urn:mavedb:00000067-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000068-a": {
+  "title": "Mutated p53 paired with wildtype under nutlin-3",
+  "short": "TP53 saturation mutagenesis screens with TP53 wild-type using nutlin-3 which interrupts a negative regulator of p53",
+  "score_sets": [
+   "urn:mavedb:00000068-a-1"
+  ],
+  "pub": [
+   "30224644"
+  ]
+ },
+ "urn:mavedb:00000068-b": {
+  "title": "Mutated p53 with nutlin-3",
+  "short": "TP53 saturation mutagenesis screens with TP53 null cell line using nutlin-3 which interrupts a negative regulator of p53",
+  "score_sets": [
+   "urn:mavedb:00000068-b-1"
+  ],
+  "pub": [
+   "30224644"
+  ]
+ },
+ "urn:mavedb:00000068-c": {
+  "title": "Mutated p53 with etoposide",
+  "short": "TP53 saturation mutagenesis screens with TP53 null cell line using etoposide which is a DNA double-strand break-inducing agent.",
+  "score_sets": [
+   "urn:mavedb:00000068-c-1"
+  ],
+  "pub": [
+   "30224644"
+  ]
+ },
+ "urn:mavedb:00000069-a": {
+  "title": "ACE2 binding to SARS-CoV-2 spike protein",
+  "short": "ACE2 variants with highest or lowest binding affinity to the SARS-CoV-2 spike protein.",
+  "score_sets": [
+   "urn:mavedb:00000069-a-1",
+   "urn:mavedb:00000069-a-2"
+  ],
+  "pub": [
+   "32753553"
+  ]
+ },
+ "urn:mavedb:00000070-a": {
+  "title": "Experimental fitness of TEM-1 \u03b2-lactamase",
+  "short": "Experimental fitness of variants in the TEM-1 \u03b2-lactamase gene in the presence of ampicillin.",
+  "score_sets": [
+   "urn:mavedb:00000070-a-1",
+   "urn:mavedb:00000070-a-2",
+   "urn:mavedb:00000070-a-3",
+   "urn:mavedb:00000070-a-4"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000071-a": {
+  "title": "SpCas9 positive selection",
+  "short": "Positive (on-target) selection of SpCas9 in a bacterial selection system.",
+  "score_sets": [
+   "urn:mavedb:00000071-a-1"
+  ],
+  "pub": [
+   "29203891"
+  ]
+ },
+ "urn:mavedb:00000071-b": {
+  "title": "SpCas9 negative selection",
+  "short": "Negative (off-target) selection of SpCas9 in a bacterial selection system.",
+  "score_sets": [
+   "urn:mavedb:00000071-b-1"
+  ],
+  "pub": [
+   "29203891"
+  ]
+ },
+ "urn:mavedb:00000072-a": {
+  "title": "Human IgG1 Fc stability",
+  "short": "Deep mutational scan of human IgG1 (CH3 domain) binding by CD64 and anti-human CH2, under 79C heat stress as a proxy for stability.",
+  "score_sets": [
+   "urn:mavedb:00000072-a-1"
+  ],
+  "pub": [
+   "22846908"
+  ]
+ },
+ "urn:mavedb:00000073-a": {
+  "title": "VIM-2 128 \u00b5g/mL AMP at 25C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 128 \u00b5g/mL ampicillin at 25C",
+  "score_sets": [
+   "urn:mavedb:00000073-a-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-b": {
+  "title": "VIM-2 16 \u00b5g/mL AMP at 25C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 16 \u00b5g/mL ampicillin at 25C",
+  "score_sets": [
+   "urn:mavedb:00000073-b-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-c": {
+  "title": "VIM-2 128 \u00b5g/mL AMP at 37C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 128 \u00b5g/mL ampicillin at 37C",
+  "score_sets": [
+   "urn:mavedb:00000073-c-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-d": {
+  "title": "VIM-2 16 \u00b5g/mL AMP at 37C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 16 \u00b5g/mL ampicillin at 37C",
+  "score_sets": [
+   "urn:mavedb:00000073-d-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-e": {
+  "title": "VIM-2 2 \u00b5g/mL AMP at 25C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 2 \u00b5g/mL ampicillin at 25C",
+  "score_sets": [
+   "urn:mavedb:00000073-e-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-f": {
+  "title": "VIM-2 4 \u00b5g/mL CTX at 37C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 4 \u00b5g/mL cefotaxime at 37C",
+  "score_sets": [
+   "urn:mavedb:00000073-f-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-g": {
+  "title": "VIM-2 0.5 \u00b5g/mL CTX at 37C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 0.5 \u00b5g/mL cefotaxime at 37C",
+  "score_sets": [
+   "urn:mavedb:00000073-g-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000073-h": {
+  "title": "VIM-2 0.031 \u00b5g/mL MEM at 37C",
+  "short": "Deep mutational scan of VIM-2 metallo-\u03b2-lactamase at 0.031 \u00b5g/mL meropenem at 37C",
+  "score_sets": [
+   "urn:mavedb:00000073-h-1"
+  ],
+  "pub": [
+   "32510322"
+  ]
+ },
+ "urn:mavedb:00000074-a": {
+  "title": "Yeast growth Hsp82 (Hsp90)",
+  "short": "Yeast growth assay of Hsp82 (yeast Hsp90) covering the first 231 positions.",
+  "score_sets": [
+   "urn:mavedb:00000074-a-1"
+  ],
+  "pub": [
+   "27068472"
+  ]
+ },
+ "urn:mavedb:00000075-a": {
+  "title": "Zika E protein DMS",
+  "short": "Deep mutational scan of the Zika Virus E protein.",
+  "score_sets": [
+   "urn:mavedb:00000075-a-1"
+  ],
+  "pub": [
+   "31511387"
+  ]
+ },
+ "urn:mavedb:00000076-a": {
+  "title": "Fis1 tail anchor, SMM -Trp -His with 20mM 3-AT",
+  "short": "Deep mutational scan of the yeast Fis1 tail anchor, SMM -Trp -His medium with 20mM 3-aminotriazole.",
+  "score_sets": [
+   "urn:mavedb:00000076-a-1"
+  ],
+  "pub": [
+   "28007883"
+  ]
+ },
+ "urn:mavedb:00000076-b": {
+  "title": "Fis1 tail anchor, SMM -Trp -His with 10mM 3-AT",
+  "short": "Deep mutational scan of the yeast Fis1 tail anchor, SMM -Trp -His medium with 10mM 3-aminotriazole.",
+  "score_sets": [
+   "urn:mavedb:00000076-b-1"
+  ],
+  "pub": [
+   "28007883"
+  ]
+ },
+ "urn:mavedb:00000076-c": {
+  "title": "Fis1 tail anchor, SMM -Trp -His with 5mM 3-AT",
+  "short": "Deep mutational scan of the yeast Fis1 tail anchor, SMM -Trp -His medium with 5mM 3-aminotriazole.",
+  "score_sets": [
+   "urn:mavedb:00000076-c-1"
+  ],
+  "pub": [
+   "28007883"
+  ]
+ },
+ "urn:mavedb:00000076-d": {
+  "title": "Fis1 tail anchor, SMM -Trp -His",
+  "short": "Deep mutational scan of the yeast Fis1 tail anchor, SMM -Trp -His medium.",
+  "score_sets": [
+   "urn:mavedb:00000076-d-1"
+  ],
+  "pub": [
+   "28007883"
+  ]
+ },
+ "urn:mavedb:00000076-e": {
+  "title": "Fis1 tail anchor, SC -Ura",
+  "short": "Deep mutational scan of the yeast Fis1 tail anchor, SC -Ura medium.",
+  "score_sets": [
+   "urn:mavedb:00000076-e-1"
+  ],
+  "pub": [
+   "28007883"
+  ]
+ },
+ "urn:mavedb:00000077-a": {
+  "title": "C. cellulolyticum cohesin binding affinity",
+  "short": "Deep mutational scan of C. cellulolyticum cohesin binding affinity for dockerin.",
+  "score_sets": [
+   "urn:mavedb:00000077-a-1",
+   "urn:mavedb:00000077-a-2"
+  ],
+  "pub": [
+   "27699856"
+  ]
+ },
+ "urn:mavedb:00000077-b": {
+  "title": "C. thermocellum cohesin binding affinity",
+  "short": "Deep mutational scan of C. thermocellum cohesin binding affinity for dockerin.",
+  "score_sets": [
+   "urn:mavedb:00000077-b-1",
+   "urn:mavedb:00000077-b-2"
+  ],
+  "pub": [
+   "27699856"
+  ]
+ },
+ "urn:mavedb:00000078-a": {
+  "title": "VKOR carboxylation activity",
+  "short": "Carboxylation activity of VKOR variants by substrate surface expression.",
+  "score_sets": [
+   "urn:mavedb:00000078-a-1"
+  ],
+  "pub": [
+   "32870157"
+  ]
+ },
+ "urn:mavedb:00000078-b": {
+  "title": "VKOR protein stability",
+  "short": "VKOR protein stability measured by VAMP-seq.",
+  "score_sets": [
+   "urn:mavedb:00000078-b-1"
+  ],
+  "pub": [
+   "32870157"
+  ]
+ },
+ "urn:mavedb:00000079-a": {
+  "title": "Stability selection of PyKS",
+  "short": "Selecting on pyrrolidine ketide synthase (PyKS) with higher protein stability by GFP fusing.",
+  "score_sets": [
+   "urn:mavedb:00000079-a-1"
+  ],
+  "pub": [
+   "30721031"
+  ]
+ },
+ "urn:mavedb:00000080-a": {
+  "title": "GFP mutations and fluorescence levels",
+  "short": "Deep mutational scan evaluating the effect of mutations on fluorescence of Aequorea victoria GFP.",
+  "score_sets": [
+   "urn:mavedb:00000080-a-1",
+   "urn:mavedb:00000080-a-2"
+  ],
+  "pub": [
+   "27193686"
+  ]
+ },
+ "urn:mavedb:00000081-a": {
+  "title": "BRCA1 RING and BRCT domains in homology-directed DNA repair",
+  "short": "BRCA1 RING and BRCT domains assayed for homology-directed DNA repair function.",
+  "score_sets": [
+   "urn:mavedb:00000081-a-1",
+   "urn:mavedb:00000081-a-2"
+  ],
+  "pub": [
+   "30219179"
+  ]
+ },
+ "urn:mavedb:00000082-a": {
+  "title": "Arrestin-1 binding",
+  "short": "Scanning mutagenesis of bovine Arrestin-1 for binding to GPCR rhodopsin.",
+  "score_sets": [
+   "urn:mavedb:00000082-a-1"
+  ],
+  "pub": [
+   "24449856"
+  ]
+ },
+ "urn:mavedb:00000083-a": {
+  "title": "Exonic splicing for Wilms\u2019 tumor gene",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, Wilms\u2019 tumor gene 1 exon 5.",
+  "score_sets": [
+   "urn:mavedb:00000083-a-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-b": {
+  "title": "Exonic splicing for SRSF1 (ASF/SF2) binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, similar to an SRSF1 (ASF/SF2) binding site.",
+  "score_sets": [
+   "urn:mavedb:00000083-b-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-c": {
+  "title": "Exonic splicing for SRSF7 (9G8) binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, similar to an SRSF7 (9G8) binding site.",
+  "score_sets": [
+   "urn:mavedb:00000083-c-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-d": {
+  "title": "Exonic splicing for hnRNPA1 binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, hnRNPA1 binding site (with upstream T).",
+  "score_sets": [
+   "urn:mavedb:00000083-d-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-e": {
+  "title": "Exonic splicing for hnRNP D binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, similar to an hnRNP D binding site.",
+  "score_sets": [
+   "urn:mavedb:00000083-e-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-f": {
+  "title": "Exonic splicing for hnRNP I (PTB) binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, similar to an hnRNP I (PTB) binding site.",
+  "score_sets": [
+   "urn:mavedb:00000083-f-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-g": {
+  "title": "Exonic splicing for hnRNP L binding site",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, similar to an hnRNP L binding site.",
+  "score_sets": [
+   "urn:mavedb:00000083-g-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000083-h": {
+  "title": "Exonic splicing for CG-containing enhancer",
+  "short": "Saturation mutagenesis for exonic base effects on splicing, CG-containing RNA-seq enhancer sequence.",
+  "score_sets": [
+   "urn:mavedb:00000083-h-1"
+  ],
+  "pub": [
+   "29242188"
+  ]
+ },
+ "urn:mavedb:00000084-a": {
+  "title": "CcdB toxicity",
+  "short": "Deep mutational scan against CcdB toxicity in E. coli",
+  "score_sets": [
+   "urn:mavedb:00000084-a-1"
+  ],
+  "pub": [
+   "22325784"
+  ]
+ },
+ "urn:mavedb:00000085-a": {
+  "title": "TEM-19 Amp",
+  "short": "TEM-19 (TEM-1 variant) fitness on Amp.",
+  "score_sets": [
+   "urn:mavedb:00000085-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000085-b": {
+  "title": "TEM-17 Amp",
+  "short": "TEM-17 (TEM-1 variant) fitness on Amp.",
+  "score_sets": [
+   "urn:mavedb:00000085-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000085-c": {
+  "title": "TEM-15 Amp",
+  "short": "TEM-15 (TEM-1 variant) fitness on Amp.",
+  "score_sets": [
+   "urn:mavedb:00000085-c-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000085-d": {
+  "title": "TEM-15 cefotaxime",
+  "short": "TEM-15 (TEM-1 variant) fitness on cefotaxime.",
+  "score_sets": [
+   "urn:mavedb:00000085-d-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000086-a": {
+  "title": "TEM-1 10 \u03bcg/ml Amp",
+  "short": "Effects of TEM-1 mutations on ampicillin resistance at 10 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-a-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-b": {
+  "title": "TEM-1 39 \u03bcg/ml Amp",
+  "short": "Effects of TEM-1 mutations on ampicillin resistance at 39 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-b-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-c": {
+  "title": "TEM-1 156 \u03bcg/ml Amp",
+  "short": "Effects of TEM-1 mutations on ampicillin resistance at 156 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-c-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-d": {
+  "title": "TEM-1 625 \u03bcg/ml Amp",
+  "short": "Effects of TEM-1 mutations on ampicillin resistance at 625 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-d-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-e": {
+  "title": "TEM-1 2500 \u03bcg/ml Amp",
+  "short": "Effects of TEM-1 mutations on ampicillin resistance at 2500 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-e-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-f": {
+  "title": "TEM-1 0.15 \u03bcg/ml cefotaxime",
+  "short": "Effects of TEM-1 mutations on cefotaxime resistance at 0.15 \u03bcg/ml",
+  "score_sets": [
+   "urn:mavedb:00000086-f-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000086-g": {
+  "title": "TEM-1 unselected",
+  "short": "Effects of TEM-1 mutations under no selection",
+  "score_sets": [
+   "urn:mavedb:00000086-g-1"
+  ],
+  "pub": [
+   "25723163"
+  ]
+ },
+ "urn:mavedb:00000087-a": {
+  "title": "Influenza A nucleoprotein",
+  "short": "Deep mutational scan of Influenza A (H3N2 Aichi/1968) Nucleoprotein for viral replication.",
+  "score_sets": [
+   "urn:mavedb:00000087-a-1"
+  ],
+  "pub": [
+   "24859245"
+  ]
+ },
+ "urn:mavedb:00000088-a": {
+  "title": "Influenza H1N1 PR/1934 nucleoprotein",
+  "short": "Deep mutational scan of H1N1 PR/1934 nucleoprotein assaying for viral replication.",
+  "score_sets": [
+   "urn:mavedb:00000088-a-1"
+  ],
+  "pub": [
+   "26226986"
+  ]
+ },
+ "urn:mavedb:00000088-b": {
+  "title": "Influenza H3N2 Aichi/1968 nucleoprotein",
+  "short": "Deep mutational scan of H3N2 Aichi/1968 nucleoprotein assaying for viral replication.",
+  "score_sets": [
+   "urn:mavedb:00000088-b-1"
+  ],
+  "pub": [
+   "26226986"
+  ]
+ },
+ "urn:mavedb:00000089-a": {
+  "title": "Influenza nucleoprotein resistance to human MxA",
+  "short": "Deep mutational scan of Influenza (H3N2, Aichi/1968) nucleoprotein for resistance to MxA.",
+  "score_sets": [
+   "urn:mavedb:00000089-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000090-a": {
+  "title": "PDZ3 domain binding to CRIPT",
+  "short": "Deep mutational scan of Rat DLG4 PDZ3 for binding to CRIPT.",
+  "score_sets": [
+   "urn:mavedb:00000090-a-1"
+  ],
+  "pub": [
+   "23041932"
+  ]
+ },
+ "urn:mavedb:00000090-b": {
+  "title": "PDZ3 domain binding to T-2F",
+  "short": "Deep mutational scan of Rat DLG4 PDZ3 for binding to T-2F.",
+  "score_sets": [
+   "urn:mavedb:00000090-b-1"
+  ],
+  "pub": [
+   "23041932"
+  ]
+ },
+ "urn:mavedb:00000091-a": {
+  "title": "BRAF resistance to vemurafenib",
+  "short": "Deep mutational scan of the BRAF V600E allele for resistance to the cancer drug vemurafenib.",
+  "score_sets": [
+   "urn:mavedb:00000091-a-1"
+  ],
+  "pub": [
+   "24112705"
+  ]
+ },
+ "urn:mavedb:00000092-a": {
+  "title": "Influenza HA viral replication",
+  "short": "Deep mutational scan of Influenza A virus (A/WSN/1933(H1N1)) Hemagglutinin selecting for viral replication in human cells.",
+  "score_sets": [
+   "urn:mavedb:00000092-a-1"
+  ],
+  "pub": [
+   "25006036"
+  ]
+ },
+ "urn:mavedb:00000093-a": {
+  "title": "Functional Evaluation of BRCA1 RING Domain Missense Substitutions",
+  "short": "We tested every BRCA1 RING domain missense substitution that can be created by a single nucleotide change for its effect on heterodimerization with BARD1 in a Mammalian 2-hybrid assay.  The assay data collected were calibrated, validated, and integrated with other available data to arrive at clinically applicable classifications.  About 89% of the missense substitutions could be assigned clinical classifications with about 20% being pathogenic.",
+  "score_sets": [
+   "urn:mavedb:00000093-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000094-a": {
+  "title": "Proactive functional classification of all possible missense single-nucleotide variants in KCNQ4",
+  "short": "Proactive functional classification of all possible missense single-nucleotide variants in KCNQ4",
+  "score_sets": [
+   "urn:mavedb:00000094-a-1",
+   "urn:mavedb:00000094-a-10",
+   "urn:mavedb:00000094-a-11",
+   "urn:mavedb:00000094-a-12",
+   "urn:mavedb:00000094-a-13",
+   "urn:mavedb:00000094-a-15",
+   "urn:mavedb:00000094-a-2",
+   "urn:mavedb:00000094-a-3",
+   "urn:mavedb:00000094-a-4",
+   "urn:mavedb:00000094-a-5",
+   "urn:mavedb:00000094-a-6",
+   "urn:mavedb:00000094-a-7",
+   "urn:mavedb:00000094-a-8",
+   "urn:mavedb:00000094-a-9"
+  ],
+  "pub": [
+   "35760561"
+  ]
+ },
+ "urn:mavedb:00000095-a": {
+  "title": "CYP2C9 activity scores",
+  "short": "CYP2C9 activity measured by a yeast activity-based protein profiling assay (Click-seq)",
+  "score_sets": [
+   "urn:mavedb:00000095-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000095-b": {
+  "title": "CYP2C9 abundance scores",
+  "short": "CYP2C9 protein abundance measured by Variant Abundance by Massively Parallel sequencing (VAMP-seq).",
+  "score_sets": [
+   "urn:mavedb:00000095-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000096-a": {
+  "title": "GCK activity measured by complementation",
+  "short": "Activity of GCK variants measured by functional complementation of an hxk1\u0394hxk2\u0394glk1\u0394 yeast strain.",
+  "score_sets": [
+   "urn:mavedb:00000096-a-1"
+  ],
+  "pub": [
+   "37101203"
+  ]
+ },
+ "urn:mavedb:00000096-b": {
+  "title": "GCK abundance measured by DHFR-PCA",
+  "short": "Cellular protein abundance of glucokinase (GCK) variants measured by DHFR-PCA in yeast.",
+  "score_sets": [
+   "urn:mavedb:00000096-b-1"
+  ],
+  "pub": [
+   "38627865"
+  ]
+ },
+ "urn:mavedb:00000097-a": {
+  "title": "BRCA1 SGE Exon 2 Replicate 1",
+  "short": "BRCA1 SGE exon 2 replicate 1 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-a-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-b": {
+  "title": "BRCA1 SGE Exon 2 Replicate 2",
+  "short": "BRCA1 SGE exon 2 replicate 2 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-b-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-c": {
+  "title": "BRCA1 SGE Exon 3 Replicate 1",
+  "short": "BRCA1 SGE exon 3 replicate 1 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-c-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-d": {
+  "title": "BRCA1 SGE Exon 3 Replicate 2",
+  "short": "BRCA1 SGE exon 3 replicate 2 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-d-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-e": {
+  "title": "BRCA1 SGE Exon 4 Replicate 1",
+  "short": "BRCA1 SGE exon 4 replicate 1 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-e-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-f": {
+  "title": "BRCA1 SGE Exon 4 Replicate 2",
+  "short": "BRCA1 SGE exon 4 replicate 2 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-f-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-g": {
+  "title": "BRCA1 SGE Exon 5 Replicate 1",
+  "short": "BRCA1 SGE exon 5 replicate 1 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-g-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000097-h": {
+  "title": "BRCA1 SGE Exon 5 Replicate 2",
+  "short": "BRCA1 SGE exon 5 replicate 2 pre-normalization scores",
+  "score_sets": [
+   "urn:mavedb:00000097-h-2"
+  ],
+  "pub": [
+   "30209399"
+  ]
+ },
+ "urn:mavedb:00000098-a": {
+  "title": "SCN5A response to veratridine+brevetoxin+ouabain mixture",
+  "short": "Deep mutational scan of human SCN5A by measuring response to veratridine+brevetoxin+ouabain drugs.",
+  "score_sets": [
+   "urn:mavedb:00000098-a-2"
+  ],
+  "pub": [
+   "31928070"
+  ]
+ },
+ "urn:mavedb:00000099-a": {
+  "title": "Rhodopsin surface expression",
+  "short": "Rhodopsin VUS surface expression",
+  "score_sets": [
+   "urn:mavedb:00000099-a-1"
+  ],
+  "pub": [
+   "30977563"
+  ]
+ },
+ "urn:mavedb:00000100-a": {
+  "title": "TEM-1 single-codon insertions",
+  "short": "Effect of single-codon insertions on TEM-1 fitness",
+  "score_sets": [
+   "urn:mavedb:00000100-a-1"
+  ],
+  "pub": [
+   "31034887"
+  ]
+ },
+ "urn:mavedb:00000100-b": {
+  "title": "TEM-1 single-codon deletions",
+  "short": "Effect of single-codon deletions on TEM-1 fitness",
+  "score_sets": [
+   "urn:mavedb:00000100-b-1"
+  ],
+  "pub": [
+   "31034887"
+  ]
+ },
+ "urn:mavedb:00000101-a": {
+  "title": "PTEN VAMP-seq Fill-in",
+  "short": "Amino acid scores for variant abundance by massively parallel sequencing (VAMP-seq) applied to PTEN (fill-in dataset).",
+  "score_sets": [
+   "urn:mavedb:00000101-a-1"
+  ],
+  "pub": [
+   "34649609"
+  ]
+ },
+ "urn:mavedb:00000103-a": {
+  "title": "MAPK1 Early Time Point",
+  "short": "Phenotypic Characterization of a Comprehensive Set of 6,810 MAPK1/ERK2 Missense Mutants",
+  "score_sets": [
+   "urn:mavedb:00000103-a-1"
+  ],
+  "pub": [
+   "27760319"
+  ]
+ },
+ "urn:mavedb:00000103-b": {
+  "title": "MAPK1 DOX Induced",
+  "short": "Phenotypic Characterization of a Comprehensive Set of 6,810 MAPK1/ERK2 Missense Mutants\r\nDOX induced time point that enriches for LOF mutants and depletes GOF mutants",
+  "score_sets": [
+   "urn:mavedb:00000103-b-1"
+  ],
+  "pub": [
+   "27760319"
+  ]
+ },
+ "urn:mavedb:00000103-c": {
+  "title": "MAPK1 SCH772984",
+  "short": "Phenotypic Characterization of a Comprehensive Set of 6,810 MAPK1/ERK2 Missense Mutants. \r\nInduced with DOX and selected with 2 microM SCH772984",
+  "score_sets": [
+   "urn:mavedb:00000103-c-1"
+  ],
+  "pub": [
+   "27760319"
+  ]
+ },
+ "urn:mavedb:00000103-d": {
+  "title": "MAPK1 VRT-11E",
+  "short": "Phenotypic Characterization of a Comprehensive Set of 6,810 MAPK1/ERK2 Missense Mutants. \r\nInduced with DOX and selected with 3 microM VRT-11E",
+  "score_sets": [
+   "urn:mavedb:00000103-d-1"
+  ],
+  "pub": [
+   "27760319"
+  ]
+ },
+ "urn:mavedb:00000104-a": {
+  "title": "PARP1 dense CRISPR",
+  "short": "high-density CRISPR-Cas9 screens identify point mutations in PARP1 causing PARP inhibitor resistance",
+  "score_sets": [
+   "urn:mavedb:00000104-a-1",
+   "urn:mavedb:00000104-a-2"
+  ],
+  "pub": [
+   "29748565"
+  ]
+ },
+ "urn:mavedb:00000105-a": {
+  "title": "IgG-binding protein G domain B1 binding to IgG-FC",
+  "short": "Deep mutational scan of single- and double-substitution mutants of domain B1 in IgG-binding protein G for binding to IgG-FC",
+  "score_sets": [
+   "urn:mavedb:00000105-a-1"
+  ],
+  "pub": [
+   "25455030"
+  ]
+ },
+ "urn:mavedb:00000106-a": {
+  "title": "Deaminase activity of AID in generation 1",
+  "short": "First generation of selection on codon-optimized AID variants",
+  "score_sets": [
+   "urn:mavedb:00000106-a-1"
+  ],
+  "pub": [
+   "25064858"
+  ]
+ },
+ "urn:mavedb:00000106-b": {
+  "title": "Deaminase activity of AID in generation 2",
+  "short": "Two generations of selection on codon-optimized AID variants",
+  "score_sets": [
+   "urn:mavedb:00000106-b-1"
+  ],
+  "pub": [
+   "25064858"
+  ]
+ },
+ "urn:mavedb:00000106-c": {
+  "title": "Deaminase activity of AID in generation 3",
+  "short": "Three generations of selection on codon-optimized AID variants",
+  "score_sets": [
+   "urn:mavedb:00000106-c-1"
+  ],
+  "pub": [
+   "25064858"
+  ]
+ },
+ "urn:mavedb:00000107-a": {
+  "title": "A Targeted Mutational Scan of the Human PSAT1 Using Functional Complementation in Yeast.",
+  "short": "Functional impact of 200 protein coding variants in Human Phosphoserine Aminotransferase 1 (PSAT1) using a yeast-based complementation assay. This targeted set represents all of the protein coding variants present in ClinVar, gnomAD (r2.0.2), and the disease literature (up to 2020) for PSAT1.",
+  "score_sets": [
+   "urn:mavedb:00000107-a-1"
+  ],
+  "pub": [
+   "32077105"
+  ]
+ },
+ "urn:mavedb:00000107-b": {
+  "title": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast.",
+  "short": "A SNV-accessible mutational scan of human PSAT1 using functional complementation in yeast via a solid growth assay.",
+  "score_sets": [
+   "urn:mavedb:00000107-b-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000108-a": {
+  "title": "Missense variant effect maps for the human HMBS enzyme via multiplexed yeast functional complementation assays",
+  "short": "Missense variant effect maps for the human HMBS (ubiquitous, erythroid-specific and combined) enzyme via multiplexed yeast functional complementation assays",
+  "score_sets": [
+   "urn:mavedb:00000108-0-1",
+   "urn:mavedb:00000108-a-1"
+  ],
+  "pub": [
+   "37729906"
+  ]
+ },
+ "urn:mavedb:00000108-b": {
+  "title": "Missense variant effect maps for the human HMBS enzyme via multiplexed yeast functional complementation assays",
+  "short": "Missense variant effect maps for the human HMBS (ubiquitous, erythroid-specific and combined) enzyme via multiplexed yeast functional complementation assays",
+  "score_sets": [
+   "urn:mavedb:00000108-b-1"
+  ],
+  "pub": [
+   "37729906"
+  ]
+ },
+ "urn:mavedb:00000109-a": {
+  "title": "Base editing screens map mutations affecting interferon gamma signaling in cancer",
+  "short": "Base editing mutagenesis screening of the IFN-gamma pathway in human cancer cells.",
+  "score_sets": [
+   "urn:mavedb:00000109-a-1"
+  ],
+  "pub": [
+   "36669486"
+  ]
+ },
+ "urn:mavedb:00000110-a": {
+  "title": "Protein-protein interactions in the Mla lipid transport system probed by computational structure prediction and deep mutational scanning",
+  "short": "Deep mutational scan of the Escherichia coli outer membrane phospholipid transporter, MlaC.",
+  "score_sets": [
+   "urn:mavedb:00000110-a-1",
+   "urn:mavedb:00000110-a-2",
+   "urn:mavedb:00000110-a-3"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000111-a": {
+  "title": "DENV2-16681-NS5",
+  "short": "Weighted average of fitness scores of NS5 mutants in DENV2-16681 genetic background.",
+  "score_sets": [
+   "urn:mavedb:00000111-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000112-a": {
+  "title": "Functional Assay of Human OTC Missense Variants",
+  "short": "The impact of 1,570 SNV-accessible missense variants in Human Ornithine Transcarbamylase (OTC) was examined using a yeast-based functional complementation assay.",
+  "score_sets": [
+   "urn:mavedb:00000112-a-1"
+  ],
+  "pub": [
+   "37146589"
+  ]
+ },
+ "urn:mavedb:00000113-a": {
+  "title": "Amyloid Beta Deep Indel Mutagenesis (DIM)",
+  "short": "Comprehensive quantification of the impact of single amino acid substitutions, insertions and deletions on the nucleation of amyloid-beta protein aggregates. ",
+  "score_sets": [
+   "urn:mavedb:00000113-a-1",
+   "urn:mavedb:00000113-a-2",
+   "urn:mavedb:00000113-a-3"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000114-a": {
+  "title": "Parkin (PRKN) cellular abundance",
+  "short": "Protein abundance scores of Parkin variants in human cells measured by VAMP-seq experiment",
+  "score_sets": [
+   "urn:mavedb:00000114-a-1"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000115-a": {
+  "title": "The energetic and allosteric landscape for KRAS inhibition",
+  "short": "To quantify the impact of >26,000 mutations on the folding of KRAS and its binding to six interaction partners and to quantify how mutations tune the binding specificity of a signalling protein and map the inhibitory allosteric sites.",
+  "score_sets": [
+   "urn:mavedb:00000115-a-1",
+   "urn:mavedb:00000115-a-10",
+   "urn:mavedb:00000115-a-11",
+   "urn:mavedb:00000115-a-12",
+   "urn:mavedb:00000115-a-13",
+   "urn:mavedb:00000115-a-14",
+   "urn:mavedb:00000115-a-15",
+   "urn:mavedb:00000115-a-16",
+   "urn:mavedb:00000115-a-17",
+   "urn:mavedb:00000115-a-18",
+   "urn:mavedb:00000115-a-19",
+   "urn:mavedb:00000115-a-2",
+   "urn:mavedb:00000115-a-20",
+   "urn:mavedb:00000115-a-21",
+   "urn:mavedb:00000115-a-22",
+   "urn:mavedb:00000115-a-23",
+   "urn:mavedb:00000115-a-24",
+   "urn:mavedb:00000115-a-25",
+   "urn:mavedb:00000115-a-26",
+   "urn:mavedb:00000115-a-27",
+   "urn:mavedb:00000115-a-28",
+   "urn:mavedb:00000115-a-3",
+   "urn:mavedb:00000115-a-4",
+   "urn:mavedb:00000115-a-5",
+   "urn:mavedb:00000115-a-6",
+   "urn:mavedb:00000115-a-7",
+   "urn:mavedb:00000115-a-8",
+   "urn:mavedb:00000115-a-9"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000116-a": {
+  "title": "FYN SH3 domain trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000116-a-1",
+   "urn:mavedb:00000116-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000117-a": {
+  "title": "FYN SH3 domain (E24S) trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn SH3 domain (E24S).",
+  "score_sets": [
+   "urn:mavedb:00000117-a-1",
+   "urn:mavedb:00000117-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000118-a": {
+  "title": "FYN SH3 domain (F20A) trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn SH3 domain (F20A).",
+  "score_sets": [
+   "urn:mavedb:00000118-a-1",
+   "urn:mavedb:00000118-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000119-a": {
+  "title": "FYN SH3 domain (L7S) trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn SH3 domain (L7S).",
+  "score_sets": [
+   "urn:mavedb:00000119-a-1",
+   "urn:mavedb:00000119-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000120-a": {
+  "title": "FYN SH3 domain (V55A) trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn SH3 domain (V55A).",
+  "score_sets": [
+   "urn:mavedb:00000120-a-1",
+   "urn:mavedb:00000120-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000121-a": {
+  "title": "30S ribosomal protein S15 trypsin digestion",
+  "short": "Trypsin digestion of 30S ribosomal protein S15 from Bacillus stearothermophilus.",
+  "score_sets": [
+   "urn:mavedb:00000121-a-1",
+   "urn:mavedb:00000121-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000122-a": {
+  "title": "argR trypsin digestion",
+  "short": "Trypsin digestion of Arginine repressor.",
+  "score_sets": [
+   "urn:mavedb:00000122-a-1",
+   "urn:mavedb:00000122-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000123-a": {
+  "title": "HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000123-a-1",
+   "urn:mavedb:00000123-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000124-a": {
+  "title": "HPLC 12 isoform trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12 isoform.",
+  "score_sets": [
+   "urn:mavedb:00000124-a-1",
+   "urn:mavedb:00000124-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000125-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain.",
+  "score_sets": [
+   "urn:mavedb:00000125-a-1",
+   "urn:mavedb:00000125-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000126-a": {
+  "title": "SPTAN1 (F47A) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain (F47A).",
+  "score_sets": [
+   "urn:mavedb:00000126-a-1",
+   "urn:mavedb:00000126-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000127-a": {
+  "title": "SPTAN1 (L5S) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain (L5S).",
+  "score_sets": [
+   "urn:mavedb:00000127-a-1",
+   "urn:mavedb:00000127-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000128-a": {
+  "title": "sso7d trypsin digestion",
+  "short": "Trypsin digestion of DNA-binding protein 7d.",
+  "score_sets": [
+   "urn:mavedb:00000128-a-1",
+   "urn:mavedb:00000128-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000129-a": {
+  "title": "sso7d (Y34W) trypsin digestion",
+  "short": "Trypsin digestion of DNA-binding protein 7d (Y34W).",
+  "score_sets": [
+   "urn:mavedb:00000129-a-1",
+   "urn:mavedb:00000129-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000130-a": {
+  "title": "cspB trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspB.",
+  "score_sets": [
+   "urn:mavedb:00000130-a-1",
+   "urn:mavedb:00000130-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000131-a": {
+  "title": "cspB (F49A) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspB (F49A).",
+  "score_sets": [
+   "urn:mavedb:00000131-a-1",
+   "urn:mavedb:00000131-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000132-a": {
+  "title": "cspB (F9S) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspB  (F9S).",
+  "score_sets": [
+   "urn:mavedb:00000132-a-1",
+   "urn:mavedb:00000132-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000133-a": {
+  "title": "Tcerg1 FBP28WW domain trypsin digestion",
+  "short": "Trypsin digestion of FBP28WW domain from Transcription elongation regulator 1 .",
+  "score_sets": [
+   "urn:mavedb:00000133-a-1",
+   "urn:mavedb:00000133-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000134-a": {
+  "title": "SPTAN1 SH3 domain trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain non-erythrocytic 1 SH3 domain .",
+  "score_sets": [
+   "urn:mavedb:00000134-a-1",
+   "urn:mavedb:00000134-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000135-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 isoform trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12 isoform.",
+  "score_sets": [
+   "urn:mavedb:00000135-a-1",
+   "urn:mavedb:00000135-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000136-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000136-a-1",
+   "urn:mavedb:00000136-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000137-a": {
+  "title": "spg (L7A) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (L7A).",
+  "score_sets": [
+   "urn:mavedb:00000137-a-1",
+   "urn:mavedb:00000137-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000138-a": {
+  "title": "spg (V54S) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (V54S).",
+  "score_sets": [
+   "urn:mavedb:00000138-a-1",
+   "urn:mavedb:00000138-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000139-a": {
+  "title": "en homeodomain trypsin digestion",
+  "short": "Trypsin digestion of Segmentation polarity homeobox protein engrailed homeodomain.",
+  "score_sets": [
+   "urn:mavedb:00000139-a-1",
+   "urn:mavedb:00000139-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000140-a": {
+  "title": "EPHB2 SAM domain trypsin digestion",
+  "short": "Trypsin digestion of Ephrin type-B receptor 2 SAM domain.",
+  "score_sets": [
+   "urn:mavedb:00000140-a-1",
+   "urn:mavedb:00000140-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000141-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000141-a-1",
+   "urn:mavedb:00000141-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000142-a": {
+  "title": "spg (A27K) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (A27K).",
+  "score_sets": [
+   "urn:mavedb:00000142-a-1",
+   "urn:mavedb:00000142-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000143-a": {
+  "title": "spg (F53D) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (F53D).",
+  "score_sets": [
+   "urn:mavedb:00000143-a-1",
+   "urn:mavedb:00000143-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000144-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000144-a-1",
+   "urn:mavedb:00000144-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000145-a": {
+  "title": "Tec trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Tec.",
+  "score_sets": [
+   "urn:mavedb:00000145-a-1",
+   "urn:mavedb:00000145-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000146-a": {
+  "title": "psaE trypsin digestion",
+  "short": "Trypsin digestion of Photosystem I reaction center subunit IV.",
+  "score_sets": [
+   "urn:mavedb:00000146-a-1",
+   "urn:mavedb:00000146-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000147-a": {
+  "title": "50S ribosomal protein L20 trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L20 from Aquifex aeolicus.",
+  "score_sets": [
+   "urn:mavedb:00000147-a-1",
+   "urn:mavedb:00000147-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000148-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000148-a-1",
+   "urn:mavedb:00000148-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000149-a": {
+  "title": "SPTAN1 (R44S) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain non-erythrocytic 1 (R44S) .",
+  "score_sets": [
+   "urn:mavedb:00000149-a-1",
+   "urn:mavedb:00000149-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000150-a": {
+  "title": "SPTAN1 (W36A) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain non-erythrocytic 1 (W36A).",
+  "score_sets": [
+   "urn:mavedb:00000150-a-1",
+   "urn:mavedb:00000150-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000151-a": {
+  "title": "LCK trypsin digestion",
+  "short": "Trypsin digestion of SH3 domain of Tyrosine-protein kinase Lck.",
+  "score_sets": [
+   "urn:mavedb:00000151-a-1",
+   "urn:mavedb:00000151-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000152-a": {
+  "title": "UBR5 trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase UBR5 .",
+  "score_sets": [
+   "urn:mavedb:00000152-a-1",
+   "urn:mavedb:00000152-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000153-a": {
+  "title": "PIN1 WW domain trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 WW domain.",
+  "score_sets": [
+   "urn:mavedb:00000153-a-1",
+   "urn:mavedb:00000153-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000154-a": {
+  "title": "RAD23A UBA domain trypsin digestion",
+  "short": "Trypsin digestion of UV excision repair protein RAD23 homolog A UBA domain.",
+  "score_sets": [
+   "urn:mavedb:00000154-a-1",
+   "urn:mavedb:00000154-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000155-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000155-a-1",
+   "urn:mavedb:00000155-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000156-a": {
+  "title": "sso7a1; sso7a2 trypsin digestion",
+  "short": "Trypsin digestion of DNA-binding protein 7a .",
+  "score_sets": [
+   "urn:mavedb:00000156-a-1",
+   "urn:mavedb:00000156-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000157-a": {
+  "title": "Mafg DNA-binding domain trypsin digestion",
+  "short": "Trypsin digestion of Transcription factor MafG DNA-binding domain.",
+  "score_sets": [
+   "urn:mavedb:00000157-a-1",
+   "urn:mavedb:00000157-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000158-a": {
+  "title": "spa trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein A.",
+  "score_sets": [
+   "urn:mavedb:00000158-a-1",
+   "urn:mavedb:00000158-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000159-a": {
+  "title": "SMN Tudor domain trypsin digestion",
+  "short": "Trypsin digestion of Survival motor neuron protein Tudor domain.",
+  "score_sets": [
+   "urn:mavedb:00000159-a-1",
+   "urn:mavedb:00000159-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000160-a": {
+  "title": "cspA trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspA.",
+  "score_sets": [
+   "urn:mavedb:00000160-a-1",
+   "urn:mavedb:00000160-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000161-a": {
+  "title": "cspA (G17A) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspA (G17A).",
+  "score_sets": [
+   "urn:mavedb:00000161-a-1",
+   "urn:mavedb:00000161-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000162-a": {
+  "title": "cspA (L43S) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock protein CspA (L43S).",
+  "score_sets": [
+   "urn:mavedb:00000162-a-1",
+   "urn:mavedb:00000162-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000163-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000163-a-1",
+   "urn:mavedb:00000163-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000164-a": {
+  "title": "CPA2 activation domain trypsin digestion",
+  "short": "Trypsin digestion of Carboxypeptidase A2 activation domain.",
+  "score_sets": [
+   "urn:mavedb:00000164-a-1",
+   "urn:mavedb:00000164-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000165-a": {
+  "title": "Ice-structuring protein SP2(HPLC 1) trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein SP2(HPLC 1).",
+  "score_sets": [
+   "urn:mavedb:00000165-a-1",
+   "urn:mavedb:00000165-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000166-a": {
+  "title": "Ice-structuring protein SP2(HPLC 1) (T53S) trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein SP2(HPLC 1) (T53S).",
+  "score_sets": [
+   "urn:mavedb:00000166-a-1",
+   "urn:mavedb:00000166-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000167-a": {
+  "title": "Ice-structuring protein SP2(HPLC 1) (V44A) trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein SP2(HPLC 1) (V44A).",
+  "score_sets": [
+   "urn:mavedb:00000167-a-1",
+   "urn:mavedb:00000167-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000168-a": {
+  "title": "cro trypsin digestion",
+  "short": "Trypsin digestion of Regulatory protein cro.",
+  "score_sets": [
+   "urn:mavedb:00000168-a-1",
+   "urn:mavedb:00000168-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000169-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000169-a-1",
+   "urn:mavedb:00000169-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000170-a": {
+  "title": "spg (L5A) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (L5A).",
+  "score_sets": [
+   "urn:mavedb:00000170-a-1",
+   "urn:mavedb:00000170-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000171-a": {
+  "title": "spg (L7S) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (L7S).",
+  "score_sets": [
+   "urn:mavedb:00000171-a-1",
+   "urn:mavedb:00000171-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000172-a": {
+  "title": "spg (PROSS9) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (PROSS9).",
+  "score_sets": [
+   "urn:mavedb:00000172-a-1",
+   "urn:mavedb:00000172-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000173-a": {
+  "title": "spg (T51A) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (T51A).",
+  "score_sets": [
+   "urn:mavedb:00000173-a-1",
+   "urn:mavedb:00000173-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000174-a": {
+  "title": "spg (V39S) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (V39S).",
+  "score_sets": [
+   "urn:mavedb:00000174-a-1",
+   "urn:mavedb:00000174-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000175-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000175-a-1",
+   "urn:mavedb:00000175-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000176-a": {
+  "title": "spg (A27S) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (A27S).",
+  "score_sets": [
+   "urn:mavedb:00000176-a-1",
+   "urn:mavedb:00000176-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000177-a": {
+  "title": "spg (G42A) trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G (G42A).",
+  "score_sets": [
+   "urn:mavedb:00000177-a-1",
+   "urn:mavedb:00000177-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000178-a": {
+  "title": "psaE trypsin digestion",
+  "short": "Trypsin digestion of Photosystem I reaction center subunit IV.",
+  "score_sets": [
+   "urn:mavedb:00000178-a-1",
+   "urn:mavedb:00000178-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000179-a": {
+  "title": "sda trypsin digestion",
+  "short": "Trypsin digestion of Sporulation inhibitor sda.",
+  "score_sets": [
+   "urn:mavedb:00000179-a-1",
+   "urn:mavedb:00000179-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000180-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000180-a-1",
+   "urn:mavedb:00000180-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000181-a": {
+  "title": "rpsS trypsin digestion",
+  "short": "Trypsin digestion of 30S ribosomal protein S19.",
+  "score_sets": [
+   "urn:mavedb:00000181-a-1",
+   "urn:mavedb:00000181-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000182-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000182-a-1",
+   "urn:mavedb:00000182-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000183-a": {
+  "title": "BTK trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase BTK.",
+  "score_sets": [
+   "urn:mavedb:00000183-a-1",
+   "urn:mavedb:00000183-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000184-a": {
+  "title": "psaE trypsin digestion",
+  "short": "Trypsin digestion of Photosystem I reaction center subunit IV.",
+  "score_sets": [
+   "urn:mavedb:00000184-a-1",
+   "urn:mavedb:00000184-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000185-a": {
+  "title": "CI trypsin digestion",
+  "short": "Trypsin digestion of Repressor protein CI.",
+  "score_sets": [
+   "urn:mavedb:00000185-a-1",
+   "urn:mavedb:00000185-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000186-a": {
+  "title": "NPHP1 trypsin digestion",
+  "short": "Trypsin digestion of Nephrocystin-1.",
+  "score_sets": [
+   "urn:mavedb:00000186-a-1",
+   "urn:mavedb:00000186-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000187-a": {
+  "title": "NPHP1 (F13S) trypsin digestion",
+  "short": "Trypsin digestion of Nephrocystin-1 (F13S).",
+  "score_sets": [
+   "urn:mavedb:00000187-a-1",
+   "urn:mavedb:00000187-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000188-a": {
+  "title": "NPHP1 (V29A) trypsin digestion",
+  "short": "Trypsin digestion of Nephrocystin-1 (V29A).",
+  "score_sets": [
+   "urn:mavedb:00000188-a-1",
+   "urn:mavedb:00000188-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000189-a": {
+  "title": "UBC trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C.",
+  "score_sets": [
+   "urn:mavedb:00000189-a-1",
+   "urn:mavedb:00000189-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000190-a": {
+  "title": "UBC (F13S) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (F13S).",
+  "score_sets": [
+   "urn:mavedb:00000190-a-1",
+   "urn:mavedb:00000190-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000191-a": {
+  "title": "UBC (L3A) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (L3A).",
+  "score_sets": [
+   "urn:mavedb:00000191-a-1",
+   "urn:mavedb:00000191-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000192-a": {
+  "title": "SRC trypsin digestion",
+  "short": "Trypsin digestion of Proto-oncogene tyrosine-protein kinase Src.",
+  "score_sets": [
+   "urn:mavedb:00000192-a-1",
+   "urn:mavedb:00000192-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000193-a": {
+  "title": "BBC1 trypsin digestion",
+  "short": "Trypsin digestion of Myosin tail region-interacting protein MTI1.",
+  "score_sets": [
+   "urn:mavedb:00000193-a-1",
+   "urn:mavedb:00000193-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000194-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000194-a-1",
+   "urn:mavedb:00000194-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000195-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000195-a-1",
+   "urn:mavedb:00000195-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000196-a": {
+  "title": "UBC trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C.",
+  "score_sets": [
+   "urn:mavedb:00000196-a-1",
+   "urn:mavedb:00000196-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000197-a": {
+  "title": "UBC (I3A) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (I3A).",
+  "score_sets": [
+   "urn:mavedb:00000197-a-1",
+   "urn:mavedb:00000197-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000198-a": {
+  "title": "UBC (L15S) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (L15S).",
+  "score_sets": [
+   "urn:mavedb:00000198-a-1",
+   "urn:mavedb:00000198-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000199-a": {
+  "title": "UBC (L43A) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (L43A).",
+  "score_sets": [
+   "urn:mavedb:00000199-a-1",
+   "urn:mavedb:00000199-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000200-a": {
+  "title": "UBC (L67S) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (L67S).",
+  "score_sets": [
+   "urn:mavedb:00000200-a-1",
+   "urn:mavedb:00000200-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000201-a": {
+  "title": "UBC (pross10) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (pross10).",
+  "score_sets": [
+   "urn:mavedb:00000201-a-1",
+   "urn:mavedb:00000201-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000202-a": {
+  "title": "UBC (pross7) trypsin digestion",
+  "short": "Trypsin digestion of Polyubiquitin-C (pross7).",
+  "score_sets": [
+   "urn:mavedb:00000202-a-1",
+   "urn:mavedb:00000202-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000203-a": {
+  "title": "Ice-structuring protein RD1 trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein RD1.",
+  "score_sets": [
+   "urn:mavedb:00000203-a-1",
+   "urn:mavedb:00000203-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000204-a": {
+  "title": "Ice-structuring protein RD1 (M59K) trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein RD1 (M59K).",
+  "score_sets": [
+   "urn:mavedb:00000204-a-1",
+   "urn:mavedb:00000204-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000205-a": {
+  "title": "Cops4 trypsin digestion",
+  "short": "Trypsin digestion of COP9 signalosome complex subunit 4.",
+  "score_sets": [
+   "urn:mavedb:00000205-a-1",
+   "urn:mavedb:00000205-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000206-a": {
+  "title": "PKN1 trypsin digestion",
+  "short": "Trypsin digestion of Serine/threonine-protein kinase N1.",
+  "score_sets": [
+   "urn:mavedb:00000206-a-1",
+   "urn:mavedb:00000206-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000207-a": {
+  "title": "PRPF40A trypsin digestion",
+  "short": "Trypsin digestion of Pre-mRNA-processing factor 40 homolog A.",
+  "score_sets": [
+   "urn:mavedb:00000207-a-1",
+   "urn:mavedb:00000207-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000208-a": {
+  "title": "OBSCN trypsin digestion",
+  "short": "Trypsin digestion of Obscurin.",
+  "score_sets": [
+   "urn:mavedb:00000208-a-1",
+   "urn:mavedb:00000208-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000209-a": {
+  "title": "VIL1 trypsin digestion",
+  "short": "Trypsin digestion of Villin-1.",
+  "score_sets": [
+   "urn:mavedb:00000209-a-1",
+   "urn:mavedb:00000209-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000210-a": {
+  "title": "pdhC trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000210-a-1",
+   "urn:mavedb:00000210-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000211-a": {
+  "title": "pdhC trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000211-a-1",
+   "urn:mavedb:00000211-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000212-a": {
+  "title": "pdhC trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000212-a-1",
+   "urn:mavedb:00000212-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000213-a": {
+  "title": "sucB trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000213-a-1",
+   "urn:mavedb:00000213-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000214-a": {
+  "title": "nusA trypsin digestion",
+  "short": "Trypsin digestion of Transcription termination/antitermination protein NusA.",
+  "score_sets": [
+   "urn:mavedb:00000214-a-1",
+   "urn:mavedb:00000214-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000215-a": {
+  "title": "Nedd4l trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase NEDD4-like.",
+  "score_sets": [
+   "urn:mavedb:00000215-a-1",
+   "urn:mavedb:00000215-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000216-a": {
+  "title": "Plcg1 trypsin digestion",
+  "short": "Trypsin digestion of 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000216-a-1",
+   "urn:mavedb:00000216-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000217-a": {
+  "title": "copP trypsin digestion",
+  "short": "Trypsin digestion of COP-associated protein.",
+  "score_sets": [
+   "urn:mavedb:00000217-a-1",
+   "urn:mavedb:00000217-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000218-a": {
+  "title": "MYO5 SH3 domain trypsin digestion",
+  "short": "Trypsin digestion of Myosin-5 SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000218-a-1",
+   "urn:mavedb:00000218-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000219-a": {
+  "title": "VIL1 trypsin digestion",
+  "short": "Trypsin digestion of Villin-1.",
+  "score_sets": [
+   "urn:mavedb:00000219-a-1",
+   "urn:mavedb:00000219-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000220-a": {
+  "title": "OSTF1 trypsin digestion",
+  "short": "Trypsin digestion of Osteoclast-stimulating factor 1 SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000220-a-1",
+   "urn:mavedb:00000220-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000221-a": {
+  "title": "HNRNPUL1 trypsin digestion",
+  "short": "Trypsin digestion of Heterogeneous nuclear ribonucleoprotein U-like protein 1 SAP domain.",
+  "score_sets": [
+   "urn:mavedb:00000221-a-1",
+   "urn:mavedb:00000221-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000222-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000222-a-1",
+   "urn:mavedb:00000222-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000223-a": {
+  "title": "Caltractin trypsin digestion",
+  "short": "Trypsin digestion of Caltractin.",
+  "score_sets": [
+   "urn:mavedb:00000223-a-1",
+   "urn:mavedb:00000223-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000224-a": {
+  "title": "spa trypsin digestion",
+  "short": "Trypsin digestion of Protein A.",
+  "score_sets": [
+   "urn:mavedb:00000224-a-1",
+   "urn:mavedb:00000224-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000225-a": {
+  "title": "spa (pross1) trypsin digestion",
+  "short": "Trypsin digestion of Protein A (pross1).",
+  "score_sets": [
+   "urn:mavedb:00000225-a-1",
+   "urn:mavedb:00000225-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000226-a": {
+  "title": "spa (pross3) trypsin digestion",
+  "short": "Trypsin digestion of Protein A (pross3).",
+  "score_sets": [
+   "urn:mavedb:00000226-a-1",
+   "urn:mavedb:00000226-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000227-a": {
+  "title": "spa (pross4) trypsin digestion",
+  "short": "Trypsin digestion of Protein A (pross4).",
+  "score_sets": [
+   "urn:mavedb:00000227-a-1",
+   "urn:mavedb:00000227-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000228-a": {
+  "title": "spa (pross7) trypsin digestion",
+  "short": "Trypsin digestion of Protein A (pross7).",
+  "score_sets": [
+   "urn:mavedb:00000228-a-1",
+   "urn:mavedb:00000228-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000229-a": {
+  "title": "spa trypsin digestion",
+  "short": "Trypsin digestion of Protein A.",
+  "score_sets": [
+   "urn:mavedb:00000229-a-1",
+   "urn:mavedb:00000229-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000230-a": {
+  "title": "sucB trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000230-a-1",
+   "urn:mavedb:00000230-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000231-a": {
+  "title": "MYO3 SH3 domain trypsin digestion",
+  "short": "Trypsin digestion of Myosin-3 SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000231-a-1",
+   "urn:mavedb:00000231-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000232-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000232-a-1",
+   "urn:mavedb:00000232-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000233-a": {
+  "title": "FecA trypsin digestion",
+  "short": "Trypsin digestion of Periplasmic signaling domain of FecA.",
+  "score_sets": [
+   "urn:mavedb:00000233-a-1",
+   "urn:mavedb:00000233-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000234-a": {
+  "title": "HUWE1 trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase HUWE1.",
+  "score_sets": [
+   "urn:mavedb:00000234-a-1",
+   "urn:mavedb:00000234-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000235-a": {
+  "title": "NfeD domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of NfeD domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000235-a-1",
+   "urn:mavedb:00000235-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000236-a": {
+  "title": "NfeD domain-containing protein (V23S) trypsin digestion",
+  "short": "Trypsin digestion of NfeD domain-containing protein (V23S).",
+  "score_sets": [
+   "urn:mavedb:00000236-a-1",
+   "urn:mavedb:00000236-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000237-a": {
+  "title": "NfeD domain-containing protein (V54A) trypsin digestion",
+  "short": "Trypsin digestion of NfeD domain-containing protein (V54A).",
+  "score_sets": [
+   "urn:mavedb:00000237-a-1",
+   "urn:mavedb:00000237-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000238-a": {
+  "title": "Gene 8 trypsin digestion",
+  "short": "Trypsin digestion of Scaffolding protein.",
+  "score_sets": [
+   "urn:mavedb:00000238-a-1",
+   "urn:mavedb:00000238-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000239-a": {
+  "title": "2HBB_con trypsin digestion",
+  "short": "Trypsin digestion of 2HBB_con.",
+  "score_sets": [
+   "urn:mavedb:00000239-a-1",
+   "urn:mavedb:00000239-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000240-a": {
+  "title": "rplI trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9.",
+  "score_sets": [
+   "urn:mavedb:00000240-a-1",
+   "urn:mavedb:00000240-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000241-a": {
+  "title": "rplI (K12M) trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9 (K12M).",
+  "score_sets": [
+   "urn:mavedb:00000241-a-1",
+   "urn:mavedb:00000241-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000242-a": {
+  "title": "rplI (pross4) trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9 (pross4).",
+  "score_sets": [
+   "urn:mavedb:00000242-a-1",
+   "urn:mavedb:00000242-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000243-a": {
+  "title": "rplI (pross6) trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9 (pross6).",
+  "score_sets": [
+   "urn:mavedb:00000243-a-1",
+   "urn:mavedb:00000243-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000244-a": {
+  "title": "rplI (pross7) trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9 (pross7).",
+  "score_sets": [
+   "urn:mavedb:00000244-a-1",
+   "urn:mavedb:00000244-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000245-a": {
+  "title": "rplI (pross9) trypsin digestion",
+  "short": "Trypsin digestion of 50S ribosomal protein L9 (pross9).",
+  "score_sets": [
+   "urn:mavedb:00000245-a-1",
+   "urn:mavedb:00000245-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000246-a": {
+  "title": "2J6K_con trypsin digestion",
+  "short": "Trypsin digestion of 2J6K_con.",
+  "score_sets": [
+   "urn:mavedb:00000246-a-1",
+   "urn:mavedb:00000246-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000247-a": {
+  "title": "CD2AP (pross9) trypsin digestion",
+  "short": "Trypsin digestion of CD2-associated protein (pross9).",
+  "score_sets": [
+   "urn:mavedb:00000247-a-1",
+   "urn:mavedb:00000247-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000248-a": {
+  "title": "fixU trypsin digestion",
+  "short": "Trypsin digestion of Nitrogen fixation protein NifT.",
+  "score_sets": [
+   "urn:mavedb:00000248-a-1",
+   "urn:mavedb:00000248-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000249-a": {
+  "title": "DUF1107 domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of DUF1107 domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000249-a-1",
+   "urn:mavedb:00000249-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000250-a": {
+  "title": "zf-CHCC domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of zf-CHCC domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000250-a-1",
+   "urn:mavedb:00000250-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000251-a": {
+  "title": "pefI trypsin digestion",
+  "short": "Trypsin digestion of FaeA-like protein.",
+  "score_sets": [
+   "urn:mavedb:00000251-a-1",
+   "urn:mavedb:00000251-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000252-a": {
+  "title": "ArsR family transcriptional regulator trypsin digestion",
+  "short": "Trypsin digestion of ArsR family transcriptional regulator.",
+  "score_sets": [
+   "urn:mavedb:00000252-a-1",
+   "urn:mavedb:00000252-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000253-a": {
+  "title": "ynzC trypsin digestion",
+  "short": "Trypsin digestion of UPF0291 protein YnzC.",
+  "score_sets": [
+   "urn:mavedb:00000253-a-1",
+   "urn:mavedb:00000253-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000254-a": {
+  "title": "Ga88 synthetic construct trypsin digestion",
+  "short": "Trypsin digestion of Ga88 synthetic construct.",
+  "score_sets": [
+   "urn:mavedb:00000254-a-1",
+   "urn:mavedb:00000254-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000255-a": {
+  "title": "en homeodomain trypsin digestion",
+  "short": "Trypsin digestion of Segmentation polarity homeobox protein engrailed homeodomain.",
+  "score_sets": [
+   "urn:mavedb:00000255-a-1",
+   "urn:mavedb:00000255-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000256-a": {
+  "title": "SQSTM1 trypsin digestion",
+  "short": "Trypsin digestion of Sequestosome-1.",
+  "score_sets": [
+   "urn:mavedb:00000256-a-1",
+   "urn:mavedb:00000256-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000257-a": {
+  "title": "Ssl0352 protein trypsin digestion",
+  "short": "Trypsin digestion of Ssl0352 protein.",
+  "score_sets": [
+   "urn:mavedb:00000257-a-1",
+   "urn:mavedb:00000257-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000258-a": {
+  "title": "CBX7 chromo domain trypsin digestion",
+  "short": "Trypsin digestion of Chromobox protein homolog 7 chromo domain.",
+  "score_sets": [
+   "urn:mavedb:00000258-a-1",
+   "urn:mavedb:00000258-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000259-a": {
+  "title": "CBX4 chromo domain trypsin digestion",
+  "short": "Trypsin digestion of Chromobox protein homolog 4 chromo domain.",
+  "score_sets": [
+   "urn:mavedb:00000259-a-1",
+   "urn:mavedb:00000259-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000260-a": {
+  "title": "tnC4 trypsin digestion",
+  "short": "Trypsin digestion of Troponin C.",
+  "score_sets": [
+   "urn:mavedb:00000260-a-1",
+   "urn:mavedb:00000260-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000261-a": {
+  "title": "Uncharacterized protein MJ1198 trypsin digestion",
+  "short": "Trypsin digestion of Uncharacterized protein MJ1198.",
+  "score_sets": [
+   "urn:mavedb:00000261-a-1",
+   "urn:mavedb:00000261-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000262-a": {
+  "title": "Uncharacterized protein MJ1198 (F21S) trypsin digestion",
+  "short": "Trypsin digestion of Uncharacterized protein MJ1198 (F21S).",
+  "score_sets": [
+   "urn:mavedb:00000262-a-1",
+   "urn:mavedb:00000262-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000263-a": {
+  "title": "Uncharacterized protein MJ1198 (L42A) trypsin digestion",
+  "short": "Trypsin digestion of Uncharacterized protein MJ1198 (L42A).",
+  "score_sets": [
+   "urn:mavedb:00000263-a-1",
+   "urn:mavedb:00000263-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000264-a": {
+  "title": "O26789_METTH trypsin digestion",
+  "short": "Trypsin digestion of O26789_METTH.",
+  "score_sets": [
+   "urn:mavedb:00000264-a-1",
+   "urn:mavedb:00000264-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000265-a": {
+  "title": "O26789_METTH (G11S) trypsin digestion",
+  "short": "Trypsin digestion of O26789_METTH (G11S).",
+  "score_sets": [
+   "urn:mavedb:00000265-a-1",
+   "urn:mavedb:00000265-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000266-a": {
+  "title": "O26789_METTH (G23A) trypsin digestion",
+  "short": "Trypsin digestion of O26789_METTH (G23A).",
+  "score_sets": [
+   "urn:mavedb:00000266-a-1",
+   "urn:mavedb:00000266-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000267-a": {
+  "title": "Q6D6V0_PECAS trypsin digestion",
+  "short": "Trypsin digestion of Putative cold-shock protein.",
+  "score_sets": [
+   "urn:mavedb:00000267-a-1",
+   "urn:mavedb:00000267-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000268-a": {
+  "title": "thiS-2 trypsin digestion",
+  "short": "Trypsin digestion of Thiamin biosynthesis sulfur carrier protein.",
+  "score_sets": [
+   "urn:mavedb:00000268-a-1",
+   "urn:mavedb:00000268-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000269-a": {
+  "title": "PIN1 trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1.",
+  "score_sets": [
+   "urn:mavedb:00000269-a-1",
+   "urn:mavedb:00000269-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000270-a": {
+  "title": "Q8EG75_SHEON trypsin digestion",
+  "short": "Trypsin digestion of Cold shock domain family protein.",
+  "score_sets": [
+   "urn:mavedb:00000270-a-1",
+   "urn:mavedb:00000270-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000271-a": {
+  "title": "FKBP3 trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase FKBP3.",
+  "score_sets": [
+   "urn:mavedb:00000271-a-1",
+   "urn:mavedb:00000271-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000272-a": {
+  "title": "PTK6 SH3 domain trypsin digestion",
+  "short": "Trypsin digestion of Protein-tyrosine kinase 6 SH3 domain.",
+  "score_sets": [
+   "urn:mavedb:00000272-a-1",
+   "urn:mavedb:00000272-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000273-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000273-a-1",
+   "urn:mavedb:00000273-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000274-a": {
+  "title": "entD trypsin digestion",
+  "short": "Trypsin digestion of Probable enterotoxin.",
+  "score_sets": [
+   "urn:mavedb:00000274-a-1",
+   "urn:mavedb:00000274-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000275-a": {
+  "title": "entD (W42A) trypsin digestion",
+  "short": "Trypsin digestion of Probable enterotoxin (W42A).",
+  "score_sets": [
+   "urn:mavedb:00000275-a-1",
+   "urn:mavedb:00000275-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000276-a": {
+  "title": "entD (Y53S) trypsin digestion",
+  "short": "Trypsin digestion of Probable enterotoxin (Y53S).",
+  "score_sets": [
+   "urn:mavedb:00000276-a-1",
+   "urn:mavedb:00000276-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000277-a": {
+  "title": "bchB trypsin digestion",
+  "short": "Trypsin digestion of Light-independent protochlorophyllide reductase subunit B.",
+  "score_sets": [
+   "urn:mavedb:00000277-a-1",
+   "urn:mavedb:00000277-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000278-a": {
+  "title": "N-acetylglucosaminidase trypsin digestion",
+  "short": "Trypsin digestion of N-acetylglucosaminidase.",
+  "score_sets": [
+   "urn:mavedb:00000278-a-1",
+   "urn:mavedb:00000278-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000279-a": {
+  "title": "N-acetylglucosaminidase (G54S) trypsin digestion",
+  "short": "Trypsin digestion of N-acetylglucosaminidase (G54S).",
+  "score_sets": [
+   "urn:mavedb:00000279-a-1",
+   "urn:mavedb:00000279-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000280-a": {
+  "title": "N-acetylglucosaminidase (V15A) trypsin digestion",
+  "short": "Trypsin digestion of N-acetylglucosaminidase (V15A).",
+  "score_sets": [
+   "urn:mavedb:00000280-a-1",
+   "urn:mavedb:00000280-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000281-a": {
+  "title": "A0A0H3JVL4_STAAW trypsin digestion",
+  "short": "Trypsin digestion of YozE SAM-like domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000281-a-1",
+   "urn:mavedb:00000281-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000282-a": {
+  "title": "yaiA trypsin digestion",
+  "short": "Trypsin digestion of Uncharacterized protein YaiA.",
+  "score_sets": [
+   "urn:mavedb:00000282-a-1",
+   "urn:mavedb:00000282-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000283-a": {
+  "title": "RALBP1 trypsin digestion",
+  "short": "Trypsin digestion of RalA-binding protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000283-a-1",
+   "urn:mavedb:00000283-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000284-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000284-a-1",
+   "urn:mavedb:00000284-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000285-a": {
+  "title": "entD trypsin digestion",
+  "short": "Trypsin digestion of Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase domain protein, possible enterotoxin.",
+  "score_sets": [
+   "urn:mavedb:00000285-a-1",
+   "urn:mavedb:00000285-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000286-a": {
+  "title": "entD (G2S) trypsin digestion",
+  "short": "Trypsin digestion of Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase domain protein, possible enterotoxin (G2S).",
+  "score_sets": [
+   "urn:mavedb:00000286-a-1",
+   "urn:mavedb:00000286-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000287-a": {
+  "title": "entD (K55A) trypsin digestion",
+  "short": "Trypsin digestion of Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase domain protein, possible enterotoxin (K55A).",
+  "score_sets": [
+   "urn:mavedb:00000287-a-1",
+   "urn:mavedb:00000287-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000288-a": {
+  "title": "ZHER2 Affibody trypsin digestion",
+  "short": "Trypsin digestion of ZHER2 Affibody.",
+  "score_sets": [
+   "urn:mavedb:00000288-a-1",
+   "urn:mavedb:00000288-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000289-a": {
+  "title": "ZHER2 Affibody (pross1) trypsin digestion",
+  "short": "Trypsin digestion of ZHER2 Affibody (pross1).",
+  "score_sets": [
+   "urn:mavedb:00000289-a-1",
+   "urn:mavedb:00000289-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000290-a": {
+  "title": "ZHER2 Affibody (pross2) trypsin digestion",
+  "short": "Trypsin digestion of ZHER2 Affibody (pross2).",
+  "score_sets": [
+   "urn:mavedb:00000290-a-1",
+   "urn:mavedb:00000290-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000291-a": {
+  "title": "ZHER2 Affibody (alternative) trypsin digestion",
+  "short": "Trypsin digestion of ZHER2 Affibody (alternative).",
+  "score_sets": [
+   "urn:mavedb:00000291-a-1",
+   "urn:mavedb:00000291-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000292-a": {
+  "title": "Asr4154 protein trypsin digestion",
+  "short": "Trypsin digestion of Asr4154 protein.",
+  "score_sets": [
+   "urn:mavedb:00000292-a-1",
+   "urn:mavedb:00000292-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000293-a": {
+  "title": "FYN trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn.",
+  "score_sets": [
+   "urn:mavedb:00000293-a-1",
+   "urn:mavedb:00000293-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000294-a": {
+  "title": "W trypsin digestion",
+  "short": "Trypsin digestion of Head completion protein.",
+  "score_sets": [
+   "urn:mavedb:00000294-a-1",
+   "urn:mavedb:00000294-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000295-a": {
+  "title": "PITX2 homeodomain trypsin digestion",
+  "short": "Trypsin digestion of Pituitary homeobox 2 homeodomain.",
+  "score_sets": [
+   "urn:mavedb:00000295-a-1",
+   "urn:mavedb:00000295-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000296-a": {
+  "title": "PITX2 homeodomain (R24H mutant) trypsin digestion",
+  "short": "Trypsin digestion of Pituitary homeobox 2 homeodomain (R24H mutant).",
+  "score_sets": [
+   "urn:mavedb:00000296-a-1",
+   "urn:mavedb:00000296-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000297-a": {
+  "title": "LBR Tudor domain trypsin digestion",
+  "short": "Trypsin digestion of Delta(14)-sterol reductase LBR Tudor domain.",
+  "score_sets": [
+   "urn:mavedb:00000297-a-1",
+   "urn:mavedb:00000297-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000298-a": {
+  "title": "NKX3-1 trypsin digestion",
+  "short": "Trypsin digestion of Homeobox protein Nkx-3.1.",
+  "score_sets": [
+   "urn:mavedb:00000298-a-1",
+   "urn:mavedb:00000298-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000299-a": {
+  "title": "RxLR effector protein trypsin digestion",
+  "short": "Trypsin digestion of RxLR effector protein.",
+  "score_sets": [
+   "urn:mavedb:00000299-a-1",
+   "urn:mavedb:00000299-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000300-a": {
+  "title": "DNAJB2 trypsin digestion",
+  "short": "Trypsin digestion of DnaJ homolog subfamily B member 2.",
+  "score_sets": [
+   "urn:mavedb:00000300-a-1",
+   "urn:mavedb:00000300-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000301-a": {
+  "title": "isdH trypsin digestion",
+  "short": "Trypsin digestion of Iron-regulated surface determinant protein H.",
+  "score_sets": [
+   "urn:mavedb:00000301-a-1",
+   "urn:mavedb:00000301-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000302-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000302-a-1",
+   "urn:mavedb:00000302-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000303-a": {
+  "title": "STI1 trypsin digestion",
+  "short": "Trypsin digestion of Heat shock protein STI1.",
+  "score_sets": [
+   "urn:mavedb:00000303-a-1",
+   "urn:mavedb:00000303-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000304-a": {
+  "title": "DNAJA1 trypsin digestion",
+  "short": "Trypsin digestion of DnaJ homolog subfamily A member 1.",
+  "score_sets": [
+   "urn:mavedb:00000304-a-1",
+   "urn:mavedb:00000304-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000305-a": {
+  "title": "FYN trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn.",
+  "score_sets": [
+   "urn:mavedb:00000305-a-1",
+   "urn:mavedb:00000305-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000306-a": {
+  "title": "Q72GN0_THET2 trypsin digestion",
+  "short": "Trypsin digestion of Transcriptional regulator.",
+  "score_sets": [
+   "urn:mavedb:00000306-a-1",
+   "urn:mavedb:00000306-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000307-a": {
+  "title": "Cold shock-like protein CspA trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspA.",
+  "score_sets": [
+   "urn:mavedb:00000307-a-1",
+   "urn:mavedb:00000307-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000308-a": {
+  "title": "Cold shock-like protein CspA (F17A) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspA (F17A).",
+  "score_sets": [
+   "urn:mavedb:00000308-a-1",
+   "urn:mavedb:00000308-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000309-a": {
+  "title": "Cold shock-like protein CspA (G6S) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspA (G6S).",
+  "score_sets": [
+   "urn:mavedb:00000309-a-1",
+   "urn:mavedb:00000309-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000310-a": {
+  "title": "carD trypsin digestion",
+  "short": "Trypsin digestion of CarD protein.",
+  "score_sets": [
+   "urn:mavedb:00000310-a-1",
+   "urn:mavedb:00000310-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000311-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000311-a-1",
+   "urn:mavedb:00000311-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000312-a": {
+  "title": "AMFR trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase AMFR.",
+  "score_sets": [
+   "urn:mavedb:00000312-a-1",
+   "urn:mavedb:00000312-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000313-a": {
+  "title": "Ice-structuring protein trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein.",
+  "score_sets": [
+   "urn:mavedb:00000313-a-1",
+   "urn:mavedb:00000313-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000314-a": {
+  "title": "Ice-structuring protein (I32A) trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein (I32A).",
+  "score_sets": [
+   "urn:mavedb:00000314-a-1",
+   "urn:mavedb:00000314-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000315-a": {
+  "title": "Ice-structuring protein trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein.",
+  "score_sets": [
+   "urn:mavedb:00000315-a-1",
+   "urn:mavedb:00000315-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000316-a": {
+  "title": "cspLA trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspLA.",
+  "score_sets": [
+   "urn:mavedb:00000316-a-1",
+   "urn:mavedb:00000316-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000317-a": {
+  "title": "cspLA (F15S) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspLA (F15S).",
+  "score_sets": [
+   "urn:mavedb:00000317-a-1",
+   "urn:mavedb:00000317-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000318-a": {
+  "title": "cspLA (G4A) trypsin digestion",
+  "short": "Trypsin digestion of Cold shock-like protein CspLA (G4A).",
+  "score_sets": [
+   "urn:mavedb:00000318-a-1",
+   "urn:mavedb:00000318-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000319-a": {
+  "title": "cylR2 trypsin digestion",
+  "short": "Trypsin digestion of CylR2.",
+  "score_sets": [
+   "urn:mavedb:00000319-a-1",
+   "urn:mavedb:00000319-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000320-a": {
+  "title": "cylR2 (P41A) trypsin digestion",
+  "short": "Trypsin digestion of CylR2 (P41A).",
+  "score_sets": [
+   "urn:mavedb:00000320-a-1",
+   "urn:mavedb:00000320-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000321-a": {
+  "title": "cylR2 (V26S) trypsin digestion",
+  "short": "Trypsin digestion of CylR2 (V26S).",
+  "score_sets": [
+   "urn:mavedb:00000321-a-1",
+   "urn:mavedb:00000321-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000322-a": {
+  "title": "cylR2 trypsin digestion",
+  "short": "Trypsin digestion of CylR2.",
+  "score_sets": [
+   "urn:mavedb:00000322-a-1",
+   "urn:mavedb:00000322-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000323-a": {
+  "title": "cylR2 trypsin digestion",
+  "short": "Trypsin digestion of CylR2.",
+  "score_sets": [
+   "urn:mavedb:00000323-a-1",
+   "urn:mavedb:00000323-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000324-a": {
+  "title": "ALX4 trypsin digestion",
+  "short": "Trypsin digestion of Homeobox protein aristaless-like 4.",
+  "score_sets": [
+   "urn:mavedb:00000324-a-1",
+   "urn:mavedb:00000324-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000325-a": {
+  "title": "U14Ub1 trypsin digestion",
+  "short": "Trypsin digestion of U14Ub1, an engineered ubiquitin variant with increased affinity for USP14.",
+  "score_sets": [
+   "urn:mavedb:00000325-a-1",
+   "urn:mavedb:00000325-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000326-a": {
+  "title": "Dock1 trypsin digestion",
+  "short": "Trypsin digestion of Dedicator of cytokinesis protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000326-a-1",
+   "urn:mavedb:00000326-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000327-a": {
+  "title": "ydgH trypsin digestion",
+  "short": "Trypsin digestion of Putative periplasmic protein.",
+  "score_sets": [
+   "urn:mavedb:00000327-a-1",
+   "urn:mavedb:00000327-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000328-a": {
+  "title": "Chromo domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of Chromo domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000328-a-1",
+   "urn:mavedb:00000328-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000329-a": {
+  "title": "RASA1 trypsin digestion",
+  "short": "Trypsin digestion of Ras GTPase-activating protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000329-a-1",
+   "urn:mavedb:00000329-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000330-a": {
+  "title": "DUF4651 domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of DUF4651 domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000330-a-1",
+   "urn:mavedb:00000330-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000331-a": {
+  "title": "DUF4651 domain-containing protein (I21A) trypsin digestion",
+  "short": "Trypsin digestion of DUF4651 domain-containing protein (I21A).",
+  "score_sets": [
+   "urn:mavedb:00000331-a-1",
+   "urn:mavedb:00000331-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000332-a": {
+  "title": "PAI subdomain of Sleeping Beauty transposase trypsin digestion",
+  "short": "Trypsin digestion of PAI subdomain of Sleeping Beauty transposase.",
+  "score_sets": [
+   "urn:mavedb:00000332-a-1",
+   "urn:mavedb:00000332-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000333-a": {
+  "title": "PIN1 trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1.",
+  "score_sets": [
+   "urn:mavedb:00000333-a-1",
+   "urn:mavedb:00000333-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000334-a": {
+  "title": "PIN1 (S16E mutant) trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 (S16E mutant).",
+  "score_sets": [
+   "urn:mavedb:00000334-a-1",
+   "urn:mavedb:00000334-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000335-a": {
+  "title": "Calcium-binding EF-hand domain-containing protein trypsin digestion",
+  "short": "Trypsin digestion of Calcium-binding EF-hand domain-containing protein.",
+  "score_sets": [
+   "urn:mavedb:00000335-a-1",
+   "urn:mavedb:00000335-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000336-a": {
+  "title": "PIN1 trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1.",
+  "score_sets": [
+   "urn:mavedb:00000336-a-1",
+   "urn:mavedb:00000336-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000337-a": {
+  "title": "PIN1 trypsin digestion",
+  "short": "Trypsin digestion of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1.",
+  "score_sets": [
+   "urn:mavedb:00000337-a-1",
+   "urn:mavedb:00000337-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000338-a": {
+  "title": "yahO trypsin digestion",
+  "short": "Trypsin digestion of Putative periplasmic protein.",
+  "score_sets": [
+   "urn:mavedb:00000338-a-1",
+   "urn:mavedb:00000338-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000339-a": {
+  "title": "RNA polymerase inhibitor p7 trypsin digestion",
+  "short": "Trypsin digestion of RNA polymerase inhibitor p7.",
+  "score_sets": [
+   "urn:mavedb:00000339-a-1",
+   "urn:mavedb:00000339-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000340-a": {
+  "title": "Genome polyprotein trypsin digestion",
+  "short": "Trypsin digestion of Genome polyprotein.",
+  "score_sets": [
+   "urn:mavedb:00000340-a-1",
+   "urn:mavedb:00000340-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000341-a": {
+  "title": "Genome polyprotein trypsin digestion",
+  "short": "Trypsin digestion of Genome polyprotein.",
+  "score_sets": [
+   "urn:mavedb:00000341-a-1",
+   "urn:mavedb:00000341-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000342-a": {
+  "title": "Genome polyprotein trypsin digestion",
+  "short": "Trypsin digestion of Genome polyprotein.",
+  "score_sets": [
+   "urn:mavedb:00000342-a-1",
+   "urn:mavedb:00000342-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000343-a": {
+  "title": "nusG trypsin digestion",
+  "short": "Trypsin digestion of Transcription termination/antitermination protein NusG.",
+  "score_sets": [
+   "urn:mavedb:00000343-a-1",
+   "urn:mavedb:00000343-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000344-a": {
+  "title": "Autolysin trypsin digestion",
+  "short": "Trypsin digestion of Autolysin.",
+  "score_sets": [
+   "urn:mavedb:00000344-a-1",
+   "urn:mavedb:00000344-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000345-a": {
+  "title": "Autolysin (L11A) trypsin digestion",
+  "short": "Trypsin digestion of Autolysin (L11A).",
+  "score_sets": [
+   "urn:mavedb:00000345-a-1",
+   "urn:mavedb:00000345-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000346-a": {
+  "title": "Autolysin (N29S) trypsin digestion",
+  "short": "Trypsin digestion of Autolysin (N29S).",
+  "score_sets": [
+   "urn:mavedb:00000346-a-1",
+   "urn:mavedb:00000346-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000347-a": {
+  "title": "PrgK first periplasmic domain trypsin digestion",
+  "short": "Trypsin digestion of PrgK first periplasmic domain.",
+  "score_sets": [
+   "urn:mavedb:00000347-a-1",
+   "urn:mavedb:00000347-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000348-a": {
+  "title": "Computational design based on ubiquitin (L43D) trypsin digestion",
+  "short": "Trypsin digestion of Computational designed protein based on template of human erythrocytic ubiquitin (L43D).",
+  "score_sets": [
+   "urn:mavedb:00000348-a-1",
+   "urn:mavedb:00000348-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000349-a": {
+  "title": "Chitin synthase trypsin digestion",
+  "short": "Trypsin digestion of Chitin synthase.",
+  "score_sets": [
+   "urn:mavedb:00000349-a-1",
+   "urn:mavedb:00000349-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000350-a": {
+  "title": "Q2SV23_BURTA trypsin digestion",
+  "short": "Trypsin digestion of Q2SV23_BURTA.",
+  "score_sets": [
+   "urn:mavedb:00000350-a-1",
+   "urn:mavedb:00000350-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000351-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000351-a-1",
+   "urn:mavedb:00000351-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000352-a": {
+  "title": "TCERG1 (Y438R mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (Y438R mutant).",
+  "score_sets": [
+   "urn:mavedb:00000352-a-1",
+   "urn:mavedb:00000352-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000353-a": {
+  "title": "TCERG1 (Y446L mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (Y446L mutant).",
+  "score_sets": [
+   "urn:mavedb:00000353-a-1",
+   "urn:mavedb:00000353-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000354-a": {
+  "title": "TCERG1 (W457F mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (W457F  mutant).",
+  "score_sets": [
+   "urn:mavedb:00000354-a-1",
+   "urn:mavedb:00000354-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000355-a": {
+  "title": "POLG_PESV trypsin digestion",
+  "short": "Trypsin digestion of POLG_PESV.",
+  "score_sets": [
+   "urn:mavedb:00000355-a-1",
+   "urn:mavedb:00000355-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000356-a": {
+  "title": "CUE1 trypsin digestion",
+  "short": "Trypsin digestion of Coupling of ubiquitin conjugation to ER degradation protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000356-a-1",
+   "urn:mavedb:00000356-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000357-a": {
+  "title": "TCERG1 (L453D mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (L453D mutant).",
+  "score_sets": [
+   "urn:mavedb:00000357-a-1",
+   "urn:mavedb:00000357-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000358-a": {
+  "title": "TCERG1 (L453E mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (L453E mutant).",
+  "score_sets": [
+   "urn:mavedb:00000358-a-1",
+   "urn:mavedb:00000358-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000359-a": {
+  "title": "TCERG1 (L453W mutant) trypsin digestion",
+  "short": "Trypsin digestion of Transcription elongation regulator 1 (L453W mutant).",
+  "score_sets": [
+   "urn:mavedb:00000359-a-1",
+   "urn:mavedb:00000359-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000360-a": {
+  "title": "ATP7B trypsin digestion",
+  "short": "Trypsin digestion of Copper-transporting ATPase 2.",
+  "score_sets": [
+   "urn:mavedb:00000360-a-1",
+   "urn:mavedb:00000360-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000361-a": {
+  "title": "CAO trypsin digestion",
+  "short": "Trypsin digestion of Signal recognition particle 43 kDa protein, chloroplastic.",
+  "score_sets": [
+   "urn:mavedb:00000361-a-1",
+   "urn:mavedb:00000361-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000362-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000362-a-1",
+   "urn:mavedb:00000362-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000363-a": {
+  "title": "SORBS1 trypsin digestion",
+  "short": "Trypsin digestion of Sorbin and SH3 domain-containing protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000363-a-1",
+   "urn:mavedb:00000363-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000364-a": {
+  "title": "dnj-12 trypsin digestion",
+  "short": "Trypsin digestion of DNaJ domain (Prokaryotic heat shock protein).",
+  "score_sets": [
+   "urn:mavedb:00000364-a-1",
+   "urn:mavedb:00000364-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000365-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000365-a-1",
+   "urn:mavedb:00000365-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000366-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000366-a-1",
+   "urn:mavedb:00000366-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000367-a": {
+  "title": "WWP1 trypsin digestion",
+  "short": "Trypsin digestion of NEDD4-like E3 ubiquitin-protein ligase WWP1.",
+  "score_sets": [
+   "urn:mavedb:00000367-a-1",
+   "urn:mavedb:00000367-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000368-a": {
+  "title": "pdhC trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000368-a-1",
+   "urn:mavedb:00000368-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000369-a": {
+  "title": "exbD trypsin digestion",
+  "short": "Trypsin digestion of Biopolymer transport protein ExbD.",
+  "score_sets": [
+   "urn:mavedb:00000369-a-1",
+   "urn:mavedb:00000369-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000370-a": {
+  "title": "Protein LG trypsin digestion",
+  "short": "Trypsin digestion of Protein LG.",
+  "score_sets": [
+   "urn:mavedb:00000370-a-1",
+   "urn:mavedb:00000370-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000371-a": {
+  "title": "Protein LG (I58A) trypsin digestion",
+  "short": "Trypsin digestion of Protein LG (I58A).",
+  "score_sets": [
+   "urn:mavedb:00000371-a-1",
+   "urn:mavedb:00000371-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000372-a": {
+  "title": "Protein LG (L38S) trypsin digestion",
+  "short": "Trypsin digestion of Protein LG (L38S).",
+  "score_sets": [
+   "urn:mavedb:00000372-a-1",
+   "urn:mavedb:00000372-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000373-a": {
+  "title": "scn trypsin digestion",
+  "short": "Trypsin digestion of Staphylococcal complement inhibitor.",
+  "score_sets": [
+   "urn:mavedb:00000373-a-1",
+   "urn:mavedb:00000373-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000374-a": {
+  "title": "VIL1 trypsin digestion",
+  "short": "Trypsin digestion of Villin-1.",
+  "score_sets": [
+   "urn:mavedb:00000374-a-1",
+   "urn:mavedb:00000374-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000375-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000375-a-1",
+   "urn:mavedb:00000375-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000376-a": {
+  "title": "SPTAN1 (F60A) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1 (F60A).",
+  "score_sets": [
+   "urn:mavedb:00000376-a-1",
+   "urn:mavedb:00000376-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000377-a": {
+  "title": "SPTAN1 (W41S) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1 (W41S).",
+  "score_sets": [
+   "urn:mavedb:00000377-a-1",
+   "urn:mavedb:00000377-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000378-a": {
+  "title": "Calmodulin trypsin digestion",
+  "short": "Trypsin digestion of Calmodulin C-domain E104D/E140D mutant.",
+  "score_sets": [
+   "urn:mavedb:00000378-a-1",
+   "urn:mavedb:00000378-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000379-a": {
+  "title": "Sqstm1 trypsin digestion",
+  "short": "Trypsin digestion of Sequestosome-1.",
+  "score_sets": [
+   "urn:mavedb:00000379-a-1",
+   "urn:mavedb:00000379-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000380-a": {
+  "title": "yajR trypsin digestion",
+  "short": "Trypsin digestion of MFS transporter.",
+  "score_sets": [
+   "urn:mavedb:00000380-a-1",
+   "urn:mavedb:00000380-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000381-a": {
+  "title": "Bacterial RNA polymerase inhibitor trypsin digestion",
+  "short": "Trypsin digestion of Bacterial RNA polymerase inhibitor.",
+  "score_sets": [
+   "urn:mavedb:00000381-a-1",
+   "urn:mavedb:00000381-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000382-a": {
+  "title": "THO1 trypsin digestion",
+  "short": "Trypsin digestion of Protein THO1.",
+  "score_sets": [
+   "urn:mavedb:00000382-a-1",
+   "urn:mavedb:00000382-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000383-a": {
+  "title": "sucB trypsin digestion",
+  "short": "Trypsin digestion of Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex.",
+  "score_sets": [
+   "urn:mavedb:00000383-a-1",
+   "urn:mavedb:00000383-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000384-a": {
+  "title": "Sav1 trypsin digestion",
+  "short": "Trypsin digestion of Protein salvador homolog 1.",
+  "score_sets": [
+   "urn:mavedb:00000384-a-1",
+   "urn:mavedb:00000384-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000385-a": {
+  "title": "APBB3 trypsin digestion",
+  "short": "Trypsin digestion of Amyloid-beta A4 precursor protein-binding family B member 3.",
+  "score_sets": [
+   "urn:mavedb:00000385-a-1",
+   "urn:mavedb:00000385-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000386-a": {
+  "title": "ITCH trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase Itchy homolog.",
+  "score_sets": [
+   "urn:mavedb:00000386-a-1",
+   "urn:mavedb:00000386-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000387-a": {
+  "title": "GAS7 trypsin digestion",
+  "short": "Trypsin digestion of Growth arrest-specific protein 7.",
+  "score_sets": [
+   "urn:mavedb:00000387-a-1",
+   "urn:mavedb:00000387-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000388-a": {
+  "title": "Protein LG (V55S) trypsin digestion",
+  "short": "Trypsin digestion of Protein LG (V55S).",
+  "score_sets": [
+   "urn:mavedb:00000388-a-1",
+   "urn:mavedb:00000388-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000389-a": {
+  "title": "Protein LG (Y34A) trypsin digestion",
+  "short": "Trypsin digestion of Protein LG (Y34A).",
+  "score_sets": [
+   "urn:mavedb:00000389-a-1",
+   "urn:mavedb:00000389-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000390-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000390-a-1",
+   "urn:mavedb:00000390-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000391-a": {
+  "title": "FYN trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase Fyn.",
+  "score_sets": [
+   "urn:mavedb:00000391-a-1",
+   "urn:mavedb:00000391-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000392-a": {
+  "title": "HECTD1 trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase HECTD1.",
+  "score_sets": [
+   "urn:mavedb:00000392-a-1",
+   "urn:mavedb:00000392-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000393-a": {
+  "title": "LASP1 trypsin digestion",
+  "short": "Trypsin digestion of LIM and SH3 domain protein 1.",
+  "score_sets": [
+   "urn:mavedb:00000393-a-1",
+   "urn:mavedb:00000393-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000394-a": {
+  "title": "UBE4B trypsin digestion",
+  "short": "Trypsin digestion of Ubiquitin conjugation factor E4 B.",
+  "score_sets": [
+   "urn:mavedb:00000394-a-1",
+   "urn:mavedb:00000394-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000395-a": {
+  "title": "VIL1 trypsin digestion",
+  "short": "Trypsin digestion of Villin-1.",
+  "score_sets": [
+   "urn:mavedb:00000395-a-1",
+   "urn:mavedb:00000395-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000396-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000396-a-1",
+   "urn:mavedb:00000396-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000397-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000397-a-1",
+   "urn:mavedb:00000397-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000398-a": {
+  "title": "de novo designed MID1-apo1 trypsin digestion",
+  "short": "Trypsin digestion of de novo designed MID1-apo1.",
+  "score_sets": [
+   "urn:mavedb:00000398-a-1",
+   "urn:mavedb:00000398-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000399-a": {
+  "title": "RxLR effector protein trypsin digestion",
+  "short": "Trypsin digestion of RxLR effector protein.",
+  "score_sets": [
+   "urn:mavedb:00000399-a-1",
+   "urn:mavedb:00000399-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000400-a": {
+  "title": "EN2 trypsin digestion",
+  "short": "Trypsin digestion of Homeobox protein engrailed-2.",
+  "score_sets": [
+   "urn:mavedb:00000400-a-1",
+   "urn:mavedb:00000400-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000401-a": {
+  "title": "Type-3 ice-structuring protein HPLC 12 trypsin digestion",
+  "short": "Trypsin digestion of Type-3 ice-structuring protein HPLC 12.",
+  "score_sets": [
+   "urn:mavedb:00000401-a-1",
+   "urn:mavedb:00000401-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000402-a": {
+  "title": "Addiction module toxin, HicA family trypsin digestion",
+  "short": "Trypsin digestion of Addiction module toxin, HicA family.",
+  "score_sets": [
+   "urn:mavedb:00000402-a-1",
+   "urn:mavedb:00000402-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000403-a": {
+  "title": "AMFR trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase AMFR.",
+  "score_sets": [
+   "urn:mavedb:00000403-a-1",
+   "urn:mavedb:00000403-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000404-a": {
+  "title": "HCK trypsin digestion",
+  "short": "Trypsin digestion of Tyrosine-protein kinase HCK.",
+  "score_sets": [
+   "urn:mavedb:00000404-a-1",
+   "urn:mavedb:00000404-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000405-a": {
+  "title": "ntrC1 trypsin digestion",
+  "short": "Trypsin digestion of Transcriptional regulator (NtrC family).",
+  "score_sets": [
+   "urn:mavedb:00000405-a-1",
+   "urn:mavedb:00000405-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000406-a": {
+  "title": "Ice-structuring protein trypsin digestion",
+  "short": "Trypsin digestion of Ice-structuring protein.",
+  "score_sets": [
+   "urn:mavedb:00000406-a-1",
+   "urn:mavedb:00000406-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000407-a": {
+  "title": "THO1 trypsin digestion",
+  "short": "Trypsin digestion of Protein THO1.",
+  "score_sets": [
+   "urn:mavedb:00000407-a-1",
+   "urn:mavedb:00000407-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000408-a": {
+  "title": "NEDD4 trypsin digestion",
+  "short": "Trypsin digestion of E3 ubiquitin-protein ligase NEDD4.",
+  "score_sets": [
+   "urn:mavedb:00000408-a-1",
+   "urn:mavedb:00000408-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000409-a": {
+  "title": "SRC trypsin digestion",
+  "short": "Trypsin digestion of Proto-oncogene tyrosine-protein kinase Src.",
+  "score_sets": [
+   "urn:mavedb:00000409-a-1",
+   "urn:mavedb:00000409-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000410-a": {
+  "title": "SRC (P51S) trypsin digestion",
+  "short": "Trypsin digestion of Proto-oncogene tyrosine-protein kinase Src (P51S).",
+  "score_sets": [
+   "urn:mavedb:00000410-a-1",
+   "urn:mavedb:00000410-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000411-a": {
+  "title": "SRC (W37A) trypsin digestion",
+  "short": "Trypsin digestion of Proto-oncogene tyrosine-protein kinase Src (W37A).",
+  "score_sets": [
+   "urn:mavedb:00000411-a-1",
+   "urn:mavedb:00000411-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000412-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000412-a-1",
+   "urn:mavedb:00000412-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000413-a": {
+  "title": "SPTAN1 trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1.",
+  "score_sets": [
+   "urn:mavedb:00000413-a-1",
+   "urn:mavedb:00000413-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000414-a": {
+  "title": "SPTAN1 (A10S) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1 (A10S).",
+  "score_sets": [
+   "urn:mavedb:00000414-a-1",
+   "urn:mavedb:00000414-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000415-a": {
+  "title": "SPTAN1 (M24A) trypsin digestion",
+  "short": "Trypsin digestion of Spectrin alpha chain, non-erythrocytic 1 (M24A).",
+  "score_sets": [
+   "urn:mavedb:00000415-a-1",
+   "urn:mavedb:00000415-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000416-a": {
+  "title": "O59021_PYRHO trypsin digestion",
+  "short": "Trypsin digestion of 149aa long hypothetical methylmalonyl-CoA decarboxylase gamma chain.",
+  "score_sets": [
+   "urn:mavedb:00000416-a-1",
+   "urn:mavedb:00000416-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000417-a": {
+  "title": "O59021_PYRHO (L66K) trypsin digestion",
+  "short": "Trypsin digestion of 149aa long hypothetical methylmalonyl-CoA decarboxylase gamma chain (L66K).",
+  "score_sets": [
+   "urn:mavedb:00000417-a-1",
+   "urn:mavedb:00000417-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000418-a": {
+  "title": "O59021_PYRHO (V60D) trypsin digestion",
+  "short": "Trypsin digestion of 149aa long hypothetical methylmalonyl-CoA decarboxylase gamma chain (V60D).",
+  "score_sets": [
+   "urn:mavedb:00000418-a-1",
+   "urn:mavedb:00000418-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000419-a": {
+  "title": "TNKS2 trypsin digestion",
+  "short": "Trypsin digestion of Poly [ADP-ribose] polymerase tankyrase-2.",
+  "score_sets": [
+   "urn:mavedb:00000419-a-1",
+   "urn:mavedb:00000419-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000420-a": {
+  "title": "Denovo Beta Sheet Design Protein trypsin digestion",
+  "short": "Trypsin digestion of Denovo Beta Sheet Design Protein.",
+  "score_sets": [
+   "urn:mavedb:00000420-a-1",
+   "urn:mavedb:00000420-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000421-a": {
+  "title": "P trypsin digestion",
+  "short": "Trypsin digestion of Phosphoprotein.",
+  "score_sets": [
+   "urn:mavedb:00000421-a-1",
+   "urn:mavedb:00000421-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000422-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000422-a-1",
+   "urn:mavedb:00000422-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000423-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000423-a-1",
+   "urn:mavedb:00000423-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000424-a": {
+  "title": "spg trypsin digestion",
+  "short": "Trypsin digestion of Immunoglobulin G-binding protein G.",
+  "score_sets": [
+   "urn:mavedb:00000424-a-1",
+   "urn:mavedb:00000424-a-2"
+  ],
+  "pub": []
+ },
+ "urn:mavedb:00000425-a": {
+  "title": "HHH_rd1_0142 trypsin digestion",
+  "short": "Trypsin digestion of de novo mini protein HHH_rd1_0142.",
+  "score_sets": [
+   "urn:mavedb:00000425-a-1",
+   "urn:mavedb:00000425-a-2"
+  ],
+  "pub": []
+ }
+}

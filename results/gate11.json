@@ -1,0 +1,80 @@
+{
+ "positions": 19291,
+ "domains": 385,
+ "mean_ddg": {
+  "G": -2.014,
+  "A": -1.885
+ },
+ "overall_delta_mean": 0.13,
+ "by_secondary_structure": {
+  "E": {
+   "n": 7930,
+   "mean_delta": 0.102,
+   "median_delta": 0.072
+  },
+  "H": {
+   "n": 9312,
+   "mean_delta": 0.201,
+   "median_delta": 0.166
+  },
+  "L": {
+   "n": 2049,
+   "mean_delta": -0.082,
+   "median_delta": -0.031
+  }
+ },
+ "A_helix_minus_loop": {
+  "difference_kcal": 0.283,
+  "ci95_by_domain": [
+   0.244,
+   0.321
+  ],
+  "passed": true
+ },
+ "B_effect_at_least_0.3": {
+  "difference_kcal": 0.283,
+  "passed": false
+ },
+ "H11_supported": false,
+ "by_burial": {
+  "buried": {
+   "n": 6366,
+   "mean_delta": 0.195
+  },
+  "exposed": {
+   "n": 6559,
+   "mean_delta": 0.026
+  },
+  "mid": {
+   "n": 6366,
+   "mean_delta": 0.173
+  }
+ },
+ "by_flanking_positive_phi": {
+  "0": {
+   "n": 17128,
+   "mean_delta": 0.163
+  },
+  "1": {
+   "n": 2163,
+   "mean_delta": -0.131
+  }
+ },
+ "flank_phi_difference": {
+  "difference_kcal": -0.294,
+  "ci95_by_domain": [
+   -0.327,
+   -0.262
+  ]
+ },
+ "helix_middle_vs_end": {
+  "0.0": {
+   "n": 3051,
+   "mean_delta": 0.0
+  },
+  "1.0": {
+   "n": 6261,
+   "mean_delta": 0.299
+  }
+ }
+}

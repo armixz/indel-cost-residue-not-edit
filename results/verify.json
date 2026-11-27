@@ -1,0 +1,209 @@
+{
+  "pace_source": "Pace & Scholtz 1998 Biophys J 75:422. All 19 values above were confirmed against the published abstract (PMC1299714). Proline is EXCLUDED: the abstract says 'excluding proline', and the circulating value 3.16 could not be verified.",
+  "V1_parsing": {
+    "rows_in_file": 773374,
+    "domains_with_wt_reference": 952,
+    "single_indel_rows": 141844,
+    "insertions": 95184,
+    "deletions": 46660,
+    "inserted_residues": [
+      "A",
+      "G"
+    ],
+    "deleted_residue_types": 20,
+    "dropped_no_wt_reference": 23,
+    "after_quality_filter": 135908,
+    "domains_with_models": 748
+  },
+  "V2_numbering": {
+    "checked": 36047,
+    "match_rate": 1.0,
+    "mismatched_domains": []
+  },
+  "V3_agreement_with_old_pipeline": {
+    "error": "`x` and `y` must have length at least 2."
+  },
+  "V4_setup": {
+    "n": 35877,
+    "domains": 748,
+    "residues": 20,
+    "by_class": {
+      "L": 15283,
+      "H": 13210,
+      "E": 7384
+    }
+  },
+  "V4_interaction": {
+    "F": 8.7657,
+    "p": 3.848727554911838e-46,
+    "df_num": 36.0
+  },
+  "V4_permuted": {
+    "F": 1.3566,
+    "p": 0.07508877187591301
+  },
+  "V5_propensity": {
+    "spearman": -0.6395,
+    "n_residues": 18,
+    "bootstrap_ci95_over_domains": [
+      -0.7397,
+      -0.4122
+    ],
+    "n_boot": 2000,
+    "contrasts": {
+      "A": [
+        0.8195,
+        237
+      ],
+      "D": [
+        0.2165,
+        198
+      ],
+      "E": [
+        0.8444,
+        276
+      ],
+      "F": [
+        0.463,
+        89
+      ],
+      "G": [
+        -0.0525,
+        71
+      ],
+      "H": [
+        0.0826,
+        25
+      ],
+      "I": [
+        0.6614,
+        146
+      ],
+      "K": [
+        0.8202,
+        311
+      ],
+      "L": [
+        0.4363,
+        300
+      ],
+      "M": [
+        0.5939,
+        29
+      ],
+      "N": [
+        0.3414,
+        120
+      ],
+      "P": [
+        0.6092,
+        68
+      ],
+      "Q": [
+        0.6438,
+        114
+      ],
+      "R": [
+        0.6715,
+        185
+      ],
+      "S": [
+        0.6415,
+        108
+      ],
+      "T": [
+        0.6105,
+        109
+      ],
+      "V": [
+        0.5089,
+        153
+      ],
+      "W": [
+        1.1167,
+        14
+      ],
+      "Y": [
+        0.3261,
+        56
+      ]
+    },
+    "without_P": {
+      "spearman": -0.6395,
+      "n_residues": 18,
+      "ci95": [
+        -0.7428,
+        -0.3936
+      ]
+    },
+    "without_G_P": {
+      "spearman": -0.5718,
+      "n_residues": 17,
+      "ci95": [
+        -0.6957,
+        -0.2932
+      ]
+    },
+    "without_G_P_W_F": {
+      "spearman": -0.6011,
+      "n_residues": 15,
+      "ci95": [
+        -0.7352,
+        -0.2897
+      ]
+    }
+  },
+  "V6_insertion_contrast": {
+    "n_positions": 34113,
+    "domains": 746,
+    "alanine_H_minus_L": {
+      "n": 573,
+      "mean": 0.0656,
+      "ci95": [
+        0.0216,
+        0.1101
+      ]
+    },
+    "alanine_E_minus_L": {
+      "n": 503,
+      "mean": -0.2275,
+      "ci95": [
+        -0.2777,
+        -0.1768
+      ]
+    },
+    "glycine_H_minus_L": {
+      "n": 573,
+      "mean": 0.3744,
+      "ci95": [
+        0.3276,
+        0.4219
+      ]
+    },
+    "glycine_E_minus_L": {
+      "n": 503,
+      "mean": -0.0029,
+      "ci95": [
+        -0.0525,
+        0.0459
+      ]
+    }
+  },
+  "V7_sensitivity": {
+    "ci_le_0.5": {
+      "n_positions": 33913,
+      "spearman": -0.6178,
+      "n_residues": 18
+    },
+    "ci_le_2.0": {
+      "n_positions": 35877,
+      "spearman": -0.6395,
+      "n_residues": 18
+    },
+    "stricter_elements_minH6_minE3": {
+      "n_positions": 35877,
+      "spearman": -0.6519,
+      "n_residues": 18
+    }
+  }
+}

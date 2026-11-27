@@ -1,0 +1,14 @@
+{
+  "n_residues": 18,
+  "marginal": {
+    "pace": -0.6395,
+    "vol": 0.2519,
+    "kd": -0.166
+  },
+  "partial": {
+    "propensity_given_volume": -0.6084,
+    "volume_given_propensity": 0.0455,
+    "propensity_given_hydropathy": -0.6456,
+    "hydropathy_given_propensity": -0.2012
+  }
+}

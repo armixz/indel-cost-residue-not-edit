@@ -1,0 +1,58 @@
+{
+  "n_positions": 19291,
+  "n_domains": 385,
+  "by_ss": {
+    "E": {
+      "count": 2826,
+      "mean": 0.258,
+      "median": 0.192
+    },
+    "H": {
+      "count": 6324,
+      "mean": 0.309,
+      "median": 0.249
+    },
+    "L": {
+      "count": 10141,
+      "mean": -0.017,
+      "median": 0.004
+    }
+  },
+  "A_helix_minus_loop": {
+    "difference_kcal": 0.326,
+    "ci95_by_domain": [
+      0.295,
+      0.358
+    ],
+    "mark_A_pass": true,
+    "mark_B_pass": true
+  },
+  "strand_minus_loop": {
+    "difference_kcal": 0.275,
+    "ci95_by_domain": [
+      0.235,
+      0.313
+    ]
+  },
+  "helix_middle_vs_end": {
+    "end": {
+      "count": 2193,
+      "mean": 0.19
+    },
+    "mid1": {
+      "count": 2029,
+      "mean": 0.348
+    },
+    "middle": {
+      "count": 2102,
+      "mean": 0.394
+    }
+  },
+  "helix_middle_minus_end": {
+    "difference_kcal": 0.204,
+    "ci95_by_domain": [
+      0.162,
+      0.247
+    ]
+  }
+}

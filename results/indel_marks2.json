@@ -1,0 +1,433 @@
+{
+  "n_positions": 21646,
+  "n_domains": 401,
+  "n_ins_A": 19980,
+  "n_ins_G": 19864,
+  "n_del": 19897,
+  "B_metric_audit": {
+    "ins_A": {
+      "plddt": {
+        "pooled_abs_r": 0.383,
+        "per_domain_median_abs_r": 0.514,
+        "per_domain_lower_decile": 0.284,
+        "n_domains": 382,
+        "pooled_minus_per_domain": -0.131
+      },
+      "rsa": {
+        "pooled_abs_r": 0.233,
+        "per_domain_median_abs_r": 0.288,
+        "per_domain_lower_decile": 0.111,
+        "n_domains": 382,
+        "pooled_minus_per_domain": -0.054
+      },
+      "dist_term": {
+        "pooled_abs_r": 0.207,
+        "per_domain_median_abs_r": 0.323,
+        "per_domain_lower_decile": 0.072,
+        "n_domains": 382,
+        "pooled_minus_per_domain": -0.116
+      }
+    },
+    "ins_G": {
+      "plddt": {
+        "pooled_abs_r": 0.397,
+        "per_domain_median_abs_r": 0.557,
+        "per_domain_lower_decile": 0.358,
+        "n_domains": 381,
+        "pooled_minus_per_domain": -0.159
+      },
+      "rsa": {
+        "pooled_abs_r": 0.269,
+        "per_domain_median_abs_r": 0.342,
+        "per_domain_lower_decile": 0.146,
+        "n_domains": 381,
+        "pooled_minus_per_domain": -0.073
+      },
+      "dist_term": {
+        "pooled_abs_r": 0.185,
+        "per_domain_median_abs_r": 0.269,
+        "per_domain_lower_decile": 0.047,
+        "n_domains": 381,
+        "pooled_minus_per_domain": -0.084
+      }
+    },
+    "del": {
+      "plddt": {
+        "pooled_abs_r": 0.406,
+        "per_domain_median_abs_r": 0.552,
+        "per_domain_lower_decile": 0.3,
+        "n_domains": 386,
+        "pooled_minus_per_domain": -0.146
+      },
+      "rsa": {
+        "pooled_abs_r": 0.293,
+        "per_domain_median_abs_r": 0.391,
+        "per_domain_lower_decile": 0.186,
+        "n_domains": 386,
+        "pooled_minus_per_domain": -0.098
+      },
+      "dist_term": {
+        "pooled_abs_r": 0.216,
+        "per_domain_median_abs_r": 0.319,
+        "per_domain_lower_decile": 0.062,
+        "n_domains": 386,
+        "pooled_minus_per_domain": -0.103
+      }
+    },
+    "median_gap": -0.103,
+    "mark_B1_pass_pooled_higher_by_0.10": false,
+    "note": "mark B1 as written asked whether pooling INFLATES r. For these single features the gap is negative: pooling across domains adds between-domain variance in cost that a within-domain feature cannot explain, so pooled r is LOWER. A model that also predicts domain-level stability would gain from the same variance. The direction of the bias therefore depends on the predictor, which makes comparing a pooled number with a per-domain one worse than simply optimistic."
+  },
+  "H1_ala": {
+    "n_middle": 2198,
+    "n_end": 2269,
+    "mean_cost_middle": 1.784,
+    "mean_cost_end": 1.593,
+    "paired_difference_kcal": {
+      "n_domains": 223,
+      "mean": 0.481,
+      "median": 0.423,
+      "ci95": [
+        0.387,
+        0.575
+      ]
+    },
+    "mark_H1a_pass": false,
+    "mark_H1b_vetter_2.3_in_CI": false,
+    "H1c_strata": {
+      "rsa": {
+        "low": {
+          "n_domains": 160,
+          "mean": 0.374,
+          "median": 0.209,
+          "ci95": [
+            0.191,
+            0.551
+          ]
+        },
+        "mid": {
+          "n_domains": 198,
+          "mean": 0.44,
+          "median": 0.376,
+          "ci95": [
+            0.319,
+            0.56
+          ]
+        },
+        "high": {
+          "n_domains": 171,
+          "mean": 0.586,
+          "median": 0.515,
+          "ci95": [
+            0.449,
+            0.723
+          ]
+        }
+      },
+      "plddt": {
+        "low": {
+          "n_domains": 86,
+          "mean": 0.382,
+          "median": 0.384,
+          "ci95": [
+            0.245,
+            0.512
+          ]
+        },
+        "mid": {
+          "n_domains": 135,
+          "mean": 0.187,
+          "median": 0.15,
+          "ci95": [
+            0.035,
+            0.332
+          ]
+        },
+        "high": {
+          "n_domains": 88,
+          "mean": 0.173,
+          "median": 0.205,
+          "ci95": [
+            -0.037,
+            0.376
+          ]
+        }
+      }
+    },
+    "mark_H1c_pass": true,
+    "H1_overall_pass": false
+  },
+  "H2_ala": {
+    "spearman_asym_vs_dloop_per_domain": {
+      "n_domains": 219,
+      "mean": -0.023,
+      "median": -0.032,
+      "ci95": [
+        -0.058,
+        0.012
+      ]
+    },
+    "mean_asymmetry_ins_minus_del": {
+      "n_domains": 242,
+      "mean": -0.266,
+      "median": -0.243,
+      "ci95": [
+        -0.332,
+        -0.201
+      ]
+    },
+    "near_loop_le2": {
+      "n_domains": 242,
+      "mean": -0.22,
+      "median": -0.228,
+      "ci95": [
+        -0.296,
+        -0.143
+      ]
+    },
+    "far_from_loop_ge5": {
+      "n_domains": 223,
+      "mean": -0.278,
+      "median": -0.212,
+      "ci95": [
+        -0.366,
+        -0.191
+      ]
+    },
+    "paired_far_minus_near": {
+      "n_domains": 223,
+      "mean": -0.044,
+      "median": -0.063,
+      "ci95": [
+        -0.145,
+        0.056
+      ]
+    },
+    "mark_H2a_pass": false,
+    "mark_H2b_pass": false,
+    "H2c_alanine_only": {
+      "spearman": {
+        "n_domains": 2,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "mean_asymmetry": {
+        "n_domains": 216,
+        "mean": -0.372,
+        "median": -0.35,
+        "ci95": [
+          -0.491,
+          -0.253
+        ]
+      }
+    },
+    "mark_H2c_pass": false,
+    "H2_overall": "fail"
+  },
+  "permutation_control": {
+    "H1_shuffled": {
+      "n_domains": 225,
+      "mean": 0.015,
+      "median": 0.022,
+      "ci95": [
+        -0.078,
+        0.102
+      ]
+    },
+    "H1_vanishes": true,
+    "H2_shuffled": {
+      "n_domains": 217,
+      "mean": 0.012,
+      "median": 0.003,
+      "ci95": [
+        -0.016,
+        0.041
+      ]
+    },
+    "H2_vanishes": true
+  },
+  "H3_exploratory": {
+    "note": "declared exploratory in advance; positive = insertion worse",
+    "by_ss": {
+      "E": {
+        "n_domains": 228,
+        "mean": -0.587,
+        "median": -0.522,
+        "ci95": [
+          -0.709,
+          -0.465
+        ]
+      },
+      "H": {
+        "n_domains": 242,
+        "mean": -0.266,
+        "median": -0.243,
+        "ci95": [
+          -0.331,
+          -0.201
+        ]
+      },
+      "L": {
+        "n_domains": 385,
+        "mean": -0.243,
+        "median": -0.192,
+        "ci95": [
+          -0.297,
+          -0.192
+        ]
+      }
+    }
+  },
+  "H1_gly_replication": {
+    "n_middle": 2160,
+    "n_end": 2248,
+    "mean_cost_middle": 2.169,
+    "mean_cost_end": 1.78,
+    "paired_difference_kcal": {
+      "n_domains": 224,
+      "mean": 0.721,
+      "median": 0.623,
+      "ci95": [
+        0.621,
+        0.823
+      ]
+    },
+    "mark_H1a_pass": false,
+    "mark_H1b_vetter_2.3_in_CI": false,
+    "H1c_strata": {
+      "rsa": {
+        "low": {
+          "n_domains": 158,
+          "mean": 0.754,
+          "median": 0.485,
+          "ci95": [
+            0.574,
+            0.931
+          ]
+        },
+        "mid": {
+          "n_domains": 194,
+          "mean": 0.623,
+          "median": 0.53,
+          "ci95": [
+            0.486,
+            0.756
+          ]
+        },
+        "high": {
+          "n_domains": 171,
+          "mean": 0.764,
+          "median": 0.661,
+          "ci95": [
+            0.627,
+            0.903
+          ]
+        }
+      },
+      "plddt": {
+        "low": {
+          "n_domains": 87,
+          "mean": 0.584,
+          "median": 0.466,
+          "ci95": [
+            0.438,
+            0.739
+          ]
+        },
+        "mid": {
+          "n_domains": 133,
+          "mean": 0.45,
+          "median": 0.245,
+          "ci95": [
+            0.277,
+            0.608
+          ]
+        },
+        "high": {
+          "n_domains": 87,
+          "mean": 0.59,
+          "median": 0.518,
+          "ci95": [
+            0.402,
+            0.784
+          ]
+        }
+      }
+    },
+    "mark_H1c_pass": true,
+    "H1_overall_pass": false
+  },
+  "H2_gly_replication": {
+    "spearman_asym_vs_dloop_per_domain": {
+      "n_domains": 217,
+      "mean": 0.104,
+      "median": 0.099,
+      "ci95": [
+        0.069,
+        0.139
+      ]
+    },
+    "mean_asymmetry_ins_minus_del": {
+      "n_domains": 244,
+      "mean": 0.051,
+      "median": 0.055,
+      "ci95": [
+        -0.007,
+        0.111
+      ]
+    },
+    "near_loop_le2": {
+      "n_domains": 243,
+      "mean": -0.04,
+      "median": -0.045,
+      "ci95": [
+        -0.112,
+        0.034
+      ]
+    },
+    "far_from_loop_ge5": {
+      "n_domains": 223,
+      "mean": 0.155,
+      "median": 0.112,
+      "ci95": [
+        0.075,
+        0.234
+      ]
+    },
+    "paired_far_minus_near": {
+      "n_domains": 222,
+      "mean": 0.208,
+      "median": 0.169,
+      "ci95": [
+        0.12,
+        0.293
+      ]
+    },
+    "mark_H2a_pass": false,
+    "mark_H2b_pass": true,
+    "H2c_alanine_only": {
+      "spearman": {
+        "n_domains": 2,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "mean_asymmetry": {
+        "n_domains": 219,
+        "mean": 0.026,
+        "median": 0.037,
+        "ci95": [
+          -0.066,
+          0.122
+        ]
+      }
+    },
+    "mark_H2c_pass": false,
+    "H2_overall": "fail"
+  }
+}

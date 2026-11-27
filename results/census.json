@@ -1,0 +1,338 @@
+{
+ "source": "/mnt/c/Users/armin/Desktop/AXZ/insertion-lab/data/DI_screen/analysis/input_data",
+ "groups": {
+  "AraC_ERD": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 25418,
+     "distinct_sites": 168,
+     "sites_ge10_reads": 43,
+     "site_min": 21,
+     "site_max": 876,
+     "file_mb": 2.6
+    },
+    "22": {
+     "reads_in_frame": 43616,
+     "distinct_sites": 289,
+     "sites_ge10_reads": 270,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 4.5
+    },
+    "input": {
+     "reads_in_frame": 31584,
+     "distinct_sites": 290,
+     "sites_ge10_reads": 288,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 3.1
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 168,
+     "both_ge10_reads": 43
+    },
+    "22": {
+     "in_input_and_gate": 289,
+     "both_ge10_reads": 270
+    }
+   }
+  },
+  "AraC_LOV": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 40591,
+     "distinct_sites": 226,
+     "sites_ge10_reads": 132,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 4.1
+    },
+    "22": {
+     "reads_in_frame": 80187,
+     "distinct_sites": 273,
+     "sites_ge10_reads": 229,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 8.2
+    },
+    "22_ind": {
+     "reads_in_frame": 67048,
+     "distinct_sites": 271,
+     "sites_ge10_reads": 252,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 6.8
+    },
+    "input": {
+     "reads_in_frame": 53115,
+     "distinct_sites": 290,
+     "sites_ge10_reads": 288,
+     "site_min": 12,
+     "site_max": 930,
+     "file_mb": 5.2
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 226,
+     "both_ge10_reads": 131
+    },
+    "22": {
+     "in_input_and_gate": 273,
+     "both_ge10_reads": 228
+    },
+    "22_ind": {
+     "in_input_and_gate": 271,
+     "both_ge10_reads": 251
+    }
+   }
+  },
+  "AraC_PDZ": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 42101,
+     "distinct_sites": 165,
+     "sites_ge10_reads": 85,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 4.3
+    },
+    "22": {
+     "reads_in_frame": 72518,
+     "distinct_sites": 271,
+     "sites_ge10_reads": 206,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 7.4
+    },
+    "input": {
+     "reads_in_frame": 57321,
+     "distinct_sites": 290,
+     "sites_ge10_reads": 289,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 5.9
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 165,
+     "both_ge10_reads": 85
+    },
+    "22": {
+     "in_input_and_gate": 271,
+     "both_ge10_reads": 205
+    }
+   }
+  },
+  "AraC_UniRapR": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 368610,
+     "distinct_sites": 219,
+     "sites_ge10_reads": 186,
+     "site_min": -66,
+     "site_max": 876,
+     "file_mb": 36.9
+    },
+    "22": {
+     "reads_in_frame": 34608,
+     "distinct_sites": 255,
+     "sites_ge10_reads": 175,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 3.5
+    },
+    "input": {
+     "reads_in_frame": 29705,
+     "distinct_sites": 289,
+     "sites_ge10_reads": 284,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 2.9
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 216,
+     "both_ge10_reads": 182
+    },
+    "22": {
+     "in_input_and_gate": 254,
+     "both_ge10_reads": 171
+    }
+   }
+  },
+  "AraC_eYFP": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 17204,
+     "distinct_sites": 180,
+     "sites_ge10_reads": 60,
+     "site_min": 12,
+     "site_max": 882,
+     "file_mb": 1.8
+    },
+    "22": {
+     "reads_in_frame": 33130,
+     "distinct_sites": 257,
+     "sites_ge10_reads": 164,
+     "site_min": 9,
+     "site_max": 876,
+     "file_mb": 3.4
+    },
+    "input": {
+     "reads_in_frame": 35215,
+     "distinct_sites": 289,
+     "sites_ge10_reads": 286,
+     "site_min": 12,
+     "site_max": 876,
+     "file_mb": 3.4
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 179,
+     "both_ge10_reads": 59
+    },
+    "22": {
+     "in_input_and_gate": 256,
+     "both_ge10_reads": 161
+    }
+   }
+  },
+  "Flp_PDZ": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 444458,
+     "distinct_sites": 311,
+     "sites_ge10_reads": 272,
+     "site_min": 18,
+     "site_max": 1272,
+     "file_mb": 45.0
+    },
+    "22": {
+     "reads_in_frame": 33399,
+     "distinct_sites": 277,
+     "sites_ge10_reads": 119,
+     "site_min": 15,
+     "site_max": 1275,
+     "file_mb": 3.4
+    },
+    "input": {
+     "reads_in_frame": 71295,
+     "distinct_sites": 415,
+     "sites_ge10_reads": 395,
+     "site_min": 15,
+     "site_max": 1272,
+     "file_mb": 7.4
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 311,
+     "both_ge10_reads": 269
+    },
+    "22": {
+     "in_input_and_gate": 276,
+     "both_ge10_reads": 119
+    }
+   }
+  },
+  "SigF_PDZ": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 30249,
+     "distinct_sites": 200,
+     "sites_ge10_reads": 114,
+     "site_min": 9,
+     "site_max": 771,
+     "file_mb": 3.0
+    },
+    "22": {
+     "reads_in_frame": 133711,
+     "distinct_sites": 235,
+     "sites_ge10_reads": 230,
+     "site_min": 9,
+     "site_max": 771,
+     "file_mb": 13.8
+    },
+    "input": {
+     "reads_in_frame": 616763,
+     "distinct_sites": 245,
+     "sites_ge10_reads": 237,
+     "site_min": 9,
+     "site_max": 768,
+     "file_mb": 63.6
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 199,
+     "both_ge10_reads": 113
+    },
+    "22": {
+     "in_input_and_gate": 233,
+     "both_ge10_reads": 225
+    }
+   }
+  },
+  "TVMV_PDZ": {
+   "gates": {
+    "12": {
+     "reads_in_frame": 20935,
+     "distinct_sites": 216,
+     "sites_ge10_reads": 202,
+     "site_min": 9,
+     "site_max": 660,
+     "file_mb": 2.1
+    },
+    "22": {
+     "reads_in_frame": 50476,
+     "distinct_sites": 213,
+     "sites_ge10_reads": 208,
+     "site_min": 9,
+     "site_max": 654,
+     "file_mb": 5.1
+    },
+    "input": {
+     "reads_in_frame": 38762,
+     "distinct_sites": 216,
+     "sites_ge10_reads": 216,
+     "site_min": 9,
+     "site_max": 654,
+     "file_mb": 4.0
+    }
+   },
+   "usable_sites": {
+    "12": {
+     "in_input_and_gate": 214,
+     "both_ge10_reads": 200
+    },
+    "22": {
+     "in_input_and_gate": 213,
+     "both_ge10_reads": 208
+    }
+   }
+  }
+ },
+ "summary": {
+  "proteins": [
+   "AraC",
+   "Flp",
+   "SigF",
+   "TVMV"
+  ],
+  "n_proteins": 4,
+  "protein_domain_pairs": 8,
+  "best_usable_sites_per_protein_ge10_reads": {
+   "AraC": 270,
+   "Flp": 269,
+   "SigF": 225,
+   "TVMV": 208
+  },
+  "total_usable_sites_ge10_reads": 972
+ }
+}

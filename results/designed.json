@@ -1,0 +1,101 @@
+{
+  "designs_with_variants": 69,
+  "designs_with_models": 57,
+  "numbering_match_rate": 1.0,
+  "n_checks": 2412,
+  "variants_used": 9408,
+  "variants_without_wt_reference": 0,
+  "ss_fractions": {
+    "H": 0.574,
+    "L": 0.259,
+    "E": 0.167
+  },
+  "positions_with_both": 2402,
+  "RS3_insertion": {
+    "summary": {
+      "n_domains": 53,
+      "mean": -0.024,
+      "ci95": [
+        -0.111,
+        0.067
+      ]
+    },
+    "n_negative": 32,
+    "n": 53
+  },
+  "RS4_deletion": {
+    "summary": {
+      "n_domains": 53,
+      "mean": 0.05,
+      "ci95": [
+        -0.094,
+        0.193
+      ]
+    },
+    "n_negative": 24,
+    "n": 53
+  },
+  "mark_RS3_pass": false,
+  "mark_RS4_pass": false,
+  "class_means": {
+    "E": {
+      "insertion": 0.418,
+      "deletion": 0.548,
+      "n": 401
+    },
+    "H": {
+      "insertion": 0.447,
+      "deletion": 0.506,
+      "n": 1377
+    },
+    "L": {
+      "insertion": 0.21,
+      "deletion": 0.209,
+      "n": 624
+    }
+  },
+  "asymmetry_by_ss": {
+    "E": {
+      "n_domains": 53,
+      "mean": -0.136,
+      "ci95": [
+        -0.222,
+        -0.053
+      ]
+    },
+    "H": {
+      "n_domains": 57,
+      "mean": -0.055,
+      "ci95": [
+        -0.114,
+        0.001
+      ]
+    },
+    "L": {
+      "n_domains": 57,
+      "mean": 0.007,
+      "ci95": [
+        -0.046,
+        0.06
+      ]
+    }
+  },
+  "permutation": {
+    "insertion": {
+      "n_domains": 53,
+      "mean": 0.022,
+      "ci95": [
+        -0.027,
+        0.071
+      ]
+    },
+    "deletion": {
+      "n_domains": 53,
+      "mean": 0.041,
+      "ci95": [
+        -0.009,
+        0.094
+      ]
+    }
+  }
+}

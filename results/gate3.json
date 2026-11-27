@@ -1,0 +1,293 @@
+{
+ "TEM1_raw": {
+  "variants": 4508,
+  "positions": 274,
+  "conditions": 1
+ },
+ "TEM1": {
+  "positions": 274,
+  "tolerated": 74,
+  "cutoff": 0.1183,
+  "mixture_means": [
+   0.002,
+   0.234
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.871,
+    "spearman": 0.737
+   },
+   "prodomino": {
+    "auroc": 0.768,
+    "spearman": 0.463
+   },
+   "rsa": {
+    "auroc": 0.808,
+    "spearman": 0.637
+   },
+   "is_loop": {
+    "auroc": 0.551,
+    "spearman": 0.195
+   },
+   "dist_term": {
+    "auroc": 0.638,
+    "spearman": 0.216
+   }
+  }
+ },
+ "TEM1_mature_only": {
+  "positions": 253,
+  "tolerated": 60,
+  "cutoff": 0.0976,
+  "mixture_means": [
+   0.002,
+   0.193
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.808,
+    "spearman": 0.684
+   },
+   "prodomino": {
+    "auroc": 0.676,
+    "spearman": 0.36
+   },
+   "rsa": {
+    "auroc": 0.742,
+    "spearman": 0.567
+   },
+   "is_loop": {
+    "auroc": 0.572,
+    "spearman": 0.232
+   },
+   "dist_term": {
+    "auroc": 0.51,
+    "spearman": 0.054
+   }
+  }
+ },
+ "TEM1_insert_identity": {
+  "residues_compared": [
+   "A",
+   "C",
+   "D",
+   "E",
+   "F",
+   "G",
+   "H",
+   "I",
+   "K",
+   "L",
+   "M",
+   "N",
+   "P",
+   "Q",
+   "R",
+   "S",
+   "T",
+   "V",
+   "W",
+   "Y"
+  ],
+  "median_pairwise_spearman_between_inserted_residues": 0.917,
+  "range": [
+   0.779,
+   0.986
+  ],
+  "mean_score_by_inserted_residue": {
+   "A": 0.174,
+   "C": 0.146,
+   "D": 0.139,
+   "E": 0.139,
+   "F": 0.133,
+   "G": 0.158,
+   "H": 0.159,
+   "I": 0.149,
+   "K": 0.141,
+   "L": 0.126,
+   "M": 0.133,
+   "N": 0.148,
+   "P": 0.119,
+   "Q": 0.167,
+   "R": 0.136,
+   "S": 0.178,
+   "T": 0.188,
+   "V": 0.133,
+   "W": 0.112,
+   "Y": 0.131
+  }
+ },
+ "DHFR_raw": {
+  "variants": 740,
+  "positions": 185,
+  "conditions": 4
+ },
+ "DHFR": {
+  "positions": 185,
+  "tolerated": 87,
+  "cutoff": 0.3984,
+  "mixture_means": [
+   0.046,
+   0.751
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.709,
+    "spearman": 0.478
+   },
+   "prodomino": {
+    "auroc": 0.712,
+    "spearman": 0.38
+   },
+   "rsa": {
+    "auroc": 0.649,
+    "spearman": 0.376
+   },
+   "is_loop": {
+    "auroc": 0.542,
+    "spearman": 0.194
+   },
+   "dist_term": {
+    "auroc": 0.825,
+    "spearman": 0.594
+   }
+  }
+ },
+ "DHFR_cond_1": {
+  "positions": 185,
+  "tolerated": 85,
+  "cutoff": 0.4337,
+  "mixture_means": [
+   0.023,
+   0.844
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.719,
+    "spearman": 0.485
+   },
+   "prodomino": {
+    "auroc": 0.729,
+    "spearman": 0.358
+   },
+   "rsa": {
+    "auroc": 0.644,
+    "spearman": 0.369
+   },
+   "is_loop": {
+    "auroc": 0.544,
+    "spearman": 0.183
+   },
+   "dist_term": {
+    "auroc": 0.833,
+    "spearman": 0.537
+   }
+  }
+ },
+ "DHFR_cond_2": {
+  "positions": 185,
+  "tolerated": 111,
+  "cutoff": 0.4151,
+  "mixture_means": [
+   0.043,
+   0.787
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.649,
+    "spearman": 0.429
+   },
+   "prodomino": {
+    "auroc": 0.677,
+    "spearman": 0.37
+   },
+   "rsa": {
+    "auroc": 0.64,
+    "spearman": 0.357
+   },
+   "is_loop": {
+    "auroc": 0.536,
+    "spearman": 0.207
+   },
+   "dist_term": {
+    "auroc": 0.839,
+    "spearman": 0.632
+   }
+  }
+ },
+ "DHFR_cond_3": {
+  "positions": 185,
+  "tolerated": 61,
+  "cutoff": 0.2543,
+  "mixture_means": [
+   -0.098,
+   0.606
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.804,
+    "spearman": 0.45
+   },
+   "prodomino": {
+    "auroc": 0.784,
+    "spearman": 0.418
+   },
+   "rsa": {
+    "auroc": 0.717,
+    "spearman": 0.299
+   },
+   "is_loop": {
+    "auroc": 0.558,
+    "spearman": 0.184
+   },
+   "dist_term": {
+    "auroc": 0.754,
+    "spearman": 0.449
+   }
+  }
+ },
+ "DHFR_cond_4": {
+  "positions": 185,
+  "tolerated": 94,
+  "cutoff": 0.4885,
+  "mixture_means": [
+   0.09,
+   0.887
+  ],
+  "features": {
+   "plddt": {
+    "auroc": 0.67,
+    "spearman": 0.423
+   },
+   "prodomino": {
+    "auroc": 0.674,
+    "spearman": 0.308
+   },
+   "rsa": {
+    "auroc": 0.651,
+    "spearman": 0.356
+   },
+   "is_loop": {
+    "auroc": 0.537,
+    "spearman": 0.198
+   },
+   "dist_term": {
+    "auroc": 0.842,
+    "spearman": 0.603
+   }
+  }
+ },
+ "verdict": {
+  "TEM1": {
+   "plddt": 0.871,
+   "prodomino": 0.768,
+   "plddt_at_least_prodomino": true
+  },
+  "DHFR": {
+   "plddt": 0.709,
+   "prodomino": 0.712,
+   "plddt_at_least_prodomino": false
+  },
+  "supported_on_both": false
+ }
+}

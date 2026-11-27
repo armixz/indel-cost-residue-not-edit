@@ -1,0 +1,22 @@
+# Third-party datasets, downloaded from their original sources.
+# Not redistributed here: see README for where each one comes from.
+data/
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.blg
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

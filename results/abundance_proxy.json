@@ -1,0 +1,312 @@
+{
+  "prereg": "PREREG_abundance_proxy.md",
+  "excluded": {
+    "ASPA": "second assay is cellular toxicity, not activity; nonsense variants are non-toxic, so the assay has no loss-of-function orientation"
+  },
+  "thresholds": {
+    "function_dead_below": 0.5,
+    "abundance_called_fine_at_or_above": 0.75
+  },
+  "per_protein": {
+    "PTEN": {
+      "n_shared_missense": 4839,
+      "abundance_assay": {
+        "assay": "abundance",
+        "anchor": "published_wt_null_scale",
+        "hi_raw": 1.0,
+        "lo_raw": 0.0,
+        "n_syn": 193,
+        "n_nonsense": 201,
+        "n_missense": 5083,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "function_assay": {
+        "assay": "function",
+        "anchor": "missense_p95/nonsense",
+        "hi_raw": 0.5349,
+        "lo_raw": -3.7067,
+        "n_syn": 0,
+        "n_nonsense": 375,
+        "n_missense": 7260,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "A1_spearman": 0.325,
+      "A1_ci95": [
+        0.2978,
+        0.3508
+      ],
+      "A1_pearson": 0.3734,
+      "A2_n_called_abundant": 2543,
+      "A2_false_pass_rate": 0.142,
+      "A2_false_pass_ci95": [
+        0.1293,
+        0.1557
+      ],
+      "A2_low_abundance_but_functional": 0.6333,
+      "A3_auc": 0.7094,
+      "A3_auc_ci95": [
+        0.6906,
+        0.7289
+      ],
+      "frac_dead_overall": 0.2486
+    },
+    "NUDT15": {
+      "n_shared_missense": 2844,
+      "abundance_assay": {
+        "assay": "abundance",
+        "anchor": "published_wt_null_scale",
+        "hi_raw": 1.0,
+        "lo_raw": 0.0,
+        "n_syn": 0,
+        "n_nonsense": 1,
+        "n_missense": 2922,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "function_assay": {
+        "assay": "function",
+        "anchor": "published_wt_null_scale",
+        "hi_raw": 1.0,
+        "lo_raw": 0.0,
+        "n_syn": 0,
+        "n_nonsense": 1,
+        "n_missense": 2934,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "A1_spearman": 0.3403,
+      "A1_ci95": [
+        0.3062,
+        0.3749
+      ],
+      "A1_pearson": 0.3841,
+      "A2_n_called_abundant": 1419,
+      "A2_false_pass_rate": 0.1431,
+      "A2_false_pass_ci95": [
+        0.1245,
+        0.1611
+      ],
+      "A2_low_abundance_but_functional": 0.68,
+      "A3_auc": 0.6988,
+      "A3_auc_ci95": [
+        0.6722,
+        0.7232
+      ],
+      "frac_dead_overall": 0.2317
+    },
+    "CYP2C9": {
+      "n_shared_missense": 4421,
+      "abundance_assay": {
+        "assay": "abundance",
+        "anchor": "syn/nonsense",
+        "hi_raw": 0.9953,
+        "lo_raw": 0.0098,
+        "n_syn": 261,
+        "n_nonsense": 189,
+        "n_missense": 6370,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "function_assay": {
+        "assay": "function",
+        "anchor": "syn/nonsense",
+        "hi_raw": 0.9973,
+        "lo_raw": 0.014,
+        "n_syn": 250,
+        "n_nonsense": 131,
+        "n_missense": 6142,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "A1_spearman": 0.7488,
+      "A1_ci95": [
+        0.7326,
+        0.7645
+      ],
+      "A1_pearson": 0.7483,
+      "A2_n_called_abundant": 2368,
+      "A2_false_pass_rate": 0.163,
+      "A2_false_pass_ci95": [
+        0.1478,
+        0.1779
+      ],
+      "A2_low_abundance_but_functional": 0.19,
+      "A3_auc": 0.8914,
+      "A3_auc_ci95": [
+        0.8818,
+        0.9014
+      ],
+      "frac_dead_overall": 0.4635
+    },
+    "G6PD": {
+      "n_shared_missense": 8217,
+      "abundance_assay": {
+        "assay": "abundance",
+        "anchor": "syn/nonsense",
+        "hi_raw": 1.0145,
+        "lo_raw": -0.0008,
+        "n_syn": 489,
+        "n_nonsense": 508,
+        "n_missense": 9676,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "function_assay": {
+        "assay": "function",
+        "anchor": "syn/nonsense",
+        "hi_raw": 0.9967,
+        "lo_raw": 0.0027,
+        "n_syn": 434,
+        "n_nonsense": 481,
+        "n_missense": 8217,
+        "orientation_fixed_by_a_known_class": true,
+        "flipped": false
+      },
+      "A1_spearman": 0.3735,
+      "A1_ci95": [
+        0.3515,
+        0.3939
+      ],
+      "A1_pearson": 0.483,
+      "A2_n_called_abundant": 5570,
+      "A2_false_pass_rate": 0.3054,
+      "A2_false_pass_ci95": [
+        0.2939,
+        0.3174
+      ],
+      "A2_low_abundance_but_functional": 0.2108,
+      "A3_auc": 0.7043,
+      "A3_auc_ci95": [
+        0.6927,
+        0.7163
+      ],
+      "frac_dead_overall": 0.4612
+    }
+  },
+  "pooled": {
+    "n": 20321,
+    "n_proteins": 4,
+    "median_spearman": 0.3569,
+    "spearman_range": [
+      0.325,
+      0.7488
+    ],
+    "n_proteins_rho_ge_0.7": 1,
+    "pooled_false_pass_rate": 0.2228,
+    "median_false_pass_rate": 0.1531,
+    "false_pass_range": [
+      0.142,
+      0.3054
+    ]
+  },
+  "threshold_sweep_pooled": {
+    "abund>=0.6,func<0.3": {
+      "n_called_abundant": 14144,
+      "false_pass": 0.1688
+    },
+    "abund>=0.6,func<0.4": {
+      "n_called_abundant": 14144,
+      "false_pass": 0.202
+    },
+    "abund>=0.6,func<0.5": {
+      "n_called_abundant": 14144,
+      "false_pass": 0.2412
+    },
+    "abund>=0.6,func<0.6": {
+      "n_called_abundant": 14144,
+      "false_pass": 0.2921
+    },
+    "abund>=0.6,func<0.7": {
+      "n_called_abundant": 14144,
+      "false_pass": 0.3618
+    },
+    "abund>=0.7,func<0.3": {
+      "n_called_abundant": 12759,
+      "false_pass": 0.1609
+    },
+    "abund>=0.7,func<0.4": {
+      "n_called_abundant": 12759,
+      "false_pass": 0.1908
+    },
+    "abund>=0.7,func<0.5": {
+      "n_called_abundant": 12759,
+      "false_pass": 0.2278
+    },
+    "abund>=0.7,func<0.6": {
+      "n_called_abundant": 12759,
+      "false_pass": 0.2771
+    },
+    "abund>=0.7,func<0.7": {
+      "n_called_abundant": 12759,
+      "false_pass": 0.3451
+    },
+    "abund>=0.75,func<0.3": {
+      "n_called_abundant": 11900,
+      "false_pass": 0.1585
+    },
+    "abund>=0.75,func<0.4": {
+      "n_called_abundant": 11900,
+      "false_pass": 0.1867
+    },
+    "abund>=0.75,func<0.5": {
+      "n_called_abundant": 11900,
+      "false_pass": 0.2228
+    },
+    "abund>=0.75,func<0.6": {
+      "n_called_abundant": 11900,
+      "false_pass": 0.2707
+    },
+    "abund>=0.75,func<0.7": {
+      "n_called_abundant": 11900,
+      "false_pass": 0.3365
+    },
+    "abund>=0.8,func<0.3": {
+      "n_called_abundant": 10842,
+      "false_pass": 0.1574
+    },
+    "abund>=0.8,func<0.4": {
+      "n_called_abundant": 10842,
+      "false_pass": 0.1846
+    },
+    "abund>=0.8,func<0.5": {
+      "n_called_abundant": 10842,
+      "false_pass": 0.2191
+    },
+    "abund>=0.8,func<0.6": {
+      "n_called_abundant": 10842,
+      "false_pass": 0.2658
+    },
+    "abund>=0.8,func<0.7": {
+      "n_called_abundant": 10842,
+      "false_pass": 0.3298
+    },
+    "abund>=0.9,func<0.3": {
+      "n_called_abundant": 8103,
+      "false_pass": 0.1662
+    },
+    "abund>=0.9,func<0.4": {
+      "n_called_abundant": 8103,
+      "false_pass": 0.191
+    },
+    "abund>=0.9,func<0.5": {
+      "n_called_abundant": 8103,
+      "false_pass": 0.2205
+    },
+    "abund>=0.9,func<0.6": {
+      "n_called_abundant": 8103,
+      "false_pass": 0.2626
+    },
+    "abund>=0.9,func<0.7": {
+      "n_called_abundant": 8103,
+      "false_pass": 0.3198
+    }
+  },
+  "threshold_sweep_summary": {
+    "min_false_pass_over_grid": 0.1574,
+    "max_false_pass_over_grid": 0.3618,
+    "note": "if even the most generous cell of this grid leaves a large false-pass rate, the conclusion does not depend on the pre-registered cutoffs"
+  },
+  "verdict": "FAIL: abundance is not a substitute for function; protein-by-protein assays required"
+}

@@ -1,0 +1,159 @@
+{
+  "n_positions": 19170,
+  "n_domains": 387,
+  "relative_to_loop": {
+    "insertion_cost": {
+      "E": {
+        "n_domains": 224,
+        "mean": 0.271,
+        "ci95": [
+          0.175,
+          0.368
+        ]
+      },
+      "H": {
+        "n_domains": 239,
+        "mean": 0.692,
+        "ci95": [
+          0.612,
+          0.773
+        ]
+      }
+    },
+    "deletion_cost": {
+      "E": {
+        "n_domains": 224,
+        "mean": 0.598,
+        "ci95": [
+          0.496,
+          0.7
+        ]
+      },
+      "H": {
+        "n_domains": 239,
+        "mean": 0.757,
+        "ci95": [
+          0.662,
+          0.855
+        ]
+      }
+    },
+    "asymmetry": {
+      "E": {
+        "n_domains": 224,
+        "mean": -0.327,
+        "ci95": [
+          -0.421,
+          -0.234
+        ]
+      },
+      "H": {
+        "n_domains": 239,
+        "mean": -0.064,
+        "ci95": [
+          -0.129,
+          -0.001
+        ]
+      }
+    }
+  },
+  "absolute_class_means": {
+    "E": {
+      "insertion": 2.191,
+      "deletion": 2.824,
+      "n": 2777
+    },
+    "H": {
+      "insertion": 1.707,
+      "deletion": 1.963,
+      "n": 6330
+    },
+    "L": {
+      "insertion": 1.957,
+      "deletion": 2.23,
+      "n": 10063
+    }
+  },
+  "by_domain_class": {
+    "counts": {
+      "all_beta": 144,
+      "mixed": 84,
+      "all_alpha": 158
+    },
+    "E_minus_L_in_all_beta": {
+      "n_domains": 140,
+      "mean": -0.386,
+      "ci95": [
+        -0.518,
+        -0.263
+      ]
+    },
+    "E_minus_L_in_mixed": {
+      "n_domains": 84,
+      "mean": -0.227,
+      "ci95": [
+        -0.353,
+        -0.097
+      ]
+    },
+    "H_minus_L_in_mixed": {
+      "n_domains": 84,
+      "mean": -0.194,
+      "ci95": [
+        -0.329,
+        -0.058
+      ]
+    },
+    "H_minus_L_in_all_alpha": {
+      "n_domains": 155,
+      "mean": 0.006,
+      "ci95": [
+        -0.054,
+        0.069
+      ]
+    }
+  },
+  "loop_asymmetry_by_domain_class": {
+    "all_beta": {
+      "n_domains": 143,
+      "mean": -0.281,
+      "ci95": [
+        -0.376,
+        -0.192
+      ]
+    },
+    "mixed": {
+      "n_domains": 84,
+      "mean": -0.24,
+      "ci95": [
+        -0.348,
+        -0.131
+      ]
+    },
+    "all_alpha": {
+      "n_domains": 156,
+      "mean": -0.187,
+      "ci95": [
+        -0.245,
+        -0.128
+      ]
+    }
+  },
+  "absolute_by_domain_class": {
+    "all_beta": {
+      "insertion": 2.444,
+      "deletion": 2.88,
+      "n_positions": 6787
+    },
+    "mixed": {
+      "insertion": 1.988,
+      "deletion": 2.34,
+      "n_positions": 4688
+    },
+    "all_alpha": {
+      "insertion": 1.386,
+      "deletion": 1.583,
+      "n_positions": 7693
+    }
+  }
+}

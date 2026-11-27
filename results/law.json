@@ -1,0 +1,178 @@
+{
+  "natural": {
+    "intercept_kcal": {
+      "n": 378,
+      "mean": 0.81,
+      "ci95": [
+        0.71,
+        0.917
+      ]
+    },
+    "slope": {
+      "n": 378,
+      "mean": 0.692,
+      "ci95": [
+        0.664,
+        0.72
+      ]
+    },
+    "within_domain_r": {
+      "n": 378,
+      "mean": 0.61,
+      "ci95": [
+        0.587,
+        0.631
+      ]
+    },
+    "mean_offset_del_minus_ins": {
+      "n": 378,
+      "mean": 0.303,
+      "ci95": [
+        0.257,
+        0.351
+      ]
+    },
+    "rmse_two_param": 0.991,
+    "rmse_one_param_offset_only": 1.083,
+    "offset_by_class": {
+      "E": {
+        "n": 221,
+        "mean": 0.596,
+        "ci95": [
+          0.477,
+          0.717
+        ]
+      },
+      "H": {
+        "n": 241,
+        "mean": 0.273,
+        "ci95": [
+          0.208,
+          0.337
+        ]
+      },
+      "L": {
+        "n": 381,
+        "mean": 0.236,
+        "ci95": [
+          0.189,
+          0.285
+        ]
+      }
+    },
+    "tolerant_quartile": {
+      "insertion_cost_cutoff": 0.537,
+      "n": 4793,
+      "mean_insertion_cost": 0.024,
+      "mean_deletion_cost": 0.454,
+      "offset": {
+        "n": 351,
+        "mean": 0.554,
+        "ci95": [
+          0.487,
+          0.624
+        ]
+      }
+    },
+    "intolerant_quartile": {
+      "mean_insertion_cost": 4.379,
+      "mean_deletion_cost": 4.497,
+      "offset": {
+        "n": 232,
+        "mean": -0.013,
+        "ci95": [
+          -0.101,
+          0.076
+        ]
+      }
+    }
+  },
+  "designed": {
+    "intercept_kcal": {
+      "n": 57,
+      "mean": 0.197,
+      "ci95": [
+        0.146,
+        0.251
+      ]
+    },
+    "slope": {
+      "n": 57,
+      "mean": 0.525,
+      "ci95": [
+        0.442,
+        0.611
+      ]
+    },
+    "within_domain_r": {
+      "n": 57,
+      "mean": 0.366,
+      "ci95": [
+        0.309,
+        0.422
+      ]
+    },
+    "mean_offset_del_minus_ins": {
+      "n": 57,
+      "mean": 0.055,
+      "ci95": [
+        0.012,
+        0.1
+      ]
+    },
+    "rmse_two_param": 0.509,
+    "rmse_one_param_offset_only": 0.556,
+    "offset_by_class": {
+      "E": {
+        "n": 53,
+        "mean": 0.136,
+        "ci95": [
+          0.054,
+          0.221
+        ]
+      },
+      "H": {
+        "n": 57,
+        "mean": 0.055,
+        "ci95": [
+          -0.0,
+          0.115
+        ]
+      },
+      "L": {
+        "n": 57,
+        "mean": -0.007,
+        "ci95": [
+          -0.06,
+          0.046
+        ]
+      }
+    },
+    "tolerant_quartile": {
+      "insertion_cost_cutoff": 0.034,
+      "n": 601,
+      "mean_insertion_cost": -0.179,
+      "mean_deletion_cost": 0.059,
+      "offset": {
+        "n": 47,
+        "mean": 0.267,
+        "ci95": [
+          0.203,
+          0.334
+        ]
+      }
+    },
+    "intolerant_quartile": {
+      "mean_insertion_cost": 1.156,
+      "mean_deletion_cost": 1.091,
+      "offset": {
+        "n": 46,
+        "mean": -0.19,
+        "ci95": [
+          -0.322,
+          -0.062
+        ]
+      }
+    }
+  }
+}

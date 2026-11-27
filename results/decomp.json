@@ -1,0 +1,237 @@
+{
+  "natural": {
+    "n_positions": 8435,
+    "n_domains": 175,
+    "mean": {
+      "i": 0.758,
+      "d": 0.986,
+      "g": 0.519
+    },
+    "d_on_i": {
+      "intercept": {
+        "n": 173,
+        "mean": 0.46,
+        "ci95": [
+          0.398,
+          0.525
+        ]
+      },
+      "slope": {
+        "n": 173,
+        "mean": 0.647,
+        "ci95": [
+          0.596,
+          0.698
+        ]
+      },
+      "rmse": 0.6
+    },
+    "d_on_i_plus_g": {
+      "intercept": {
+        "n": 173,
+        "mean": 0.369,
+        "ci95": [
+          0.318,
+          0.424
+        ]
+      },
+      "slope": {
+        "n": 173,
+        "mean": 0.484,
+        "ci95": [
+          0.459,
+          0.51
+        ]
+      },
+      "rmse": 0.549
+    },
+    "d_on_i_and_g_separately": {
+      "intercept": {
+        "n": 173,
+        "mean": 0.33,
+        "ci95": [
+          0.282,
+          0.38
+        ]
+      },
+      "coef_i": {
+        "n": 173,
+        "mean": 0.47,
+        "ci95": [
+          0.421,
+          0.519
+        ]
+      },
+      "coef_g": {
+        "n": 173,
+        "mean": 0.522,
+        "ci95": [
+          0.48,
+          0.567
+        ]
+      },
+      "rmse": 0.527
+    },
+    "mark_D1_pass": false,
+    "rmse_drop_fraction": 0.084,
+    "mark_D2_pass": true,
+    "D3_glycine_positions": {
+      "n": 0,
+      "offset_at_gly": {
+        "n": 0,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "offset_overall": {
+        "n": 174,
+        "mean": 0.228,
+        "ci95": [
+          0.185,
+          0.267
+        ]
+      }
+    },
+    "mark_D3_pass": false,
+    "D4_strand_minus_loop": {
+      "raw": {
+        "n": 101,
+        "mean": -0.293,
+        "ci95": [
+          -0.354,
+          -0.233
+        ]
+      },
+      "side_chain_removed": {
+        "n": 101,
+        "mean": 0.167,
+        "ci95": [
+          0.082,
+          0.255
+        ]
+      }
+    },
+    "mark_D4_pass": true,
+    "permuted_g_rmse": 0.673
+  },
+  "designed": {
+    "n_positions": 168,
+    "n_domains": 4,
+    "mean": {
+      "i": 1.442,
+      "d": 1.704,
+      "g": 1.026
+    },
+    "power_note": "UNDERPOWERED by the pre-registered threshold",
+    "d_on_i": {
+      "intercept": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "slope": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "rmse": 0.621
+    },
+    "d_on_i_plus_g": {
+      "intercept": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "slope": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "rmse": 0.628
+    },
+    "d_on_i_and_g_separately": {
+      "intercept": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "coef_i": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "coef_g": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "rmse": 0.604
+    },
+    "mark_D1_pass": false,
+    "rmse_drop_fraction": -0.011,
+    "mark_D2_pass": false,
+    "D3_glycine_positions": {
+      "n": 0,
+      "offset_at_gly": {
+        "n": 0,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "offset_overall": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mark_D3_pass": false,
+    "D4_strand_minus_loop": {
+      "raw": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      },
+      "side_chain_removed": {
+        "n": 4,
+        "mean": null,
+        "ci95": [
+          null,
+          null
+        ]
+      }
+    },
+    "mark_D4_pass": false,
+    "permuted_g_rmse": 0.7
+  }
+}
