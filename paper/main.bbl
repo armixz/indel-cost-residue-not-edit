@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -114,6 +114,27 @@ C.~Nick Pace and J.~Martin Scholtz.
   and proteins.
 \newblock \emph{Biophysical Journal}, 75\penalty0 (1):\penalty0 422--427, 1998.
 \newblock \doi{10.1016/S0006-3495(98)77529-0}.
+
+\bibitem[Minor and Kim(1994{\natexlab{a}})]{minorkim1994a}
+Daniel~L. Minor, Jr. and Peter~S. Kim.
+\newblock Measurement of the $\beta$-sheet-forming propensities of amino acids.
+\newblock \emph{Nature}, 367\penalty0 (6464):\penalty0 660--663,
+  1994{\natexlab{a}}.
+\newblock \doi{10.1038/367660a0}.
+
+\bibitem[Smith et~al.(1994)Smith, Withka, and Regan]{smith1994}
+Catherine~K. Smith, Jane~M. Withka, and Lynne Regan.
+\newblock A thermodynamic scale for the $\beta$-sheet forming tendencies of the
+  amino acids.
+\newblock \emph{Biochemistry}, 33\penalty0 (18):\penalty0 5510--5517, 1994.
+\newblock \doi{10.1021/bi00184a020}.
+
+\bibitem[Minor and Kim(1994{\natexlab{b}})]{minorkim1994b}
+Daniel~L. Minor, Jr. and Peter~S. Kim.
+\newblock Context is a major determinant of $\beta$-sheet propensity.
+\newblock \emph{Nature}, 371\penalty0 (6494):\penalty0 264--267,
+  1994{\natexlab{b}}.
+\newblock \doi{10.1038/371264a0}.
 
 \bibitem[Vetter et~al.(1996)Vetter, Baase, Heinz, Xiong, Snow, and
   Matthews]{vetter1996}

@@ -75,6 +75,7 @@ def main(rdir, figdir, out):
     PS = load(os.path.join(rdir, "proline_sensitivity.json"))
     PX = load(os.path.join(rdir, "pdb_crosscheck.json"))
     CS = load(os.path.join(rdir, "consensus_ss.json"))
+    SPr = load(os.path.join(rdir, "strand_propensity.json"))
 
     n = {}
     # counts
@@ -218,6 +219,24 @@ def main(rdir, figdir, out):
     n["SensNdom"] = str(g(CS, "coverage", "domains_with_deposited_records", default=""))
     n["SensContrastBase"] = fmt(g(CS, "A_ours_on_covered_domains", "mean_contrast_kcal"), 2)
     n["SensContrastCons"] = fmt(g(CS, "B_consensus_positions", "mean_contrast_kcal"), 2)
+
+    # beta-sheet propensity test
+    _c = g(SPr, "S1_S4_correlations", default={}) or {}
+    for tag, row in (("Str", "strand"), ("Hel", "helix")):
+        for s, key in (("Pace", "pace_helix"), ("MK", "minor_kim_central"),
+                       ("SR", "smith_regan_central"), ("KB", "kim_berg_zincfinger")):
+            n[f"Rho{tag}{s}"] = fmt(g(_c, row, key, "spearman"), 2)
+    _d = g(SPr, "S2_S3_S6_differences", default={}) or {}
+    for tag, key in (("DiffStrand", "S2_strand_beta_minus_helixscale"),
+                     ("DiffHelix", "S3_helix_helixscale_minus_beta"),
+                     ("DiffEdge", "S6_central_minus_edge_beta")):
+        n[tag] = fmt(g(_d, key, "mean"), 2)
+        n[tag + "Lo"] = fmt(g(_d, key, "ci95", 0), 2)
+        n[tag + "Hi"] = fmt(g(_d, key, "ci95", 1), 2)
+    _s5 = g(SPr, "S5_scale_collinearity", default={}) or {}
+    n["CollinPaceMK"] = fmt(g(_s5, "pace_vs_minor_kim_central", "spearman"), 2)
+    n["CollinPaceSR"] = fmt(g(_s5, "pace_vs_smith_regan_central", "spearman"), 2)
+    n["CollinMKSR"] = fmt(g(_s5, "minor_kim_vs_smith_regan", "spearman"), 2)
 
     # methods
     n["SSagree"] = (f"{100*float(g(CC,'three_state_agreement',default=0)):.1f}\\%"

@@ -1,0 +1,181 @@
+{
+  "prereg": "PREREG_strand_propensity.md",
+  "context_precondition": "TRIGGERED before any computation: a null result on S1 or S2 is uninformative, because beta propensity is known to be strongly context dependent (Minor & Kim, Nature 1994;371:264). Only a positive result is interpretable.",
+  "alignment_sanity_check": "PASS",
+  "strand_positions": {
+    "edge": 5137,
+    "central": 1824,
+    "unknown": 402
+  },
+  "S1_S4_correlations": {
+    "strand": {
+      "n_residues": 18,
+      "pace_helix": {
+        "spearman": -0.5217,
+        "ci95": [
+          -0.6798,
+          -0.3243
+        ]
+      },
+      "minor_kim_central": {
+        "spearman": -0.3622,
+        "ci95": [
+          -0.5108,
+          -0.1207
+        ]
+      },
+      "smith_regan_central": {
+        "spearman": -0.0939,
+        "ci95": [
+          -0.2693,
+          0.1331
+        ]
+      },
+      "kim_berg_zincfinger": {
+        "spearman": 0.0944,
+        "ci95": [
+          -0.1617,
+          0.3049
+        ]
+      }
+    },
+    "helix": {
+      "n_residues": 18,
+      "pace_helix": {
+        "spearman": -0.6395,
+        "ci95": [
+          -0.7407,
+          -0.4556
+        ]
+      },
+      "minor_kim_central": {
+        "spearman": -0.226,
+        "ci95": [
+          -0.3602,
+          -0.098
+        ]
+      },
+      "smith_regan_central": {
+        "spearman": -0.0568,
+        "ci95": [
+          -0.1848,
+          0.0588
+        ]
+      },
+      "kim_berg_zincfinger": {
+        "spearman": -0.0041,
+        "ci95": [
+          -0.1483,
+          0.1503
+        ]
+      }
+    },
+    "strand_central": {
+      "n_residues": 17,
+      "pace_helix": {
+        "spearman": -0.4393,
+        "ci95": [
+          -0.5742,
+          -0.0594
+        ]
+      },
+      "minor_kim_central": {
+        "spearman": -0.2034,
+        "ci95": [
+          -0.3759,
+          0.2
+        ]
+      },
+      "smith_regan_central": {
+        "spearman": 0.0049,
+        "ci95": [
+          -0.2393,
+          0.3628
+        ]
+      },
+      "kim_berg_zincfinger": {
+        "spearman": 0.3251,
+        "ci95": [
+          0.1104,
+          0.6498
+        ]
+      }
+    },
+    "strand_edge": {
+      "n_residues": 18,
+      "pace_helix": {
+        "spearman": -0.3079,
+        "ci95": [
+          -0.5062,
+          -0.1446
+        ]
+      },
+      "minor_kim_central": {
+        "spearman": -0.4923,
+        "ci95": [
+          -0.6161,
+          -0.1847
+        ]
+      },
+      "smith_regan_central": {
+        "spearman": -0.3065,
+        "ci95": [
+          -0.4262,
+          0.0382
+        ]
+      },
+      "kim_berg_zincfinger": {
+        "spearman": -0.168,
+        "ci95": [
+          -0.337,
+          0.2012
+        ]
+      }
+    }
+  },
+  "S2_S3_S6_differences": {
+    "S2_strand_beta_minus_helixscale": {
+      "mean": 0.1833,
+      "ci95": [
+        -0.043,
+        0.4114
+      ],
+      "excludes_zero": false
+    },
+    "S3_helix_helixscale_minus_beta": {
+      "mean": -0.374,
+      "ci95": [
+        -0.5858,
+        -0.1408
+      ],
+      "excludes_zero": true
+    },
+    "S6_central_minus_edge_beta": {
+      "mean": 0.2907,
+      "ci95": [
+        -0.063,
+        0.6684
+      ],
+      "excludes_zero": false
+    }
+  },
+  "difference_sign_note": "A more negative rho means a stronger relationship. S2 is negative when beta propensity beats helix propensity on the strand arm; S3 is negative when helix propensity beats beta propensity on the helix arm; S6 is negative when the beta relationship is stronger at central strands than at edge strands, which is the pre-registered prediction.",
+  "S5_scale_collinearity": {
+    "pace_vs_minor_kim_central": {
+      "n_residues": 19,
+      "spearman": 0.1036
+    },
+    "pace_vs_smith_regan_central": {
+      "n_residues": 19,
+      "spearman": -0.0606
+    },
+    "pace_vs_kim_berg_zincfinger": {
+      "n_residues": 19,
+      "spearman": -0.026
+    },
+    "minor_kim_vs_smith_regan": {
+      "n_residues": 19,
+      "spearman": 0.9211
+    }
+  }
+}

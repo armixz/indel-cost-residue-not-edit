@@ -20,3 +20,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Third-party journal scans kept as a local verification record; not redistributable.
+refs_scans/

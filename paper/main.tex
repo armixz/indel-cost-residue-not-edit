@@ -175,16 +175,51 @@ kcal\,mol$^{-1}$ --- the right order of magnitude, but the interval excludes $-1
 bookkeeping is not one for one. Excluding glycine, which sits at the end of the range and could
 lever the fit on its own, gives \SlopeNoGly{} $[\SlopeNoGlyLo{}, \SlopeNoGlyHi{}]$.
 
-\textbf{The ordering is not specific to helices.} Helix propensity predicts the
+\paragraph{Is it helix propensity specifically, or would any residue scale do?} The scale
+could be standing in for residue physics in general rather than for propensity, in which
+case the result would be far less interesting. A $\beta$-sheet propensity scale is the
+natural control, because it ranks residues by a different structural ability while sharing
+the same kind of experimental origin. We verified two against photographic reproductions
+of their printed tables --- \citet{minorkim1994a} and \citet{smith1994}, both measured at
+the same solvent-exposed guest position in the same host protein, and published with
+\emph{opposite} sign conventions --- and aligned them to a penalty scale before use.
+
+The control is informative because the scales are not measuring the same thing: helix
+propensity correlates with the two $\beta$ scales at $\rho = \CollinPaceMK{}$ and
+\CollinPaceSR{}, essentially zero, while the two $\beta$ scales agree with each other at
+\CollinMKSR{}. On the helix arm, helix propensity beats $\beta$ propensity by
+\DiffHelix{} $[\DiffHelixLo{}, \DiffHelixHi{}]$, an interval excluding zero
+($\rho = \RhoHelPace{}$ against \RhoHelMK{}). The scale is doing specific work rather than
+proxying for residue physics at large.
+
+\textbf{The ordering is nonetheless not specific to helices.} Helix propensity predicts the
 \emph{strand}-minus-loop contrast nearly as well (slope \SlopeStrand{}
 $[\SlopeStrandLo{}, \SlopeStrandHi{}]$, Spearman \RhoStrand{}), and it does \emph{not} reliably
 predict the difference between the two: for the helix-minus-strand contrast the Spearman
 correlation is \RhoHE{} with a bootstrap interval of $[\RhoHElo{}, \RhoHEhi{}]$, which contains
-zero. The residue ordering is therefore largely shared between the two structured classes. We
-read the helix-propensity scale here as a proxy for how much a residue contributes to regular
-secondary structure in general, rather than as evidence of a helix-specific mechanism; a
-$\beta$-sheet propensity scale would be the natural second axis, and we did not use one because
-we could not verify a published table against its source.
+zero. The residue ordering is therefore largely shared between the two structured classes.
+
+The $\beta$ scales do not fill that gap, and we report the attempt because its failure is
+informative. On the strand arm, $\beta$ propensity does \emph{not} outperform helix propensity:
+the difference is \DiffStrand{} $[\DiffStrandLo{}, \DiffStrandHi{}]$, containing zero, with the
+point estimate favouring the helix scale (\RhoStrPace{} against \RhoStrMK{}). So the pre-specified
+double dissociation --- each class predicted best by its own scale --- does not hold, and we do
+not claim it. Two cautions belong with that negative rather than after it. First, the two
+$\beta$ scales correlate with one another at \CollinMKSR{} yet give \RhoStrMK{} and \RhoStrSR{}
+on the same contrasts, so they are not a stable instrument. Second, $\beta$ propensity is known
+to depend strongly on tertiary context: \citet{minorkim1994b} moved the guest site from a central
+to an edge strand within one protein and the correlation with statistical $\beta$ preferences
+collapsed, concluding that sheet formation is governed ``in large part by tertiary context
+\ldots and not by intrinsic secondary structure preferences''. A null against such scales is
+therefore weak evidence about the strand arm, and we treat it as such.
+
+What survives is a sharper puzzle than the one we started with. Helix propensity predicts both
+arms; $\beta$ propensity predicts neither; and the two families of scale are uncorrelated. The
+property the helix scale is tracking here is therefore not $\beta$-sheet-forming ability, and it
+is not simply ``regular secondary structure'' either, or the $\beta$ scales would carry some of
+it. The reading we prefer, and cannot yet test, is that it captures something closer to backbone
+conformational freedom --- glycine at one extreme --- which would govern the cost of removing a
+residue from any regular element while being measured, historically, in a helical host.
 
 \paragraph{How much of this depends on how we assigned structure?} The ordering is a statement
 about residues within structure classes, so it inherits whatever error is in the class labels. We
@@ -315,12 +350,24 @@ ordering being set by which residue is removed, over a range of roughly 1.3 kcal
 between the most and least affected residues, and the insertion data show a single methyl group
 reversing the sign of the helix--loop comparison.
 
-This has a direct bearing on an existing observation. \citet{topolska2025} report that ``the
-identity of the wildtype aa only poorly predicts deletion and insertion tolerance''. Our result
-suggests why: residue identity is a weak \emph{main} effect precisely because much of its
-influence is interactive, and averaging over structural contexts destroys it. For the same
-reason, the small strand-versus-helix differences those authors report need not mean the effect is
-small; they are averages over residue identities whose contrasts point in different directions.
+This has a direct bearing on an existing observation, and the apparent conflict is worth stating
+plainly before resolving it. \citet{topolska2025} report that ``the identity of the wildtype aa
+only poorly predicts deletion and insertion tolerance'', quantified as a leave-one-domain-out
+correlation of $0.226$ for deletions and $0.182$ for insertions from residue identity alone, where
+a model built from secondary-structure features reaches $0.538$ and $0.573$. Read at face value
+that is the opposite of what we report.
+
+It is not a contradiction, because the two quantities are different. Theirs is the
+\emph{marginal} predictive value of residue identity pooled over all structural contexts; ours is
+a \emph{within-residue contrast between} structural contexts. A weak marginal is what an
+interaction of this shape predicts: if a residue is costly to delete from a helix and cheap from a
+loop, its average over contexts carries little information, and the contrast carries it all.
+The same arithmetic applies to the small strand-versus-helix differences those authors report;
+they are averages over residue identities whose contrasts point in different directions.
+
+The distinction is not merely interpretive. Their predictive models are fitted, in their own
+description, ``with lasso regularisation without interaction terms'', so the effect reported here
+is one the model could not express.
 
 \paragraph{Why the two arms are needed together.} Each arm has a weakness that the other does not
 share, and they are weaknesses of opposite kind. The deletion arm covers all twenty residues, but
@@ -338,7 +385,11 @@ The periodicity account of \citet{goldman2025} and the register-shift account th
 the T4 lysozyme crystallography \citep{heinz1993,heinz1994,vetter1996} are not contradicted. They
 explain why a helix is expensive to edit at all. What they do not predict is the ordering across
 residues, which follows helix propensity rather than size and is of the same magnitude as the
-mean effect those accounts describe. The simplest reading is that both operate: backbone geometry
+mean effect those accounts describe. It is worth noting that the periodicity account has a
+difficulty of its own that is independent of anything here: \citet{topolska2025} find the expected
+$3$--$4$ residue periodicity in \emph{substitution} tolerance along helices and a two-residue
+periodicity along strands, but state that ``neither of these periodicities in variant effects is
+observed for insertions or deletions''. The simplest reading is that both operate: backbone geometry
 sets the cost of making the edit, and the thermodynamic fit between the residue and its element
 sets how much is lost when that particular residue leaves it. That reading also makes the
 magnitude of our slope interpretable: helix propensity is defined as the free energy a residue
@@ -393,9 +444,14 @@ it stays negative under every assignment we tried. Proline is omitted from the p
 analysis; the nineteen values we use are
 those we could verify, and the analysis is shown in Methods to be insensitive to any value
 proline might take. An orthogonal yeast abundance assay on nine domains shows the same ordering of
-structure classes but has too few helix positions to test the interaction. No experimental
-$\beta$-sheet propensity scale was used, because none could be verified against its source; the
-strand contrasts are therefore reported without a propensity analysis.
+structure classes but has too few helix positions to test the interaction. The $\beta$-sheet
+propensity scales we verified are a weak instrument: two measured at the same position in the
+same host agree with each other at \CollinMKSR{} yet give different answers on our contrasts,
+and \citet{minorkim1994b} showed that moving the guest site within one protein is enough to
+destroy the relationship. We can therefore say that $\beta$ propensity does not predict the
+strand contrast better than helix propensity does, but not that the strand arm lacks a
+sheet-specific ordering. Settling that needs a sheet propensity scale better than the ones that
+exist, or one derived from mega-scale substitution data, which we did not attempt.
 
 \section{Methods}
 
