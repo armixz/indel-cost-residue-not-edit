@@ -1,0 +1,54 @@
+{
+  "prediction_declared_before_reading_numbers": "cleaning the loop class should INCREASE the magnitude of the helix-minus-loop contrast, because our loop class is contaminated with residues the experimental structure calls helix or strand, which dilutes the difference",
+  "coverage": {
+    "rows_in_full_analysis": 34716,
+    "rows_with_deposited_records": 19144,
+    "domains_with_deposited_records": 394
+  },
+  "A_ours_on_covered_domains": {
+    "n_residues": 18,
+    "spearman": -0.5382,
+    "spearman_ci95": [
+      -0.6724,
+      -0.438
+    ],
+    "mean_contrast_kcal": 0.7564,
+    "n_rows": 19144,
+    "n_domains": 394
+  },
+  "B_consensus_positions": {
+    "n_residues": 18,
+    "spearman": -0.3523,
+    "spearman_ci95": [
+      -0.5485,
+      -0.2273
+    ],
+    "mean_contrast_kcal": 0.8374,
+    "n_rows": 15415,
+    "n_domains": 394
+  },
+  "C_deposited_labels": {
+    "n_residues": 18,
+    "spearman": -0.2541,
+    "spearman_ci95": [
+      -0.407,
+      -0.1456
+    ],
+    "mean_contrast_kcal": 0.7156,
+    "n_rows": 19144,
+    "n_domains": 394
+  },
+  "comparison_to_baseline": [
+    {
+      "variant": "B_consensus_positions",
+      "contrast_change": 0.081,
+      "spearman_change": 0.1859
+    },
+    {
+      "variant": "C_deposited_labels",
+      "contrast_change": -0.0408,
+      "spearman_change": 0.2841
+    }
+  ],
+  "verdict": "NOT CONFIRMED: the contrast shrinks when the loop class is cleaned; the manuscript number is not a lower bound"
+}

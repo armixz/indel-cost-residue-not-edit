@@ -51,7 +51,9 @@ residue identity interacts with structure class at $F = \FdelInter{}$, $p = \Pde
 domain fixed effects, burial and volume, and the interaction is ordered: the extra cost of
 deleting a residue from a helix rather than a loop tracks that residue's helix propensity
 ($\rho = \RhoPace{}$, bootstrap CI over domains $[\RhoPaceLo{}, \RhoPaceHi{}]$), and not its
-volume ($\rho = \RhoVol{}$) or hydropathy ($\rho = \RhoKD{}$). For insertions, switching the
+volume ($\rho = \RhoVol{}$) or hydropathy ($\rho = \RhoKD{}$). The ordering survives replacing our
+secondary-structure assignment with the one deposited with the experimental structures, though
+weakened ($\rho = \SensDep{}$ $[\SensDepLo{}, \SensDepHi{}]$). For insertions, switching the
 inserted residue between alanine and glycine moves the helix--loop contrast by about
 0.3 kcal\,mol$^{-1}$ (\AlaHL{} to \GlyHL{}) and the strand--loop contrast by about 0.2
 (\AlaEL{} to \GlyEL{}). The interaction is nonetheless too small to improve
@@ -143,7 +145,7 @@ Each point is one amino acid; the vertical axis is the mean deletion cost at hel
 that at loop positions, paired within each protein and then averaged over proteins, with bootstrap
 intervals over proteins. The horizontal axis is the experimental helix propensity of
 \citet{pace1998}, a penalty in kcal\,mol$^{-1}$ relative to alanine, so that larger values are
-poorer helix formers. Proline is omitted: the published scale excludes it. Point area is
+poorer helix formers. Proline is omitted; see Methods. Point area is
 proportional to the number of contributing proteins. Spearman $\rho = \RhoPace{}$.}
 \label{fig:fig2}
 \end{figure}
@@ -183,6 +185,33 @@ read the helix-propensity scale here as a proxy for how much a residue contribut
 secondary structure in general, rather than as evidence of a helix-specific mechanism; a
 $\beta$-sheet propensity scale would be the natural second axis, and we did not use one because
 we could not verify a published table against its source.
+
+\paragraph{How much of this depends on how we assigned structure?} The ordering is a statement
+about residues within structure classes, so it inherits whatever error is in the class labels. We
+therefore checked it against annotations that share no dependency with ours. Each domain here is
+named by a PDB identifier and has a deposited experimental structure whose HELIX and SHEET records
+were assigned by the depositors from different coordinates. Over the \PdbNdom{} domains carrying
+such records (\PdbNoRecords{} entries, mostly NMR, carry none), our assignment agrees on
+\PdbAgree{} of \PdbNres{} residues, with \PdbHEconf{} helix/strand confusions in total. The
+disagreement is almost entirely one-sided: in \PdbWeLoopTheyStruct{} positions we say loop and the
+deposited record says helix or strand, against \PdbWeStructTheyLoop{} the other way. Our helix and
+strand calls therefore agree with experiment at \PdbRecallH{} and \PdbRecallE{}, while our loop
+class agrees at only \PdbRecallL{} because it absorbs marginal structured residues.
+
+We expected that contamination to dilute the contrast, making our estimate conservative, and tested
+that rather than asserting it. It is only half right. Restricting to positions where the two
+assignments agree does raise the mean helix-minus-loop contrast, from \SensContrastBase{} to
+\SensContrastCons{} kcal\,mol$^{-1}$ as predicted. But the \emph{correlation with helix propensity
+weakens}: over the same \SensNdom{} domains it falls from \SensBase{}
+$[\SensBaseLo{}, \SensBaseHi{}]$ with our labels to \SensCons{} $[\SensConsLo{}, \SensConsHi{}]$ on
+consensus positions, and to \SensDep{} $[\SensDepLo{}, \SensDepHi{}]$ if the deposited labels are
+substituted for ours outright. Every interval still excludes zero, so the ordering is real under
+all three assignments, but its strength is not independent of how structure is defined. Part of
+this is expected attenuation --- depositor annotations are coarser, were made from a different
+structure, and noise in a categorical predictor pulls any residue-level correlation toward zero ---
+but we cannot separate that from the possibility that our assignment flatters the effect, and we
+do not claim otherwise. The honest summary is that the rank correlation lies somewhere between
+\SensDep{} and \RhoPace{} depending on the structure annotation, and is negative throughout.
 
 \paragraph{Propensity, not size.} The competing account is that the helix penalty follows residue
 \emph{size}, because a size-altering edit is what breaks helical register \citep{goldman2025}.
@@ -358,8 +387,12 @@ been stated for indel stability predictors.
 one deposit. The insertion arm has only two residues; the deletion arm has twenty but the residue
 at each position was placed by evolution rather than by design, so the residue and its context are
 not independent, and the interaction we report is between a residue and a context in which it was
-selected to sit. Proline is omitted from the propensity analysis because the published scale
-excludes it. An orthogonal yeast abundance assay on nine domains shows the same ordering of
+selected to sit. The strength of the propensity correlation depends on how secondary structure is
+assigned: it falls from \RhoPace{} to \SensDep{} when depositor annotations replace ours, though
+it stays negative under every assignment we tried. Proline is omitted from the propensity
+analysis; the nineteen values we use are
+those we could verify, and the analysis is shown in Methods to be insensitive to any value
+proline might take. An orthogonal yeast abundance assay on nine domains shows the same ordering of
 structure classes but has too few helix positions to test the interaction. No experimental
 $\beta$-sheet propensity scale was used, because none could be verified against its source; the
 strand contrasts are therefore reported without a propensity analysis.
@@ -406,6 +439,25 @@ measurement error in the predictor by instrumenting with that second measurement
 \citep{hausman2001}. Helix propensities are
 the experimental values of \citet{pace1998}; residue volumes are Zamyatnin's; hydropathy is
 \citet{kyte1982}.
+
+\paragraph{Proline.} The propensity analysis uses the nineteen values listed in the abstract of
+\citet{pace1998}, each checked against that source. Proline is not among them, and we could not
+verify a proline value against the paper itself. This does not affect the result, for a reason
+that can be shown rather than asserted: the correlation is rank-based, and proline ranks last on
+every published account of helix propensity, so its numeric value is irrelevant. Giving proline
+any value between 1.0 and 5.0 kcal\,mol$^{-1}$ and recomputing moves the correlation only from
+\RhoPace{} to between \RhoProLo{} and \RhoProHi{}, and every value at or above 1.5 returns
+exactly the same figure.
+
+Proline is nonetheless the one residue that does not follow the trend, and we report this rather
+than leave it inside an exclusion. Its measured helix-minus-loop contrast is
+$+\ProContrast{}$ kcal\,mol$^{-1}$ over \ProNdom{} proteins, placing it \ProRank{}th of
+\ProNranked{} from the most negative end --- near the middle, where the propensity account
+predicts it should sit at the extreme alongside glycine (\GlyContrast{}). Deleting a proline from
+a helix therefore costs more than the account expects, which is unsurprising given that prolines
+in helices sit predominantly at the first turn or at a kink, so removing one is not the same
+operation as removing a residue from a regular helical segment. Including proline is the single
+largest departure from the reported correlation, and it is in the conservative direction.
 
 \paragraph{Code and data.} All analysis scripts, the pre-registrations written before each test
 including those whose marks failed, and the intermediate result files are available at

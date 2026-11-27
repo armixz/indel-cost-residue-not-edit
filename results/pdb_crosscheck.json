@@ -1,0 +1,30 @@
+{
+  "domains_sampled": 862,
+  "domains_compared": 410,
+  "skipped": {
+    "sequence_not_found_in_entry": 5,
+    "no_ss_records": 447
+  },
+  "residues_compared": 22738,
+  "three_state_agreement": 0.8024,
+  "helix_strand_confusions": 7,
+  "helix_strand_confusion_rate": 0.00031,
+  "confusion_matrix_ours_x_deposited": {
+    "E->E": 3005,
+    "E->H": 5,
+    "E->L": 333,
+    "H->E": 2,
+    "H->H": 7229,
+    "H->L": 286,
+    "L->E": 1777,
+    "L->H": 2089,
+    "L->L": 8012
+  },
+  "per_class_recall": {
+    "H": 0.9617,
+    "E": 0.8989,
+    "L": 0.6745
+  },
+  "note": "deposited HELIX/SHEET records come from the experimental structure and are independent of both this implementation and the AlphaFold models; residues absent from the records are treated as loop, which is how the format expresses them",
+  "median_per_domain_agreement": 0.8154
+}

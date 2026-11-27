@@ -72,6 +72,9 @@ def main(rdir, figdir, out):
     HE = load(os.path.join(rdir, "helix_vs_strand.json"))
     CC = load(os.path.join(rdir, "ss_crosscheck.json"))
     AD = load(os.path.join(rdir, "adjudicate.json"))
+    PS = load(os.path.join(rdir, "proline_sensitivity.json"))
+    PX = load(os.path.join(rdir, "pdb_crosscheck.json"))
+    CS = load(os.path.join(rdir, "consensus_ss.json"))
 
     n = {}
     # counts
@@ -177,6 +180,44 @@ def main(rdir, figdir, out):
     n["StrandHelix"] = fmt(g(S, "headline", "insertion", "mean"))
     n["StrandHelixLo"] = fmt(g(S, "headline", "insertion", "ci95", 0))
     n["StrandHelixHi"] = fmt(g(S, "headline", "insertion", "ci95", 1))
+
+    # proline sensitivity
+    n["RhoProLo"] = fmt(g(PS, "sensitivity_summary", "range_with_proline", 0), 2)
+    n["RhoProHi"] = fmt(g(PS, "sensitivity_summary", "range_with_proline", 1), 2)
+    n["ProContrast"] = fmt(g(PS, "proline_measured", "contrast_kcal"), 2)
+    n["ProNdom"] = str(g(PS, "proline_measured", "n_domains", default=""))
+    n["ProRank"] = str(g(PS, "rank_of_proline_among_measured",
+                         "rank_from_most_negative", default=""))
+    n["ProNranked"] = str(g(PS, "rank_of_proline_among_measured",
+                            "n_residues_ranked", default=""))
+    n["GlyContrast"] = fmt(g(PS, "glycine_measured", "contrast_kcal"), 2)
+
+    # independent cross-check against deposited experimental structures
+    n["PdbAgree"] = (f"{100*float(g(PX,'three_state_agreement',default=0)):.1f}\\%"
+                     if g(PX, "three_state_agreement") else None)
+    n["PdbNdom"] = str(g(PX, "domains_compared", default=""))
+    n["PdbNres"] = f"{g(PX,'residues_compared',default=0):,}"
+    n["PdbHEconf"] = str(g(PX, "helix_strand_confusions", default=""))
+    n["PdbNoRecords"] = str(g(PX, "skipped", "no_ss_records", default=""))
+    _c = g(PX, "confusion_matrix_ours_x_deposited", default={}) or {}
+    _us_loop = (_c.get("L->E", 0) + _c.get("L->H", 0))
+    _them_loop = (_c.get("E->L", 0) + _c.get("H->L", 0))
+    n["PdbWeLoopTheyStruct"] = f"{_us_loop:,}" if _us_loop else None
+    n["PdbWeStructTheyLoop"] = f"{_them_loop:,}" if _them_loop else None
+    n["PdbRecallH"] = fmt(g(PX, "per_class_recall", "H"), 2)
+    n["PdbRecallE"] = fmt(g(PX, "per_class_recall", "E"), 2)
+    n["PdbRecallL"] = fmt(g(PX, "per_class_recall", "L"), 2)
+
+    # sensitivity of the propensity correlation to how structure is assigned
+    for tag, key in (("SensBase", "A_ours_on_covered_domains"),
+                     ("SensCons", "B_consensus_positions"),
+                     ("SensDep", "C_deposited_labels")):
+        n[tag] = fmt(g(CS, key, "spearman"), 2)
+        n[tag + "Lo"] = fmt(g(CS, key, "spearman_ci95", 0), 2)
+        n[tag + "Hi"] = fmt(g(CS, key, "spearman_ci95", 1), 2)
+    n["SensNdom"] = str(g(CS, "coverage", "domains_with_deposited_records", default=""))
+    n["SensContrastBase"] = fmt(g(CS, "A_ours_on_covered_domains", "mean_contrast_kcal"), 2)
+    n["SensContrastCons"] = fmt(g(CS, "B_consensus_positions", "mean_contrast_kcal"), 2)
 
     # methods
     n["SSagree"] = (f"{100*float(g(CC,'three_state_agreement',default=0)):.1f}\\%"

@@ -1,0 +1,77 @@
+{
+  "verified_19": {
+    "n_residues": 18,
+    "spearman": -0.6395,
+    "residues": [
+      "A",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "V",
+      "W",
+      "Y"
+    ]
+  },
+  "proline_measured": {
+    "contrast_kcal": 0.6092,
+    "n_domains": 68
+  },
+  "glycine_measured": {
+    "contrast_kcal": -0.0525,
+    "n_domains": 71
+  },
+  "rank_of_proline_among_measured": {
+    "rank_from_most_negative": 10,
+    "n_residues_ranked": 19,
+    "note": "a poor helix former should sit toward the MOST NEGATIVE end, like glycine, because deleting it from a helix costs least"
+  },
+  "sensitivity_sweep": {
+    "proline=1.00": {
+      "n_residues": 19,
+      "spearman": -0.5885
+    },
+    "proline=1.50": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    },
+    "proline=2.00": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    },
+    "proline=2.50": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    },
+    "proline=3.16": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    },
+    "proline=4.00": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    },
+    "proline=5.00": {
+      "n_residues": 19,
+      "spearman": -0.5803
+    }
+  },
+  "sensitivity_summary": {
+    "spearman_without_proline": -0.6395,
+    "range_with_proline": [
+      -0.5885,
+      -0.5803
+    ],
+    "max_absolute_change": 0.0592
+  }
+}

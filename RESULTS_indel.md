@@ -387,3 +387,71 @@ residue reverses the helix contrast; the deletion arm shows, with 20 residues an
 statistical power, that the structure dependence is an ordered function of the residue's helix
 propensity. Together they say the secondary-structure dependence of indel cost is a property of
 the residue involved rather than of the indel.
+
+---
+
+## Addendum, 2026-11-26: self-verification before external review
+
+Two things were checked that had been left open, and one of them changed the manuscript.
+
+### Proline (closed, no impact)
+
+The 19 helix propensities are the values listed in the abstract of Pace & Scholtz (1998),
+each checked against that source. The full text sits behind an anti-automation
+interstitial on PMC and was not retrieved, so a proline value could not be verified; a
+figure of 3.16 kcal/mol circulates in secondary sources.
+
+Rather than chase the number, `analysis/48_proline_sensitivity.py` tested whether it
+matters. It does not: the correlation is rank-based and proline ranks last on every
+account, so giving it any value from 1.0 to 5.0 moves the correlation only from -0.64 to
+between -0.59 and -0.58, and every value at or above 1.5 returns an identical figure.
+
+An incidental finding worth keeping: proline is the one residue that does not follow the
+trend. Its measured helix-minus-loop contrast is +0.61 kcal/mol over 68 proteins, placing
+it 10th of 19 from the most negative end, where the propensity account predicts the
+extreme alongside glycine (-0.05). The manuscript now reports this instead of hiding it
+inside an exclusion. The earlier sentence "the published scale excludes it" was removed:
+the abstract's phrasing ("excluding proline, glycine has the lowest") is ambiguous and
+that claim could not be supported.
+
+### Secondary structure, third independent check (changed the manuscript)
+
+The assignment had been validated twice, but both checks were computed from the same
+AlphaFold coordinates. `analysis/49_pdb_crosscheck.py` removes that shared dependency: each
+domain is named by a PDB identifier, so each has a deposited experimental structure whose
+HELIX and SHEET records were assigned by the depositors from different coordinates.
+
+Over 410 domains and 22,738 residues (447 entries, mostly NMR, carry no such records):
+three-state agreement **0.802**, helix/strand confusions **7 in total (0.03%)**. The 0.802
+is independently almost identical to the 0.801 obtained earlier against a different
+external table.
+
+The disagreement is one-sided: **3,866** positions where we say loop and the deposited
+record says helix or strand, against **619** the other way. Per-class agreement with
+experiment is 0.96 for helix, 0.90 for strand, **0.67 for loop**.
+
+**The prediction that followed was wrong, and this is the part that matters.**
+`analysis/50_consensus_ss.py` declared in advance that cleaning the loop class should
+*increase* the contrast, making our estimate conservative. Half of that held and half did
+not:
+
+| variant | mean contrast | Spearman vs propensity |
+|---|---|---|
+| our labels, 394 covered domains | 0.76 | -0.54 [-0.67, -0.44] |
+| consensus positions only | 0.84 | **-0.35** [-0.55, -0.23] |
+| deposited labels substituted | 0.72 | **-0.25** [-0.41, -0.15] |
+
+The contrast grew as predicted. The **correlation with helix propensity, which is the
+manuscript's central claim, weakened substantially** — from -0.54 to -0.25 under the
+harshest variant. Every interval still excludes zero, so the ordering is real under all
+three assignments, but its strength is not independent of how structure is defined.
+
+Part of this is expected attenuation: depositor annotations are coarser, come from a
+different structure, and noise in a categorical predictor pulls a residue-level
+correlation toward zero. That explanation cannot be used to dismiss the result, because it
+cannot be separated from the possibility that our assignment flatters the effect.
+
+The manuscript now reports the full range in the abstract, in a dedicated Results
+paragraph and in the Limitations, stating that the rank correlation lies between -0.25 and
+-0.64 depending on the structure annotation and is negative throughout. It no longer
+quotes -0.64 unqualified.
